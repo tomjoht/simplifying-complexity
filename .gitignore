@@ -1,0 +1,8 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+**/.DS_Store
+pdf/docnav.pdf
+/mobi/
+*.mobi
+mobi/docnav.mobi

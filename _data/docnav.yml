@@ -1,0 +1,36 @@
+sidebartitle: Document REST APIs
+
+folders:
+
+- title: Navigation principles for documentation
+  jurl: /docnav_principles.html
+  class: first
+  folderitems:
+
+  - title: Introduction
+    jurl: /index.html
+
+  - title: Break into steps
+    jurl: /break-into-steps.html
+
+  - title: Navigation maps
+    jurl: /navigation-maps.html
+
+
+  # - title: Context-sensitive help
+  #   jurl: /context-sensitive-help.html
+  #
+  # - title: Immersion
+  #   jurl: /immersion.html
+  #
+  # - title: Progressive disclosure
+  #   jurl: /progressive-disclosure.html
+  #
+  # - title: Modularity
+  #   jurl: /modularity.html
+  #
+  # - title: Desire line
+  #   jurl: /desire-line.html
+  #
+  # - title: Wayfinding
+  #   jurl: /wayfinding.html

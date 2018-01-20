@@ -1,0 +1,47 @@
+title: Documenting REST APIs
+subtitle: A guide for technical writers working with APIs
+
+cover: true
+# if cover is set to true, the title and subtitle aren't used. instead, the cover_image is used instead.
+cover_image: images/restapi_kindletitle.png
+
+sidebar: docnav
+baseurl: /Users/tomjoht/projects/learnapidoc/_site
+
+language: english
+format: pdf
+
+destination: _site
+port: 4000
+highlighter: rouge
+exclude:
+  - mobi
+  - pdf
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+collections:
+  docs:
+    output: true
+
+sass:
+    style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: printpdf
+  -
+    scope:
+      path: ""
+      type: docs
+    values:
+      layout: printpdf

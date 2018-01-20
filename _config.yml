@@ -1,0 +1,92 @@
+title: Navigation principles for documentation
+language: english
+format: web
+sidebar: docnav
+
+# Link to home
+url: http://idratherbewriting.com
+baseurl: /doc-navigation
+
+destination: _site
+port: 4000
+highlighter: rouge
+exclude:
+  - mobi
+  - pdf
+format: web
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+collections:
+  docs:
+    output: true
+  search:
+    output: true
+
+sass:
+    style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      topnav: topnav
+      sidebar: docnav
+  -
+    scope:
+      path: ""
+      type: docs
+    values:
+      layout: default
+      topnav: topnav
+      progress: true
+      sidebar: docnav
+  -
+    scope:
+      path: ""
+      type: search
+    values:
+      layout: default
+      topnav: topnav
+      type: search
+      sidebar: docnav
+  -
+    scope:
+      path: "images"
+    values:
+      image: true
+
+plugins:
+  - jekyll-redirect-from
+
+########## UI text ###############
+
+google_analytics:
+disqus_shortname: idratherbewriting
+google_analytics: UA-408430-5
+
+uistring:
+    tableofcontents: Table of Contents
+    log_doc_issue: Log Doc Issue
+    breadcrumb:
+      home: Home
+      documentation: Documentation
+    expandall: Expand All
+    collapseall: Collapse All
+    title: Doc navigation # Displays as site title on top nav bar and on site metadata
+    description: A guide for technical writers on creating navigation within documentation # Displays as site description meta
+    search_placeholder_product: Search ...
+    github_edit_button_text: Edit on GitHub
+    search_results_page_title: Search results
+    search_no_results_found: No results found.
+    products: Products
+    docindex_product: Product
+    docindex_startpage: Starting page

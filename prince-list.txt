@@ -1,0 +1,42 @@
+---
+layout: null
+---
+{% assign sidebar = site.data[site.sidebar].folders %}
+
+{{site.baseurl}}/pdf_title_page.html
+{{site.baseurl}}/pdf_toc_page.html
+
+{% for folder in sidebar %}
+{{ folder.jurl | prepend: site.baseurl }}
+{% for folderitem in folder.folderitems %}
+{% if folderitem.title %}
+{% unless folderitem.type == "web" %}
+{{ folderitem.jurl | prepend: site.baseurl }}
+{% endunless %}
+{% endif %}
+{% for subfolder in folderitem.subfolders %}
+{% if subfolder.title %}
+{{ subfolder.jurl | prepend: site.baseurl }}
+{% endif %}
+{% for subfolderitem in subfolder.subfolderitems %}
+{% if subfolderitem.title %}
+{% unless subfolderitem.type == "web" %}
+{{ subfolderitem.jurl | prepend: site.baseurl }}
+{% endunless %}
+{% endif %}
+{% for subsubfolder in subfolderitem.subsubfolders %}
+{% if subsubfolder.title %}
+{{ subsubfolder.jurl | prepend: site.baseurl}}
+{% endif %}
+{% for subsubfolderitem in subsubfolder.subsubfolderitems %}
+{% if subsubfolderitem.title %}
+{% unless subsubfolderitem.type == "web" %}
+{{ subsubfolderitem.jurl | prepend: site.baseurl }}
+{% endunless %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}

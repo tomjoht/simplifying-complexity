@@ -1,0 +1,5 @@
+{% if site.format == "web" %}
+{% include minitoc_web.html %}
+{% elsif site.format == "kindle" or site.format == "pdf" %}
+{% include minitoc_print.html %}
+{% endif %}
