@@ -1,6 +1,7 @@
 ---
 title: Context-sensitive help
 permalink: context-sensitive-help.html
+published: false
 ---
 
 Context-sensitive help is help that treats context as a variable to determine the help information shown. Creating this type of help can be challenging due to the changing contexts, which can alter meaning or require adjustment in the content.

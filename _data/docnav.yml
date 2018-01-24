@@ -10,12 +10,11 @@ folders:
   - title: Introduction
     jurl: /index.html
 
-  - title: Break into steps
-    jurl: /break-into-steps.html
+  - title: Switching between macro and micro views with embedded maps
+    jurl: /macro-micro.html
 
-  - title: Navigation maps
-    jurl: /navigation-maps.html
-
+  # - title: Guiding users through non-linear systems
+  #   jurl: /guidance-through-non-linear-systems.html
 
   # - title: Context-sensitive help
   #   jurl: /context-sensitive-help.html

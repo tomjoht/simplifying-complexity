@@ -5,7 +5,7 @@ sidebar: docnav
 
 # Link to home
 url: http://idratherbewriting.com
-baseurl: /doc-navigation
+baseurl: /simplifying-complexity
 
 destination: _site
 port: 4000

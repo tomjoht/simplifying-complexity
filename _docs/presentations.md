@@ -2,7 +2,7 @@
 title: Presentations
 permalink: /presentations.html
 course: "Documenting REST APIs"
-sidebar: docnav
+sidebar: docapis
 progress: false
 ---
 

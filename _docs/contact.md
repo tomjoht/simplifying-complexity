@@ -2,7 +2,7 @@
 title: Contact me
 permalink: /contact.html
 course: "Documenting REST APIs"
-sidebar: docnav
+sidebar: docapis
 type: plain
 progress: false
 ---
