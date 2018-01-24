@@ -72,6 +72,10 @@
   color: #ee7600;
 }
 
+.navbar-header {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #111111;
@@ -95,24 +99,18 @@ ul.navbar-nav a:hover {
 }
 
 img.navbar-logo {
-  // max-width: 250px;
-  margin-bottom: 15px;
+
 }
 .navbar-brand {
   margin-right: 30px;
-  padding-top: 10px;
+  padding-left:0px;
+  padding-top: 15px;
+  padding-right: 15px;
 }
 .navbar {
   border-bottom: 1px solid #dedede;
   font-size: 16px;
   margin-bottom: 0px;
-  padding-bottom: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-ul.nav.navbar-nav.navbar-right img {
-    max-width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -141,7 +139,6 @@ ul.nav.navbar-nav li a {
 
 .topBannerAd {
     margin-top: 5px;
-    max-height: 55px;
     margin-botom: 3px;
 }
 /* end search */
