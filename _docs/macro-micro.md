@@ -1,5 +1,5 @@
 ---
-title: Switching between macro and micro views with embedded map
+title: Switching between macro and micro views with embedded maps
 permalink: macro-micro.html
 ---
 
