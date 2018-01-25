@@ -10,7 +10,7 @@ folders:
   - title: Introduction
     jurl: /index.html
 
-  - title: Switching between macro and micro views with embedded maps
+  - title: Switching between macro and micro views through embedded maps
     jurl: /macro-micro.html
 
   # - title: Guiding users through non-linear systems
