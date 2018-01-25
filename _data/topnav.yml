@@ -8,8 +8,6 @@ navbar_singleitems:
     url: http://idratherbewriting.com
   - title: Contact
     url: contact.html
-  - title: Presentations
-    url: presentations.html
 
 # topnav_dropdowns:
 # - title: Topnav dropdowns
