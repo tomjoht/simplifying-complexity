@@ -132,15 +132,13 @@ Theoretically, I could have made one long, linear map, like this:
 
 However, while this map might be more accurate, its effect is the same as a single task that has 45 individual steps. Designer Tom Wujec says that when you have too many nodes and links (objects and connections between those objects), you give users a sense of "mapshock." He says the average "systems map" (a drawing that shows nodes and links) has between 4 and 8 nodes:
 
-> "Less than that, the drawing seems trivial....more than 13, the drawing produces a feeling of mapshock -- it's too complex. The sweet spot is between 5 and 13. So if you want to communicate something visually, have between 5 and 13 nodes in your diagram." ([Got a wicked problem? First, tell me how you make toast](https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast#t-134894))
+> "Less than that, the drawing seems trivial....more than 13, the drawing produces a feeling of mapshock -- it's too complex. The sweet spot is between 5 and 13. So if you want to communicate something visually, have between 5 and 13 nodes in your diagram." (See [Got a wicked problem? First, tell me how you make toast](https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast#t-134894) to view an excerpt from the Ted Talk.)
 
 Here's a sample image from Wujec's presentation. He regularly gives groups the exercise of explaining how to make toast.
 
 <a href="https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast#t-134894" class="noExtIcon"><img src="images/systemsmodel.png"/></a>
 
 Wujec believes that groups should collaboratively visualize their processes in a systems design like this (but through sticky notes which can easily be moved around and regrouped). When they do it in an iterative fashion (meaning they adjust and fix and keep moving the notes around during multiple cycles of analysis), they achieve clarity, engagement, and alignment in their process. They might identify problems that were often not previously perceived. (See [An Introduction to Systems Thinking and Wicked Problem Solving™](https://www.drawtoast.com/) for more details.)
-
-<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
 My main point here is that just as we break up tasks into multiple mini-tasks when the task has too many steps, we do the same with system maps. Maps can have sub-maps. Or perhaps using a new term here, a "journey" can involve following multiple maps. (My lingo here looks like this: journeys -> maps -> processes -> tasks -> steps.)
 
@@ -199,9 +197,7 @@ The benefit of these higher-level guides is to help orient users in the same way
 
 Zooming out on a complex problem is a key strategy for simplifying complexity, but this view sometimes offers other benefits. Beyond the benefits of orientation and context, some experts of complex systems say that zooming out to the macro can help you identify the elements that matter most. In complex systems, these elements that matter most (or which are most interesting) are often the seemingly insignificant components that have significant effects. They are the flapping of the butterfly's wings that cause storms in the oceans on the other side of the world.
 
-In this 3-minute Ted Talk, Ecologist Eric Berlow argues that zooming out might initially appear to increase the complexity of a system because you expose its many parts and interrelationships. However, in that zoomed-out, macro view, you can more easily see which elements are key influencers in the system, and then zoom in to focus on those parts.
-
-<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/lang/en/eric_berlow_how_complexity_leads_to_simplicity" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+In a 3-minute Ted Talk on [How complexity leads to simplicity](https://www.ted.com/talks/eric_berlow_how_complexity_leads_to_simplicity?language=en), ecologist Eric Berlow argues that zooming out might initially appear to increase the complexity of a system because you expose its many parts and interrelationships. However, in that zoomed-out, macro view, you can more easily see which elements are key influencers in the system, and then zoom in to focus on those parts.
 
 ## Summary
 
