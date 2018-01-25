@@ -1,4 +1,4 @@
-title: Navigation principles for documentation
+title: Simplifying Complexity
 language: english
 format: web
 sidebar: docnav
@@ -82,7 +82,7 @@ uistring:
     expandall: Expand All
     collapseall: Collapse All
     title: Doc navigation # Displays as site title on top nav bar and on site metadata
-    description: A guide for technical writers on creating navigation within documentation # Displays as site description meta
+    description: A guide for technical writers on simplifying complexity in documentation # Displays as site description meta
     search_placeholder_product: Search ...
     github_edit_button_text: Edit on GitHub
     search_results_page_title: Search results
