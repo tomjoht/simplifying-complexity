@@ -12,8 +12,8 @@ folders:
 
   - title: Switching between macro and micro views through embedded maps
     jurl: /macro-micro.html
-  - title: Tag and pull -- strategies to guide users through complex, non-linear systems
-    jurl: /tag-and-pull.html
+  - title: Discoverability through metadata -- strategies to guide users through complex, non-linear systems
+    jurl: /discoverability-through-metadata.html
 
   # - title: Guiding users through non-linear systems
   #   jurl: /guidance-through-non-linear-systems.html

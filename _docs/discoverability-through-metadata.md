@@ -1,6 +1,6 @@
 ---
-title: Tag and pull -- strategies to guide users through complex, non-linear systems
-permalink: tag-and-pull.html
+title: Discoverability through metadata -- strategies to guide users through complex, non-linear systems
+permalink: discoverability-through-metadata.html
 ---
 
 In the [previous tutorial](http://idratherbewriting.com/simplifying-complexity/macro-micro.html), we looked at embedding maps to help guide users through larger processes. But all the maps I showed were *linear* maps. What about maps for non-linear, complex systems? In this section, we'll explore ways to guide users when defined paths don't exist.
