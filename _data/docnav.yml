@@ -10,9 +10,9 @@ folders:
   - title: Introduction
     jurl: /index.html
 
-  - title: Switching between macro and micro views through embedded maps
+  - title: Switching between macro and micro
     jurl: /macro-micro.html
-  - title: Discoverability through metadata -- strategies to guide users through complex, non-linear systems
+  - title: Discoverability through metadata 
     jurl: /discoverability-through-metadata.html
 
   # - title: Guiding users through non-linear systems

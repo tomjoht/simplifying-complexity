@@ -231,27 +231,27 @@ Different metadata makes sense for different products, but this is a good start.
 With static site generators that use Markdown, you can add custom metadata to each page through YAML syntax in the page's frontmatter. In other words, you don't just have to adopt XML to tag your content with semantic metadata. Here's a sample Markdown page in Jekyll with some of these properties:
 
 ```yaml
-    ---
-    title: My page
-    url: mypage.html
-    keywords:
-    - eggs
-    - bacon
-    - toast
-    description: A short description of the page
-    last_reviewed: 2018-01-20
-    version: 2.0
-    reviewers:
-      - sam
-      - sally
-    owner:
-      - barry
-    tags:
-      - configuration
-    content_type:
-      - how-to
-    ---
-    Here's my page content ...
+---
+title: My page
+url: mypage.html
+keywords:
+- eggs
+- bacon
+- toast
+description: A short description of the page
+last_reviewed: 2018-01-20
+version: 2.0
+reviewers:
+  - sam
+  - sally
+owner:
+  - barry
+tags:
+  - configuration
+content_type:
+  - how-to
+---
+Here's my page content ...
 ```
 
 All the semantic tags appear within the frontmatter `---` section. You can also include properties in your default configuration file that apply the default frontmatter values to all pages in a particular directory. For example, `product` or `author` might be more appropriate to store in the default configuration file and apply the values to a directory as a whole.
