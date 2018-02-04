@@ -1,5 +1,5 @@
 ---
-title: Discoverability through metadata -- strategies to guide users through complex, non-linear systems
+title: Discoverability through metadata &mdash; strategies to guide users through complex, non-linear systems
 permalink: discoverability-through-metadata.html
 ---
 
@@ -10,7 +10,7 @@ In the [previous tutorial](http://idratherbewriting.com/simplifying-complexity/m
 
 ## Adaptive information systems for adaptive user journeys
 
-A complex system isn't merely one that is technical or which contains many parts; it's not simply a system that is "complicated." A complex system is one that defies linear processes by including branching, conditions, feedback elements, many decision points, recursive processes, and ever-changing variables that affect the user's paths and decision points.
+A complex system isn't merely one that is technical or which contains many parts; it's not simply a system that is "complicated." A complex system is one that defies linear processes by including branching, conditions, feedback elements, many decision points, recursive processes, and ever-changing variables that affect each new step along the user's journey.
 
 In [Content and Complexity](https://www.amazon.com/Content-Complexity-information-Technical-Communication/dp/0805841415), [Michael Albers](http://www.ecu.edu/cs-cas/engl/albers.cfm) characterizes a complex system as follows:
 
@@ -29,11 +29,11 @@ Again, this context and the user's information needs constantly change as the us
 
 ## Sintering as an analogy
 
-Albers says that a good way to understand this adaptive information model is by looking at the analogy of "sintering" in ceramics. Sintering is the chemical process whereby individual components begin to naturally cohere into a connected structure. You can watch this one-minute video (that I found on Youtube) to see the sintering process:
+Albers says that a good way to understand this adaptive information model is by comparing it to "sintering" in ceramics. Sintering is the chemical process whereby individual components begin to naturally cohere into a connected structure. You can watch this one-minute video (that I found on Youtube) to see the sintering process:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NzCeMxq0bPs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-How might sintering be implemented in an information system? Albers says that XML could potentially allow you to decouple and dynamically assemble the information.  Albers wrote his article about 15 years ago, when XML was still emerging as a common technology (so keep that context in mind). He writes:
+How might sintering be implemented in an information system? Albers says that XML could potentially allow you to decouple and dynamically assemble the information, giving the foundation for this adaptive design. Albers wrote his article about 15 years ago, when XML was still emerging as a common technology (so keep that context in mind). He writes:
 
 > Only recently, with technologies such as XML, has information design gained the underlying tools to actually support complex problem solving in a general manner. With these new technologies, we finally have the means to break up the old contextual elements, recombine them at will, and present information uniquely focused on a problem. However, although the need to support complex problem solving is indisputable, we lack a clear methodology to support capturing the information requirements, reordering and dynamically constructing information to fit a situational context, and designing the interface for such a system. ("Complex Problem Solving and Content Analysis")
 
@@ -85,7 +85,7 @@ These messages often accompany XML-related conferences, tools, or websites becau
 * language (*in the right language*)
 * platform (*on the right device*)
 
-With your content appropriately tagged with this metadata, you can push and pull it to target an audience that matches these same attributes. Semantic tagging is key to manipulating content into different arrangements at will to meet a specific user's needs.
+With your content appropriately tagged with this metadata, you can push and pull your content to target an audience that matches these same attributes. Semantic tagging is key to manipulating content into different arrangements at will to meet a specific user's needs.
 
 ## Chunking information
 
@@ -97,21 +97,21 @@ If you walk along the trails in Moab, Utah, where the sandstone and dirt ground 
 
 (To read more about chunking, see my earlier post on this: [The importance of chunking for sorting](http://idratherbewriting.com/2011/04/18/the-importance-of-chunking-for-sorting).)
 
-If your goal is to manipulate content in a variety of nimble ways, pulling out bits and pieces to fit a specific user context at a specific time, you need to not only tag your content with the right metadata to surface such content, you need to chunk your content in granular ways so that it can be extracted and delivered to the right user context. This leads us to probably the most recent application of this idea &mdash; chatbot design and digital assistants.
+If your goal is to manipulate content in a variety of nimble ways, pulling out bits and pieces to fit a specific user context at a specific time, you need to not only tag your content with the right metadata to surface such content, you must chunk your content in granular ways so that it can be extracted and delivered to the right user context. This leads us to probably the most recent application of this idea &mdash; chatbot design and digital assistants.
 
 ## Chatbots and decoupled information
 
-Today there's a lot of [excitement](http://www.tccamp.org/2017/11/chatbot-workshop-tccamp-2018/) (and [controversy](https://everypageispageone.com/2018/01/30/chatbots-are-not-the-future-of-technical-communication/)) around chatbots. A chatbot provides an automated response to a message the user submits. You ask the chatbot a question, and it magically returns the right information.
+Today there's a lot of [excitement](http://www.tccamp.org/2017/11/chatbot-workshop-tccamp-2018/) (and [controversy](https://everypageispageone.com/2018/01/30/chatbots-are-not-the-future-of-technical-communication/)) around chatbots. A chatbot provides an automated response to a message the user submits. You ask the chatbot a question, and it magically returns the right information (or tells you it doesn't understand).
 
-To try out a chatbot, check out Verizon's "digital assistant" on their [Contact page](https://www.verizonwireless.com/support/contact-us/). Ask a question such as "how do i order a sim card"? and you get a response. In the following screenshots, my questions appear in blue, the chatbot's responses in black.
+To try out a chatbot, check out Verizon's "digital assistant" on their [Contact page](https://www.verizonwireless.com/support/contact-us/). Ask a question such as "How do I order a sim card"? and you get a response. In the following screenshots, my questions appear in blue, the chatbot's responses in black.
 
 <a class="noExtIcon" href="https://www.verizonwireless.com/support/contact-us/"><img class="small" src="images/verizondigitalassistant1.png"></a>
 
-Or "how do i activate my phone":
+Or "How do I activate my phone":
 
 <a class="noExtIcon" href="https://www.verizonwireless.com/support/contact-us/"><img class="small" src="images/verizondigitalassistant2.png"></a>
 
-Or even something specific to your account, such as "am I eligible to upgrade"?
+Or even something specific to your account, such as "Am I eligible to upgrade"?
 
 <a class="noExtIcon" href="https://www.verizonwireless.com/support/contact-us/"><img class="small" src="images/verizonchatbot.png"></a>
 
@@ -119,19 +119,19 @@ The chatbot provides conversational AI for your questions. In order for the chat
 
 Chatbots don't have a standard format for structuring information. There isn't a DITA or OpenAPI specification for chatbot information (which all chatbots then use). There are dozens of different structures, much of them in JSON. Chatbot platforms often use an API to request information based on specific inputs. In designing the chatbot, you have to map the user's input to the returned information. The information is often returned through JSON and incorporated into the chatbot interface. (See [wit.ai](https://wit.ai/) for more details on creating the mapping logic.)
 
-The chatbot model only works if your information is chunked into granular pieces and tagged with the right metadata. Then these chunks can be summoned at will and inserted into the chat user interface.
+The chatbot model works only if your information is chunked into granular pieces and tagged with the right metadata. Then these chunks can be summoned at will and inserted into the chat user interface.
 
-Chatbots are mostly used in sales or support scenarios, and they provide relatively simple information on websites (like returning an answer from your [FAQ](http://idratherbewriting.com/2017/06/23/why-tech-writers-hate-faqs/), which arguably users could just as easily scan). Chatbots have also been used in college pre-matriculation scenarios to help reduce "summer melt" (the tendency for students to not show up for college after being admitted). See [Using AI Chatbots to Freeze ‘Summer Melt’ in Higher Ed](https://campustechnology.com/Articles/2017/03/07/Using-AI-Chatbots-to-Freeze-Summer-Melt-in-Higher-Ed.aspx) and [this NPR podcast](https://www.npr.org/2017/07/17/537740926/why-arent-students-showing-up-for-college).
+Chatbots are mostly used in sales or support scenarios, and they provide relatively simple information on websites (like returning an answer from your [FAQ](http://idratherbewriting.com/2017/06/23/why-tech-writers-hate-faqs/), which arguably users could just as easily scan as text on a page). Chatbots have also been used in college pre-matriculation scenarios to help reduce "summer melt" (the tendency for students not to matriculate into college after being admitted). See [Using AI Chatbots to Freeze ‘Summer Melt’ in Higher Ed](https://campustechnology.com/Articles/2017/03/07/Using-AI-Chatbots-to-Freeze-Summer-Melt-in-Higher-Ed.aspx) and [this NPR podcast](https://www.npr.org/2017/07/17/537740926/why-arent-students-showing-up-for-college).
 
-Google also seems to be implementing chatbot-like features into their search. For example, after watching some recent SNL skits that included Will Ferrell, I was curious to know how old Ferrell was. Google not only helped auto-complete my question, it also showed me the answer right in the auto-complete options:
+Google also seems to be implementing chatbot-like features in their search. For example, after watching some recent SNL skits that included Will Ferrell, I was curious to know how old Ferrell was (he looked older than usual to me). Google not only helped auto-complete my question, it also showed me the answer right in the auto-complete options:
 
 <img src="images/holdoldiswillferrell.png" class="medium" style="border: 1px solid #dedede;"/>
 
 The difference between search and a chatbot is somewhat merging here. Perhaps the only difference is that a chatbot provides more interactive, natural language processing (NLP) logic with search.
 
-At any rate, just as you won't find the entirety of a complex procedure contained in a search result, you won't find complex procedural content returned in a chatbot UI either. The Verizon digital assistant won't even return instructions on how to activate your phone or replace your sim chip (relatively simple instructions). You won't find instructions on how to remove an unintended line added to your account (my reason for visiting Verizon's site in the first place). Instead, you mostly get brief summaries or descriptions (FAQ answers) along with a link for more information.
+At any rate, just as you won't find the entirety of a complex procedure contained in a search result, you won't find complex procedures or concepts returned in a chatbot UI either. The Verizon digital assistant won't even return instructions on how to activate your phone or how to replace your sim chip (relatively simple instructions). You won't find instructions on how to remove an unintended line added to your account (my reason for visiting Verizon's site in the first place), or how to fix incorrect charges from said line. Instead, you mostly get brief summaries or descriptions (FAQ answers) along with a link for more information.
 
-Whether chatbots take off or not in documentation scenarios remains to be seen. Tech writers are in a good spot if their information is already chunked and tagged in a useful way. For example, if each of your topics has a summary, this summary can be useful metadata to return in a chatbot along with a link to the entire topic. In addition to the summary, tags such as the product, version, language, and platform would also be helpful.
+Whether chatbots take off or not in documentation scenarios remains to be seen. Tech writers are in a good spot if their information is already chunked and tagged in a useful way. For example, if each of your topics has a summary, this summary can be useful metadata to return in a chatbot along with a link to the entire topic. In addition to the summary, tags such as the product, version, language, and platform can also be helpful, especially if the chatbot can match this information with a user's profile in intelligent ways.
 
 ## From chatbots to Internet of Things
 
@@ -146,9 +146,9 @@ If you have an Echo (which has Alexa integrated), you can ask it questions such 
 Or if Alexa is integrated into other objects, such as your [bathroom mirror](https://www.pocket-lint.com/gadgets/news/amazon/143230-this-alexa-enabled-mirror-lets-you-control-your-bathroom-by-voice), [your car](http://www.businessinsider.com/using-amazon-echo-dot-in-a-car-2017-7), your [home security system](https://www.theverge.com/circuitbreaker/2017/10/25/16535002/amazon-cloud-cam-camera-alexa-key-in-home-delivery), Alexa can return information in similar ways.
 
 {: .note}
-Are you interested in working for Amazon as a technical writer to document Alexa? If so, check out the listings on [Amazon Jobs](https://www.amazon.jobs). See [Technical Writer, Amazon Alexa Automotive](https://www.amazon.jobs/en/jobs/604467/technical-writer-amazon-alexa-automotive) and [Sr. Programming Writer, Alexa Skills](https://www.amazon.jobs/en/jobs/582759/sr-programming-writer-alexa-skills). The locations are either Seattle or Sunnyvale. I like recommending qualified people, so [contact me](/contactme.html) if you're interested, qualified, and want me to refer you.
+Are you interested in working for Amazon as a technical writer to document Alexa? If so, check out the listings on [Amazon Jobs](https://www.amazon.jobs). See [Technical Writer, Amazon Alexa Automotive](https://www.amazon.jobs/en/jobs/604467/technical-writer-amazon-alexa-automotive) and [Sr. Programming Writer, Alexa Skills](https://www.amazon.jobs/en/jobs/582759/sr-programming-writer-alexa-skills). The locations are either Seattle or Sunnyvale. I like recommending qualified people, so [contact me](/contactme.html) if you're interested, experienced, and want me to refer you.
 
-We're in the early days of AI, but there's no reason to think the direction towards AI will change. Especially as more inanimate objects come online through the Internet of things, voice interactions will be the norm. When you walk by your [thermostat](https://www.amazon.com/works-with-alexa-%7C-thermostats/b?node=13575749011) and say "I'm cold, can you turn up the heat a bit?" -- what should the object respond? When you turn on your [TV](https://www.amazon.com/gp/help/customer/display.html?nodeId=202145710) and say, "What new shows are available?" -- how should the object respond? When you walk by a historical site and see a landmark and ask "What was here 100 years ago?" -- how should the object respond?
+We're in the early days of AI, but there's no reason to think the direction towards AI will change. Especially as more inanimate objects come online through the Internet of things, voice interactions will be the norm with these objects (especially if the objects lack screens). When you walk by your [thermostat](https://www.amazon.com/works-with-alexa-%7C-thermostats/b?node=13575749011) and say "I'm cold, can you turn up the heat a bit?" &mdash; what should the object respond? When you turn on your [TV](https://www.amazon.com/gp/help/customer/display.html?nodeId=202145710) and say, "What new shows are available?" &mdash; how should the object respond? When you walk by a historical site and see a landmark and ask "What was here 100 years ago?" &mdash; how should the object respond?
 
 For the AI-powered object to return a response, information needs to be chunked and tagged, ready to be identified and returned at will based on the context the user presents.
 
@@ -162,35 +162,37 @@ More challenging, you have to ensure that each chunk can have a consistent, unde
 
 For example, chunking in a granular way constrains your ability to use links. Will the links always point to the right pages? What if the links point to the same page as the chunk itself? Antecedents (references to other elements) can also be problematic. If you write, "The code samples shown earlier demonstrate this approach," you'd have to only use this chunk on the same page where "shown earlier" and "this approach" make sense. Depending on the granularity of the chunks, making sure the chunks always make sense in their embedded context can require careful, tedious analysis.
 
-With content development hampered, the resulting content might not have the same rich story arc and flow as with long-form content. It depends on how granular you've chunked your content and how skilled you are at weaving together the chunks.
+With content development hampered, the resulting content might not have the same rich story arc and flow as with long-form content. It depends on how granular you've chunked your content and how skilled you are at weaving together the independent chunks.
 
-In an extreme example, suppose that in your content, you have hundreds of little chunks (whether single elements or entire topics) that exist in a large database. Each topic might contain an assembly of those chunks, and each map might contain an assembly of topics. In our hypothetical information system, pages as such don't exist, just a messaging and voice interface, ready to assemble the chunks in a dynamic way based on the mapping logic.
+In an extreme example, suppose that for your content, you have hundreds of little chunks (either single elements or entire topics) that exist in a large database. Each topic might contain an assembly of those chunks, and each map might contain an assembly of topics. In our hypothetical information system, pages as such don't exist, just a messaging and voice interface, ready to assemble the chunks in a dynamic way based on the mapping logic.
 
-It's a neat, futuristic idea, but it falls short for our goal, which is helping users understand a complex system. The reason it falls short is because complex systems by their very nature probably can't be explained in isolated chunks of information. If so, they would be simple systems, not complex systems. I'll dive more into this idea in the next section.
+It's a neat, futuristic idea, but it falls short for our goal, which is helping users understand a **complex** system. The reason it falls short is because *complex systems by their very nature can't be explained in isolated chunks of information*. If so, they would be simple systems, not complex systems.
 
 ## Learning is more than discoverability
 
-Albers' argument positions the discoverability of the needed information as a key to navigating a complex system. If you can just find the tutorial, reference, or other information to address the complex problems you face, you can make your way through the system (whatever your non-linear path might be).
+Albers' argument suggests that *discoverability* of the needed information is the key to navigating a complex system. If you can just find the right tutorial, reference, or other information to address the complex problems you face, you can make your way through the system (whatever your non-linear path might be).
 
-To an extent, this might be true. But this idea makes a few assumptions. It assumes the information exists within the information system to be found. It assumes that when the user finds the information, the user can recognize, process, and make sense of the information. Finally, it assumes the user actually knows the information he or she is looking for, and that the information can address the user's scenario.
+To an extent, this might be true. But this idea makes a few assumptions. It assumes the information exists within the system to be found. It assumes that when the user finds the information, the user can recognize, process, and make sense of the information. Finally, it assumes the user actually knows the information he or she is looking for, and that the information can address the user's scenario.
 
-Facilitating information discovery is good, but navigating a complex system involves more than just finding the right information. In [Chatbots are not the future of Technical Communication](https://everypageispageone.com/2018/01/30/chatbots-are-not-the-future-of-technical-communication/), Mark Baker explains that learning is an "iterative process of refining our mental models until they fit the world as we are discovering it...." By mental model, he's building on John Carroll's rejection of the Nurnberg Funnel model, where knowledge is simply poured into users' heads. In reality, users must "hack through the brambles of their own preconceptions," Mark says. In other words, even if the user is looking directly at the answer, the user might not recognize it or understand it because the user's mental models don't fit the information the user is seeing.
+Facilitating information discovery is always good, but navigating a complex system involves more than just finding the right information. In [Chatbots are not the future of Technical Communication](https://everypageispageone.com/2018/01/30/chatbots-are-not-the-future-of-technical-communication/), Mark Baker explains that learning is an "iterative process of refining our mental models until they fit the world as we are discovering it...." By mental model, he's building on John Carroll's rejection of the Nurnberg Funnel model, where knowledge is simply poured into users' heads. In reality, users must "hack through the brambles of their own preconceptions," Mark says.
+
+In other words, even if the user is looking directly at the answer, the user might not recognize it or understand it because the user's mental model doesn't fit the information the user is seeing.
 
 Mark explains:
 
 >  learning is about rearranging our own mental furniture, finding our way through the thickets of our own minds. The expert can help us enormously at certain key junctures in that process, but most of it we simply have to do for ourselves. ([Chatbots are not the future of Technical Communication](https://everypageispageone.com/2018/01/30/chatbots-are-not-the-future-of-technical-communication/))
 
-The idea that navigating a complex system merely involves *discovering* the right information for your scenario (especially as delivered in snippets by a chatbot) is a bit simplistic and only addresses part of the problem. One would hope that good documentation would contain comprehensive, conceptual topics that do the work of re-arranging the user's mental furniture. Theoretically, the role of the chatbot (or other voice-powered AI) is probably just to give you the right link. But currently, a simple search on Google provides a much faster and more efficient experience, with excerpts you can quickly scan to identify the most relevant result. (See Mark's [Chatbots](https://everypageispageone.com/2018/01/30/chatbots-are-not-the-future-of-technical-communication/) post for more details on the advantages of discovery through search and text.)
+The idea that navigating a complex system merely involves *discovering* the right information for your scenario (especially as delivered in snippets by a chatbot) is a bit simplistic and only addresses part of the problem. One would hope that good documentation would contain comprehensive, conceptual topics that do the work of re-arranging the user's mental furniture. Theoretically, the role of the chatbot (or other voice-powered AI) is probably just to give you the right link to this topic. Currently, a simple search on Google provides a much faster and more efficient experience for discoverability; with excerpts on search results pages, you can quickly scan to identify the most relevant result. (See Mark's [Chatbots](https://everypageispageone.com/2018/01/30/chatbots-are-not-the-future-of-technical-communication/) post for more details on the advantages of discovery through search and text.)
 
-These little chunks of information won't accomplish the heavy lifting required to re-arrange the user's mental furniture. If you're in a complex system, the concepts, workflow, and interactions are complicated and not easy to follow. As such, you'll need in-depth, detailed help information that consists of lengthy content (often including illustrations, workflow maps, examples, sample apps, and more).
+These little chunks of information (returned by a chatbot or other AI) won't accomplish the heavy lifting required to re-arrange the user's mental furniture. If you're in a complex system, the concepts, workflow, and interactions are complicated and not easy to follow. As such, you'll need in-depth, detailed help information that consists of lengthy content (often including illustrations, workflow maps, examples, sample apps, and more).
 
-The idea that these complex systems can be navigated by showing the user the right chunk of information here and there is somewhat superficial, given the current level of information returned from chatbots and other AI. Right now, about all chatbots are good for is converting measurements in the kitchen, finding the current weather, and playing a particular song. I'm not sure any of these granular chunks of content is going to help users understand the string theory aspects of complex products.
+The idea that these complex systems can be navigated by showing the user the right chunk of information here and there (at a particular time and place) is somewhat superficial, given the current level of information returned from chatbots and other AI. Right now, about all chatbots are good for is converting measurements in the kitchen, finding the current weather, and playing a particular song. I'm not sure any of these granular chunks of content is going to help users understand complex products with any depth. Imagine trying to learn Calculus through a Twitter bot. Or trying to understand the General Theory of Relativity by looking at billboard signs, because chatbots return about the same amount of information. Isolated, small chunks of information aren't enough to help users learn and master a complex system.
 
 ## Metadata
 
-Instead of thinking of decoupling our information into chunks that can be dynamically retrieved and assembled, it might be more productive to think about describing our [probably lengthy] content with the right metadata to enable discovery. This metadata can at least lead users to the right topic.
+Instead of thinking of decoupling our information into little chunks that can be dynamically retrieved and assembled, it might be more productive to think about describing our [probably lengthy] content with the right metadata to enable discovery. This metadata can at least lead users to the right topics, where they can drink deeply to get oriented and grounded.
 
-How do you go about deciding on the right metadata? Start by identifying all the scenarios where you want to present the user with specific topics in a way that will help him or her wade through complexity. Instead of brainstorming what metadata you should apply, first brainstorm what scenarios you want to summon the topics. Here are a few scenarios:
+How do you go about deciding on the right metadata? First, start by identifying all the scenarios where you want to present the user with specific topics in a way that will help him or her wade through complexity. Instead of brainstorming what metadata you should apply, think about the scenarios you want to summon the topics. Here are a few scenarios:
 
 * Show the user getting-started topics for the product
 * Show troubleshooting topics for a product
@@ -205,8 +207,9 @@ You might also have administrative scenarios for surfacing topics:
 * List all topics, by product, that require translation or which haven't been translated in the past year
 * List which authors and owners are responsible for a topic
 * List which knowledge-base tags and articles are related to the topic
+* List the 20% of pages that are viewed 80% of the time
 
-Now that you have an idea of the scenarios you want to support, the next step is to identify the right metadata to support those scenarios. For this, it might help to have an idea of your system or scripts that you'll be leveraging to actually retrieve the information.
+Now that you have an idea of the scenarios you want to support, the next step is to identify the right metadata to support these scenarios. For this, it might help to have an idea of your system or scripts that you'll be leveraging to actually retrieve the information.
 
 Here are some ideas for metadata that a chunk of information might contain:
 
@@ -226,9 +229,9 @@ Here are some ideas for metadata that a chunk of information might contain:
 * languages
 * last_translated_{language}
 
-Different metadata makes sense for different products, but this is a good start. The next challenge is adding all of this metadata to your pages in a consistent way, with a controlled vocabulary and the right data types that you need. Some values, such as keywords, might make sense as arrays while other values can work as comma-separated values or single values. Some values need to be integers (to work in scripts) while others can be strings. It depends how you want to manipulate the data.
+Different metadata makes sense for different products, but this is a good start. The next challenge is adding all of this metadata to your pages in a consistent way, with a controlled vocabulary and the right data types. Some values, such as keywords, might make sense as arrays while other values can work as comma-separated values or single values. Some values might need to be integers (to work in scripts) while others can be strings. It depends how you want to manipulate the data.
 
-With static site generators that use Markdown, you can add custom metadata to each page through YAML syntax in the page's frontmatter. In other words, you don't just have to adopt XML to tag your content with semantic metadata. Here's a sample Markdown page in Jekyll with some of these properties:
+With static site generators that use Markdown, you can add custom metadata to each page through YAML syntax in the page's [front matter](https://jekyllrb.com/docs/frontmatter/). In other words, you don't just have to adopt XML to tag your content with semantic metadata. Here's a sample Markdown page in Jekyll with some of these properties:
 
 ```yaml
 ---
@@ -254,16 +257,16 @@ content_type:
 Here's my page content ...
 ```
 
-All the semantic tags appear within the frontmatter `---` section. You can also include properties in your default configuration file that apply the default frontmatter values to all pages in a particular directory. For example, `product` or `author` might be more appropriate to store in the default configuration file and apply the values to a directory as a whole.
+All the semantic tags appear within the frontmatter `---` section. The lists that begin with dashes (`-`) are arrays. You can also include properties in your default configuration file (\_config.yml) that apply selected front matter values to all pages in a particular directory. For example, `product` or `author` might be more appropriate to store in the default \_config.yml file and apply the values to a directory as a whole.
 
-Of course, if your platform is XML-based, you could probably add metadata to topics in a more robust way that you validate and enforce. However, as XML, there's more setup involved. You will need to validate your metadata and structure against a schema.
+Of course, if your platform is XML-based, you could probably add metadata to topics in a more robust way that you validate and enforce. However, as XML, there's more setup involved. You will need to validate both your metadata and structure against a schema.
 
-This brings us to a larger question. Which metadata schema should you be using? If everyone just creates their own metadata, then doesn't that limit its usefulness? Systems with different metadata can't interoperate. Should we all be tagging our content with the Dublin Core metadata (created to describe web content)? Should we use the schema in DITA? Should we adopt schemas appropriate to our industry?
+This brings us to a larger question. Which metadata schema should you be using? If everyone just creates their own metadata, doesn't that limit the metadata's usefulness? Systems with different metadata can't interoperate. Should we all be tagging our content with the [Dublin Core](http://dublincore.org/) metadata (created to describe web content)? Should we use the schema in DITA? Should we adopt schemas appropriate to our industry?
 
-Again, the answer depends on what you plan to do with your content. Metadata is an entire discipline in itself. For example, check out the book [Metadata](https://www.audible.com/pd/Science-Technology/Metadata-Audiobook/B017KV35TO?ref=a_a_search_c3_lProduct_1_1&pf_rd_p=e81b7c27-6880-467a-b5a7-13cef5d729fe&pf_rd_r=82NCG8V98D0PR8BQPX8X&)), which provides a good introduction to different metadata schemas and approaches.
+Again, the answer depends on what you plan to do with this metadata and your content. Metadata is an entire discipline in itself. For example, check out the book [Metadata](https://www.audible.com/pd/Science-Technology/Metadata-Audiobook/B017KV35TO?ref=a_a_search_c3_lProduct_1_1&pf_rd_p=e81b7c27-6880-467a-b5a7-13cef5d729fe&pf_rd_r=82NCG8V98D0PR8BQPX8X&)), which provides a good introduction to different metadata schemas and approaches.
 
-Although metadata can be useful to inform your own system's findability mechanisms, ultimately Google tends to be the portal through which users search and find content. You can't simply tag your content with the right metadata to move to the first page in Google's search results. (Meta keyword tags in HTML were abused long ago and therefore abandoned by Google.) You have to make your content SEO-rich, putting the right keywords in titles, headings, and summaries. You have to create rich, valuable content that others link to. And much more. Thus, does it matter which metadata schema you use if, at the end of the day, Google's own algorithm determines what users can find?
+Although metadata can be useful to inform your own system's discoverability mechanisms, ultimately Google tends to be the portal through which users search and find content. You can't simply tag your content with the right metadata to move to the first page in Google's search results. (Meta keyword tags in HTML, such as keywords, were abused long ago and therefore abandoned by Google.) You have to make your content SEO-rich, putting the right keywords in titles, headings, and summaries. You have to create rich, valuable content that others link to. And much more. Thus, does it matter which metadata schema you use if, at the end of the day, Google's own algorithm determines what users can find?
 
 ## How does tagged, chunked content simplify complexity?
 
-Let's return to our original problem: how do we simplify users paths in complex systems that define linear order? A lot of these metadata tags, such as author or content type, won't necessarily simplify complexity. But you can use metadata intelligently to provide a refined, short list of highly relevant content in the right context. I know that I've only scratched the surface here, but hopefully, I've pointed the discussion in the right direction.
+Let's return to our original problem: how do we simplify users' paths in complex systems that defy linear order? A lot of these metadata tags, such as author or content type, won't necessarily simplify complexity. But you can use metadata intelligently to provide a refined, short list of highly relevant content in the right context. I know that I've only scratched the surface here, but hopefully I've pointed the discussion in the right direction.
