@@ -12,8 +12,12 @@ folders:
 
   - title: Switching between macro and micro
     jurl: /macro-micro.html
-  - title: Discoverability through metadata 
+
+  - title: Discoverability through metadata
     jurl: /discoverability-through-metadata.html
+
+  - title: Ensuring information harmony in the larger documentation landscape
+    jurl: /ensuring-information-harmony-in-the-larger-documentation-landscape.html
 
   # - title: Guiding users through non-linear systems
   #   jurl: /guidance-through-non-linear-systems.html
