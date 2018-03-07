@@ -107,10 +107,10 @@ What would a DocToolHub type of site look like in a Developer Portal? Again, my 
 
 ## Search versus tags
 
-I'm somewhat mixed about the value of tags. Most documentation systems don't have carefully developed taxonomies or tags across topics. The default way that users find content is through search. Consequently, perhaps the efforts around building tags will ultimately be like creating [Yahoo's Directory of the Web](https://searchengineland.com/yahoo-directory-close-204370)? Maybe the number of keywords and topics is too vast to comprehend using a definitive list of descriptive tags.
+I'm somewhat mixed about the value of tags. Most documentation systems don't have carefully developed taxonomies or tags across topics. The default way that users find content is through search. Consequently, perhaps the efforts around building tags will ultimately be like creating [Yahoo's Directory of the Web](https://searchengineland.com/yahoo-directory-close-204370). Maybe the number of keywords and topics is too vast to comprehend using a definitive list of descriptive tags.
 
-As a user, yes I would appreciate seeing topical indexes of content, but I'd like these filters built directly into search as well, and I will likely not trust that a tag page showing all instances of the topic actually contains all known instances of that topic. I would still search for the content.
+As a user, I would appreciate seeing topical indexes of content, but I'd also like these filters built directly into search as well, and I will likely not trust that a tag page showing all instances of the topic actually contains all instances of that topic. I would still search for the content.
 
-In an ideal world, one meticulously tags content *and* ensures search surfaces the content. But with limited bandwidth, perhaps tagging requires too much effort? I'm not sure. Most likely, I will experiment in this area and see what I discover.
+In an ideal world, one meticulously tags content, creates topical indexes, *and* ensures search surfaces the same content. But with limited bandwidth, perhaps tagging requires too much effort? I'm not sure. Likely I will experiment in this area and see what I discover.
 
 If you have feedback you'd like to share about tagging strategies, please use the comment form below.
