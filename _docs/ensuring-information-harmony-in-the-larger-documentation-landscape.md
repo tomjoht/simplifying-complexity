@@ -5,9 +5,9 @@ permalink: ensuring-information-harmony-in-the-larger-documentation-landscape.ht
 
 In [Overcomplicated: Technology at the Limits of Comprehension](https://www.amazon.com/Overcomplicated-Technology-at-Limits-Comprehension/dp/0143131303), Samuel Arbesman explores why technology has become increasingly complex. He covers a variety of factors throughout the book, but two factors I want to call attention are **specialization** and **interconnectedness**, as these two factors have a direct relevance to documentation.
 
-Both specialization and interconnectedness contribute to a high degree of complexity in a system. When these two elements are pushed to extremes, the result is a scenario where no one understands the full scale of how something works, nor how one system affects or influences the other systems it interacts with. Disaster scenarios can develop swiftly and catastrophically.
+Both specialization and interconnectedness contribute to a high degree of complexity in a system. When these two elements are pushed to extremes, the result can be a scenario where few understand the full scale of how something works, and almost no one understands what happens when the various elements interact. Disaster scenarios can develop swiftly and catastrophically.
 
-With documentation systems, when subject matter experts contribute specialized articles into a larger system without understanding how their individual article interacts with other information in the system, the result is often a redundant, contradictory, and ever-increasing jumble of content. In this article, I'll explore ways to solve this problem through better metadata.
+With documentation systems, when subject matter experts contribute specialized articles into a larger system without understanding how their individual articles interact with other information in the system, the result is often a redundant, contradictory, and ever-increasing jumble of content. In this article, I'll explore ways to solve this problem through better metadata.
 
 * TOC
 {:toc}
@@ -27,9 +27,9 @@ Another area of specialization involves how apps can populate the Fire TV home s
 
 When you link your Echo or another Alexa-enabled device to your Fire TV, this creates more complexity. Voice commands transition into directives passed through a middleware layer to your Fire TV device, and so on. Voice commands can initiate from near-field (your remote) or far-field (an Alexa-powered device like an Echo). Suppose you have both an Echo and Echo Dot, and both are linked to your Fire TV. What logic decides which Echo responds?  How does the microphone array inside each Echo decide determine which device is closer to the sound source?
 
-These are just a few examples of specialized knowledge around a single device, but there are hosts of others. Consider the hardware elements (the system on chip and graphics properties), the physical elements of the device, such as its size and the way it connects to your TV, which in the case of Gen 3 models was a dongle ["pendant"]), and more. The multimedia team has an extremely geeky knowledge of codecs, refresh rates, bit rates, media players, and other details. They ensure correct audio/video syncing with 4k content and more. If you're ever watching a movie and the sounds don't match the actor's mouth movements, the audio/video is out of sync.
+These are just a few examples of specialized knowledge around a single device, but there are hosts of others. Consider the hardware elements (the system on chip and graphics properties), the physical elements of the device, such as its size and the way it connects to your TV, which in the case of Gen 3 models was a "pendant"), and more. The multimedia team has an extremely geeky knowledge of codecs, refresh rates, bit rates, media players, and other details. They ensure correct audio/video syncing with 4k content and more. If you're ever watching a movie and the sounds don't match the actor's mouth movements, the audio/video is out of sync.
 
-Fire TV is one example of a product that involves many different specialists all providing deeply technical input that is not understood in depth by any single team. A complex product might involve 20 different specialist teams each contributing to it in important ways. Commonly, each specialist joins a stage of other actors working in a carefully choreographed play rather than giving a solo, independent performance. Each specialist must act *in harmony with the other actors* on stage, but each specialist usually has only a superficial understanding of the other actors' roles and parts.
+Fire TV is one example of a product that involves many different specialists all providing deeply technical input that is not understood in its entirety by any single team. A complex product might involve 20 different specialist teams each contributing to it in important ways. Commonly, each specialist joins a stage of other actors working in a carefully choreographed play rather than giving a solo, independent performance. Each specialist must act *in harmony with the other actors* on stage, but each specialist usually has only a superficial understanding of the other actors' roles and parts.
 
 To gain **in-depth** knowledge, the specialist has to sacrifice **breadth** of knowledge. The ability to go both deep *and* broad (playing the Renaissance role where you're a master of everything from physics to art to medicine and poetry) ended long ago. We live in an era of specialization, and this specialization contributes to scenarios where systems become complex.
 
@@ -51,7 +51,7 @@ Arbesman explains,
 
 Arbesman says that it's not uncommon for unexpected interactions to result when these systems (which no single individual understands) interoperate. When this happens, there's a high risk of massive failure that few can solve. As an example, Arbesman describes a day in 2015 when both the United Airlines grounded its planes and the New York Stock Exchange halted trading, both due to separate computer glitches that were thought to be related. Arbesman later explores the value that generalists bring, and how necessary it can be for an individual to have several areas of expertise.
 
-From a documentation point of view, I'm concerned about solving the issue of content interoperability, that is, finding a way to ensure content harmony within a vast system of information, especially when engineers act as contributing authors (as if often the case with developer portals). When the expert wants to contribute a topic, how can we look into our documentation landscape and know what else has been said about that topic? What other topics does this new topic affect? How can we know if the new topic will contradict, overlap, or otherwise influence these other topics?
+From a documentation point of view, I want to solve the issue of content interoperability, that is, finding a way to ensure content harmony within a vast system of information, especially when engineers act as contributing authors (as is often the case with developer portals). When the expert wants to contribute a topic, how can we look into our documentation landscape and know what else has been said about that topic? What other topics does this new topic affect? How can we know if the new topic will contradict, overlap, or otherwise influence these other topics?
 
 You can be sure that readers bounce from topic to topic, landing on search results that list all pages with the common keyword the user searched for (from docs to blog to forum and more). For example, suppose a user searches for "MediaSession," and the results return topics from 6 different areas of the site. What is the user's experience in navigating all of this [potentially conflicting] information?
 
@@ -59,58 +59,85 @@ We can't expect contributing experts to be familiar with all the documentation o
 
 Additionally, if we know the owners of the other topics, they can evaluate the appropriateness of the new information being added. Like an elephant herd deciding to accept a new elephant to the herd, this group of content owners, connected by a similar topic theme, can choose to accept or reject the new [content] elephant.
 
-## Metadata strategies to surface similar-themed content
+## Strategies to surface similar-themed content
 
-The ability to surface similar information returns us to the topic of metadata, which we touched on in the previous topic ([Discoverability through metadata &mdash; strategies to guide users through complex, non-linear systems](discoverability-through-metadata.html)). In that previous section, I kept the discussion fairly high-level, but now we'll get a bit deeper. We might need at least two metadata properties to help interconnect information:
+The ability to surface similar information returns us to the topic of metadata, which we touched on in the previous topic ([Discoverability through metadata &mdash; strategies to guide users through complex, non-linear systems](discoverability-through-metadata.html)). In that previous section, I kept the discussion fairly high-level, but now we'll get a bit deeper. First, each topic should have a clearly identify owner (identified through an `owner` tag).
 
-* `owner`
-* `tags`
+The owner is easy enough to identify. For each topic, we must merely identify a primary person who owns the feature, service, or approach. This owner can help be identified in a gating workflow with the introduction of new content &mdash; that is, before content on the page is published or updated, the owner is consulted and signs off.
 
-The owner is easy enough to identify. For each topic, we must merely identify a primary person who takes ownership of the content. This owner can help be identified in a gating workflow with the introduction of new content. Tags are trickier because tags must align with a controlled vocabulary to prevent them from going in 10 different directions. For example, without a controlled vocabulary, content related to "media session" could be tagged as "media-session," "MediaSession,", "Media Session," "mediasession", "mediaSession," and more.
+However, the larger task is to see how this information fits into the broader information landscape. This task is what separates the contributing specialist from the higher-level analysist and thinker. One must survey what else has been written on the topic and evaluate whether the new information harmonizes with it.
 
-What strategies do you use for tags? If the topic has just one tag, what purpose does that serve? And how do tags differ from a keyword search with this tag? It's fine to say that we'll merely "tag" our content as a way to surface relevant topics, but this is not an easy task to implement.
+One approach for this might be to develop a taxonomy for the products and terms in your company, and then meticulously tag each piece of content with the terms from this taxonomy. Tags need to align with a controlled vocabulary to prevent them from going in 10 different directions. For example, without a controlled vocabulary specified in a taxonomy, content related to "media session" could be tagged as "media-session," "MediaSession,", "Media Session," "mediasession", "mediaSession," and more.
 
-I consulted the WTD community for any experiences with tagging. One community member pointed me to [Wavefront Docs](https://docs.wavefront.com/), which uses tags to provide alternative arrangements of information.
+However, this approach is fraught with error for a number of reasons:
 
-<figure><a class="noCrossRef" href="https://docs.wavefront.com/"><img src="images/wavefrontdocs.png"/></a><figcaption>The green squares in the main content window are tagged content. The tagged content provides an alternative view of the same information arranged hierarchically in the sidebar.</figcaption></figure>
+* Creating an enterprise taxonomy takes a lot of effort in gathering consensus across organizational boundaries. The taxonomy would need to be maintained and updated in a central place.
+* Enforcing the taxonomy is difficult. Everyone would need to be working in a similar system to provide any kind of consistent enforcement of the taxonomy.
+* The same taxonomy term might be interpreted in different ways by different groups.
+* Tagging content across documentation, marketing, support, and other channels is a task so arduous few will have bandwidth to do this.
 
-In this example, tags are multipurpose, combining information type (e.g., "getting started") with the topic (e.g., "query language"). Ideally, we want to combine tags together in compound ways to filter the information (such as "getting started" paired with "query language"). But I also want to see how "query language" might be addressed in other sources *outside* the documentation, such as the Wavefront blog, forum, white papers, and other information sources.
+I consulted the WTD community for any experiences with tagging. One WTD member said her experience with tagging required a tremendous amount of work for a relatively small doc set (100 pages) and didn't seem worth the effort.
 
-## Complexities of tagging
+Further, users will probably default to searches based on keywords and phrases from their own heads anyway. They likely will not consult a terminology glossary or index before searching for content. Even if a user were to locate a term, such as "mediasession," and click it to see all topics tagged with that term, the user would probably distrust the comprehensiveness of the topic list and simply perform a search for the information anyway. (At least I know *I* would)
 
-A coherent tagging system needs to establish a controlled vocabulary for tags, but that's not all. There are many other questions to answer:
+As a result, even though this topic-tagging effort might be noble and well-intentioned, tagging all content with an agreed-upon taxonomy of terms probably won't work in a practical scenario.
 
-* How many tags should a site have? How granular should the tags be?
-* Should tags repeat product titles? Should tags include information types (e.g, getting started)?
-* On a technical level, how can you dynamically return the tags the user wants to know about?
-* How do tags differ from a search with these same keywords? Are tags just an older practice of topical indexing that was replaced a decade ago with keyword search?
-* How can we implement a tagging system if each author creates content in separate projects? Can we implement tagging across docs, forums, and blogs? If so, don't we need an enterprise-wide taxonomy?
-* If we have an enterprise-wide taxonomy, how do we manage the terms? What process do we agree on to decide on the terms, updates to terms, and more?
+It is important to tag content, though. But the "tagging" that needs to be done is to infuse the content (the title, headings, opening paragraphs, etc.) with the right keywords and language that users will search for. This search engine optimization of the content will ensure the content surfaces correctly in search engines when users search for it.
 
-There are a lot of questions around tagging. This is because I'm scratching the surface of other disciplines here &mdash; the practice of taxonomy and classification gets us into library science, information architecture, and knowledge management. Do I need a specialist degree in these fields to provide meaningful tags in my content?
+The reality is that indexing is largely an abandoned activity, replaced with searches. Why bother to consult an index when you can just search for the same keyword? If that's the behavior, why fight it? Instead, let's align with this searching behavior, combined with analytics that tell us 80% of traffic comes through Google, and provide strategies around it.
 
-One WTD member said her experience with tagging required a tremendous amount of work for a relatively small doc set (100 pages) and didn't seem worth the effort. This leads me to wonder whether tags are worth it, or if I should just default to keyword searches for information?
+## An approach for seeing what users see
 
-I'm just speculating here, but I think tagging gets interesting when the tags cross boundaries in interesting ways. When a tag for "mediasession" returns documentation content across different product doc sets, blog articles, and forum knowledge-base articles, the list of items is a lot more interesting than tags that return documentation alone (especially documentation for just one product). When tags pull in content across boundaries, we start to see more purpose behind the tagging. Maybe we discover that the marketers refer to "MediaSession" as "Android Media APIs," and perhaps their blog article on the topic surfaces information that is outdated or contradictory with the docs. With the forum, we have support agents and engineers providing help related to this topic. How do their responses align with the doc content and the blog?
+In my documentation topics, I added a field called `queries` in the frontmatter. In `queries`, I list various keywords and phrases that I think users would search for to locate the topic. Then I have a reports script that url-encodes the queries and inserts them into URL strings that execute searches. For example, in a topic, I might have this property (among many others) in the frontmatter:
 
-Tagging within the same system isn't nearly as interesting as tags across systems. This kind of activity would open up dialogue and collaboration across these groups. It would also help increase awareness about just what these groups are doing (it's easy to just ignore marketing content and support articles). If tags do nothing other than break down silos between these other groups, establish communication about terminology, and help us connect owners with the topics as they participate in various circles, that alone is a huge win. It does also expand the effort. Tags become more than just a metadata activity. Tagging becomes a cross-department dialogue.
+```yaml
+queries: mediasession, enable voice playback, integrate alexa into app, alexa-enable app
+```
 
-## A filtering interface powered by tags
+The specific topic here is [Alexa Integration | Fire App Builder](https://developer.amazon.com/docs/fire-app-builder/alexa-integration.html).
 
-I have been diligently working on a coding solution for these tags within our Jekyll project. This post is already long, so I won't bury it in technical details here. However, when I have a functional prototype in publicly accessible docs, I'll revisit this article and provide a link.
+In my reports scripts (used internally only), here's how I would insert these values into query strings:
 
-[DocToolhub](https://doctoolhub.com/) is an interface that provides filters users can toggle to mix and match the information they want to see, letting users select the information type, product, topic, version, and more.
+```
+{% for doc in site.docs %}
+{% raw %}<b>queries:</b> {% if doc.queries == "none" or doc.queries == null %} Missing {% else %}
+{% assign queries = doc.queries | split: ", " %}
+<ul>{% for query in queries %} {% assign queryEncoded = query | url_encode %}
+      <li>
+          "{{query}}" → <a target="\_blank" href="http://www.google.com/search?q=site%3Adeveloper.amazon.com+{{queryEncoded}}">Google</a>,
+          <a target="\_blank" href="https://developer.amazon.com/public/search?query={{queryEncoded}}">Dev Portal</a>,
+          <a target="\_blank" href="https://forums.developer.amazon.com/search.html?f=&type=question+OR+kbentry+OR+idea&redirect=search%2Fsearch&sort=relevance&q={{queryEncoded}}">Forums</a>
+    </li>
+    {% endfor %}</ul>{% endif %} </div>{% endraw %}
+{% endfor %}
+```
 
-<figure><a class="noCrossRef" href="https://doctoolhub.com/"><img src="images/doctoolhub.png"/></a><figcaption>DocToolHub lets you select filters that determine which results are shown.</figcaption></figure>
+This script looks for the `queries` tag in the frontmatter of a page. It converts the comma-separated values into an array, and then uses a `for` loop to iterate through each item in the array. For each item, it [url-encodes](https://shopify.github.io/liquid/filters/url_encode/) the query term (making it safe to populate in the address bar as a URL), and executes searches in three search forms: [Google](https://google.com), the [Developer Portal](https://developer.amazon.com/), and the [Knowledge Base](https://forums.developer.amazon.com/index.html).
 
-What would a DocToolHub type of site look like in a Developer Portal? Again, my purpose here isn't to lay out the technical details, but to ponder a solution to this scenario of complexity. I want to know how a new piece of information fits and harmonizes with the rest of the information on the documentation landscape. Topic-based tags are just one idea for achieving that.
+The report's output looks like this:
 
-## Search versus tags
+<div class="metadataProperty"><b>queries:</b> <ul>
+<li>
+"mediasession" → <a target="\_blank" href="http://www.google.com/search?q=site%3Adeveloper.amazon.com+mediasession">Google</a>,
+<a target="\_blank" href="https://developer.amazon.com/public/search?query=mediasession">Dev Portal</a>,
+<a target="\_blank" href="https://forums.developer.amazon.com/search.html?f=&amp;type=question+OR+kbentry+OR+idea&amp;redirect=search%2Fsearch&amp;sort=relevance&amp;q=mediasession">Forums</a></li>
 
-I'm somewhat mixed about the value of tags. Most documentation systems don't have carefully developed taxonomies or tags across topics. The default way that users find content is through search. Consequently, perhaps the efforts around building tags will ultimately be like creating [Yahoo's Directory of the Web](https://searchengineland.com/yahoo-directory-close-204370). Maybe the number of keywords and topics is too vast to comprehend using a definitive list of descriptive tags.
+<li>
+"enable voice playback" → <a target="\_blank" href="http://www.google.com/search?q=site%3Adeveloper.amazon.com+enable+voice+playback">Google</a>,
+<a target="\_blank" href="https://developer.amazon.com/public/search?query=enable+voice+playback">Dev Portal</a>,
+<a target="\_blank" href="https://forums.developer.amazon.com/search.html?f=&amp;type=question+OR+kbentry+OR+idea&amp;redirect=search%2Fsearch&amp;sort=relevance&amp;q=enable+voice+playback">Forums</a></li>
 
-As a user, I would appreciate seeing topical indexes of content, but I'd also like these filters built directly into search as well, and I will likely not trust that a tag page showing all instances of the topic actually contains all instances of that topic. I would still search for the content.
+<li>
+"integrate alexa into app" → <a target="\_blank" href="http://www.google.com/search?q=site%3Adeveloper.amazon.com+integrate+alexa+into+app">Google</a>,
+<a target="\_blank" href="https://developer.amazon.com/public/search?query=integrate+alexa+into+app">Dev Portal</a>,
+<a target="\_blank" href="https://forums.developer.amazon.com/search.html?f=&amp;type=question+OR+kbentry+OR+idea&amp;redirect=search%2Fsearch&amp;sort=relevance&amp;q=integrate+alexa+into+app">Forums</a></li>
 
-In an ideal world, one meticulously tags content, creates topical indexes, *and* ensures search surfaces the same content. But with limited bandwidth, perhaps tagging requires too much effort? I'm not sure. Likely I will experiment in this area and see what I discover.
+<li>
+"alexa-enable app" → <a target="\_blank" href="http://www.google.com/search?q=site%3Adeveloper.amazon.com+alexa-enable+app">Google</a>,
+<a target="\_blank" href="https://developer.amazon.com/public/search?query=alexa-enable+app">Dev Portal</a>,
+<a target="\_blank" href="https://forums.developer.amazon.com/search.html?f=&amp;type=question+OR+kbentry+OR+idea&amp;redirect=search%2Fsearch&amp;sort=relevance&amp;q=alexa-enable+app">Forums</a></li>
+</ul> </div>
 
-If you have feedback you'd like to share about tagging strategies, please use the comment form below.
+I can now click each search URL and see if the search actually returns my page. If not, then the content is not appropriately surfacing based on the keywords and phrases I think users would use to search for it.
+
+I can also see what else is returned with this search. I can browse what is returned (from the blog, from forum articles, and other sources) and see if the information harmonizes well. Granted, one still has to read through this other information and determine the information's integration into this larger whole. But that is the task required for good documentation. A poor technical writer creates one-off articles and sends them over the documentation wall, hoping they are instructive. A good technical writer reads all the information on the site and evaluates the information harmony of each piece of content. It's a higher-level activity that you gain often through advanced college degrees where you learn to crunch through large amounts of information, read extensively and widely, and synthesize information into larger, coherent narratives.
