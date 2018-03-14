@@ -63,11 +63,11 @@ Additionally, if we know the owners of the other topics, they can evaluate the a
 
 The ability to surface similar information returns us to the topic of metadata, which we touched on in the previous topic ([Discoverability through metadata &mdash; strategies to guide users through complex, non-linear systems](discoverability-through-metadata.html)). In that previous section, I kept the discussion fairly high-level, but now we'll get a bit deeper. First, each topic should have a clearly identify owner (identified through an `owner` tag).
 
-The owner is easy enough to identify. For each topic, we must merely identify a primary person who owns the feature, service, or approach. This owner can help be identified in a gating workflow with the introduction of new content &mdash; that is, before content on the page is published or updated, the owner is consulted and signs off.
+The owner is easy enough to identify. For each topic, we merely identify a primary person who owns the feature, service, or approach. This owner can help be identified in a gating workflow with the introduction of new content &mdash; that is, before content on the page is published or updated, the owner is consulted and signs off.
 
 However, the larger task is to see how this information fits into the broader information landscape. This task is what separates the contributing specialist from the higher-level analysist and thinker. One must survey what else has been written on the topic and evaluate whether the new information harmonizes with it.
 
-One approach for this might be to develop a taxonomy for the products and terms in your company, and then meticulously tag each piece of content with the terms from this taxonomy. Tags need to align with a controlled vocabulary to prevent them from going in 10 different directions. For example, without a controlled vocabulary specified in a taxonomy, content related to "media session" could be tagged as "media-session," "MediaSession,", "Media Session," "mediasession", "mediaSession," and more.
+One approach for this might be to develop a taxonomy for the products and terms in your company, and then meticulously tag each piece of content with the terms from this taxonomy. Tags would need to align with a controlled vocabulary to prevent them from going in 10 different directions. For example, without a controlled vocabulary specified in a taxonomy, content related to "media session" could be tagged as "media-session," "MediaSession," "Media Session," "mediasession," "mediaSession," and more.
 
 However, this approach is fraught with error for a number of reasons:
 
@@ -78,13 +78,13 @@ However, this approach is fraught with error for a number of reasons:
 
 I consulted the WTD community for any experiences with tagging. One WTD member said her experience with tagging required a tremendous amount of work for a relatively small doc set (100 pages) and didn't seem worth the effort.
 
-Further, users will probably default to searches based on keywords and phrases from their own heads anyway. They likely will not consult a terminology glossary or index before searching for content. Even if a user were to locate a term, such as "mediasession," and click it to see all topics tagged with that term, the user would probably distrust the comprehensiveness of the topic list and simply perform a search for the information anyway. (At least I know *I* would)
+Further, rather than consulting a terminology glossary or index to look for content, users will probably default to searches based on keywords and phrases from their own heads. Even if a user were to locate a term, such as "mediasession," and click it to see all topics tagged with that term, the user would probably distrust the comprehensiveness of the topic list and simply perform a search for the information anyway. (At least I know *I* would.)
 
 As a result, even though this topic-tagging effort might be noble and well-intentioned, tagging all content with an agreed-upon taxonomy of terms probably won't work in a practical scenario.
 
 It is important to tag content, though. But the "tagging" that needs to be done is to infuse the content (the title, headings, opening paragraphs, etc.) with the right keywords and language that users will search for. This search engine optimization of the content will ensure the content surfaces correctly in search engines when users search for it.
 
-The reality is that indexing is largely an abandoned activity, replaced with searches. Why bother to consult an index when you can just search for the same keyword? If that's the behavior, why fight it? Instead, let's align with this searching behavior, combined with analytics that tell us 80% of traffic comes through Google, and provide strategies around it.
+The reality is that, in this digital age, indexing is largely an abandoned activity, replaced with searches. In fact, analytics usually indicate that 75% or more of traffic comes from Google. Why bother to consult an index when you can just search for the same keyword? If that's the behavior, why fight it? Instead, let's align with this searching behavior and provide strategies around it.
 
 ## An approach for seeing what users see
 
@@ -94,29 +94,29 @@ In my documentation topics, I added a field called `queries` in the frontmatter.
 queries: mediasession, enable voice playback, integrate alexa into app, alexa-enable app
 ```
 
-The specific topic here is [Alexa Integration | Fire App Builder](https://developer.amazon.com/docs/fire-app-builder/alexa-integration.html).
+The specific topic here is [Alexa Integration (Fire App Builder)](https://developer.amazon.com/docs/fire-app-builder/alexa-integration.html).
 
-In my reports scripts (used internally only), here's how I would insert these values into query strings:
+In my reports scripts (used for the writer only, not the reader), here's how these query strings get inserted into searches:
 
-```
-{% for doc in site.docs %}
-{% raw %}<b>queries:</b> {% if doc.queries == "none" or doc.queries == null %} Missing {% else %}
+```liquid
+{% raw %}{% for doc in site.docs %}
+<b>queries:</b> {% if doc.queries == "none" or doc.queries == null %} Missing {% else %}
 {% assign queries = doc.queries | split: ", " %}
 <ul>{% for query in queries %} {% assign queryEncoded = query | url_encode %}
-      <li>
-          "{{query}}" → <a target="\_blank" href="http://www.google.com/search?q=site%3Adeveloper.amazon.com+{{queryEncoded}}">Google</a>,
-          <a target="\_blank" href="https://developer.amazon.com/public/search?query={{queryEncoded}}">Dev Portal</a>,
-          <a target="\_blank" href="https://forums.developer.amazon.com/search.html?f=&type=question+OR+kbentry+OR+idea&redirect=search%2Fsearch&sort=relevance&q={{queryEncoded}}">Forums</a>
-    </li>
-    {% endfor %}</ul>{% endif %} </div>{% endraw %}
-{% endfor %}
+  <li>
+      "{{query}}" → <a target="\_blank" href="http://www.google.com/search?q=site%3Adeveloper.amazon.com+{{queryEncoded}}">Google</a>,
+      <a target="\_blank" href="https://developer.amazon.com/public/search?query={{queryEncoded}}">Dev Portal</a>,
+      <a target="\_blank" href="https://forums.developer.amazon.com/search.html?f=&type=question+OR+kbentry+OR+idea&redirect=search%2Fsearch&sort=relevance&q={{queryEncoded}}">Forums</a>
+</li>
+    {% endfor %}</ul>{% endif %} </div>
+{% endfor %}{% endraw %}
 ```
 
 This script looks for the `queries` tag in the frontmatter of a page. It converts the comma-separated values into an array, and then uses a `for` loop to iterate through each item in the array. For each item, it [url-encodes](https://shopify.github.io/liquid/filters/url_encode/) the query term (making it safe to populate in the address bar as a URL), and executes searches in three search forms: [Google](https://google.com), the [Developer Portal](https://developer.amazon.com/), and the [Knowledge Base](https://forums.developer.amazon.com/index.html).
 
 The report's output looks like this:
 
-<div class="metadataProperty"><b>queries:</b> <ul>
+<div class="metadataProperty" style="padding: 20px; background-color: #f0f0f0;"><b>queries:</b> <ul>
 <li>
 "mediasession" → <a target="\_blank" href="http://www.google.com/search?q=site%3Adeveloper.amazon.com+mediasession">Google</a>,
 <a target="\_blank" href="https://developer.amazon.com/public/search?query=mediasession">Dev Portal</a>,
@@ -138,6 +138,6 @@ The report's output looks like this:
 <a target="\_blank" href="https://forums.developer.amazon.com/search.html?f=&amp;type=question+OR+kbentry+OR+idea&amp;redirect=search%2Fsearch&amp;sort=relevance&amp;q=alexa-enable+app">Forums</a></li>
 </ul> </div>
 
-I can now click each search URL and see if the search actually returns my page. If not, then the content is not appropriately surfacing based on the keywords and phrases I think users would use to search for it.
+I can now click each search URL and see if the search actually returns my page. If not, then the content is not appropriately surfacing based on the keywords and phrases I think users would use to search for it. (In other words, I haven't "tagged" the content appropriately.)
 
-I can also see what else is returned with this search. I can browse what is returned (from the blog, from forum articles, and other sources) and see if the information harmonizes well. Granted, one still has to read through this other information and determine the information's integration into this larger whole. But that is the task required for good documentation. A poor technical writer creates one-off articles and sends them over the documentation wall, hoping they are instructive. A good technical writer reads all the information on the site and evaluates the information harmony of each piece of content. It's a higher-level activity that you gain often through advanced college degrees where you learn to crunch through large amounts of information, read extensively and widely, and synthesize information into larger, coherent narratives.
+I can also see what else is returned with this search. I can browse what is returned (from the blog, from forum articles, and other sources) and see if the information harmonizes well. Granted, one still has to read through this other information and determine the information's integration into this larger whole. But that is the task required for good documentation. A poor technical writer creates one-off articles and sends them over the documentation wall, hoping they are instructive. A good technical writer reads all the information on the site (narrowed by the search queries) and evaluates the information harmony of each piece of content. It's a higher-level activity that you gain often through advanced college degrees where you learn to crunch through large amounts of information, read extensively and widely, and synthesize information into larger, coherent narratives.
