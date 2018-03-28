@@ -79,6 +79,6 @@ uistring:
 
 ####### Algolia configuration ###########
 algolia:
-  application_id: MXM0JWJNIW
+  application_id: LMJQBBQDB0
   index_name: simplifyingcomplexity
-  search_only_api_key: ff7b0847d8705c279222272303e68527
+  search_only_api_key: ca3b98ae29199f686ac4000416ea2dfa
