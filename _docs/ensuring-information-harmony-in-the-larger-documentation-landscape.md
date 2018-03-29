@@ -3,6 +3,9 @@ title: Ensuring information harmony in the larger documentation landscape
 permalink: ensuring-information-harmony-in-the-larger-documentation-landscape.html
 ---
 
+{: .principle}
+Before adding new topics to an information landscape, look to see how the new information will fit in with the existing information -- across all information forms, from docs to blogs, forums, white papers, and more. Synthesizing information to harmonize with the larger information landscape requires wide reading and analysis but is essential for the user experience, since users often bounce from one information source to another as they consume information.
+
 In [Overcomplicated: Technology at the Limits of Comprehension](https://www.amazon.com/Overcomplicated-Technology-at-Limits-Comprehension/dp/0143131303), Samuel Arbesman explores why technology has become increasingly complex. He covers a variety of factors throughout the book, but two factors I want to call attention are **specialization** and **interconnectedness**, as these two factors have a direct relevance to documentation.
 
 Both specialization and interconnectedness contribute to a high degree of complexity in a system. When these two elements are pushed to extremes, the result can be a scenario where few understand the full scale of how something works, and almost no one understands what happens when the various elements interact. Disaster scenarios can develop swiftly and catastrophically.
