@@ -67,7 +67,7 @@ What exactly is the purpose of the sidebar navigation? Surprisingly, its job isn
 
 When the sidebar is consumable at a glance, it helps users understand all the parts that make up a complex system. I typically give each product its own sidebar (usually one product has between 25-75 topics). Below the sidebar, links for related doc sets allows users to select another product and its sidebar. Again, by providing users with information consumable at a glance, they can see the big picture of the system and better understand how each part fits together. Additionally, because the sidebar shows a hierarchical grouping of the parts, the sidebar can help users understand the system as a whole.
 
-## Distillation
+## Distillation of information
 
 Now let's move on from progressive information / layering strategies to **information distillation**, which is actually more useful. Distillation is not necessarily information elimination or re-organization. Distillation involves compressing meaning into a shorter space. When you distill the meaning of a section into a descriptive section heading, you aren't eliminating information but rather distilling the main point into a short phrase and allowing readers to consume the information at a glance.
 
@@ -117,7 +117,7 @@ Finally, topic sentences are also an important information usability technique. 
 
 {{site.data.alerts.note}}The whole process of distilling information into a title, summary, headings, and topic sentences is a form of layering or progressive information. The user starts with the title, and if interested in more information, reads the summary. If the user wants more detail, the user reads the headings in the mini-TOC. If the user wants more detail, the user usually jumps into that section and reads the topic sentence. I realize these mechanics are the basics of good technical documentation, but they are overlooked and often done poorly. They are also not always described as a method for progressive information disclosure.{{site.data.alerts.end}}
 
-## The Quick reference guides
+## Quick reference guides
 
 One final, key deliverable for compressing information is the quick reference guide. A quick reference guide provides a 1-2-page guide (in an attractive magazine-style layout) that provides a brief summary of the core tasks and features in the system. Here's an example:
 
@@ -129,7 +129,7 @@ The information in the quick reference usually can't be single sourced, since it
 
 I've written quite a bit about quick reference guides before. See [Quick Reference Guides](http://idratherbewriting.com/quickreferenceguides/) for a list of articles. Probably the best article is [Quick Reference Guides: Short and Sweet Documentation](http://idratherbewriting.com/2009/04/10/quick-reference-guides-short-and-sweet-documentation/).
 
-## Minimal Viable Documentation
+## Minimal viable documentation
 
 I'd like to mention one more strategy related to information reduction, layering, and distillation: minimum viable documentation. Technical writers usually care deeply about documentation and prefer it to be thorough and complete, answering all users' questions. As a result, it's hard to even contemplate a strategy of minimum viable documentation. But let's start with the idea of a "minimum viable product."
 
