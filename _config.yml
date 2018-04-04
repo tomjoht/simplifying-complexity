@@ -82,3 +82,6 @@ algolia:
   application_id: LMJQBBQDB0
   index_name: simplifyingcomplexity
   search_only_api_key: ca3b98ae29199f686ac4000416ea2dfa
+  files_to_exclude:
+    - ./toc.html
+    - _docs/pdf_frontmatter/*
