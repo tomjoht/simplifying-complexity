@@ -1,11 +1,10 @@
 ---
-title: An argument for usable/complex information rather than simple/missing information
-permalink: argument-for-complexity-rather-than-simplicity.md
+title: An argument for complexity rather than simplicity
+permalink: argument-for-complexity-rather-than-simplicity.html
 ---
 
 {: .principle}
-
-In the name of simplicity, many teams will remove key information that people actually need to successfully use and troubleshoot products. It may be more helpful to see the tech writer's task as making complex information usable rather than just simple. Removing documentation doesn't make products easier to use.
+In the name of simplicity, many teams will remove key information that users actually need to successfully use and troubleshoot products. It may be more helpful to envision the tech writer's task as making complex information *usable* rather than just simple. In the minds of many product teams, simple means brief. Removing documentation doesn't make products easier to use. Many times, missing information complicates the user experience.
 
 * TOC
 {:toc}
