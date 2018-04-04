@@ -1,6 +1,6 @@
 ---
 title: An argument for usable/complex information rather than simple/missing information
-permalink: argument-for-complexity.md
+permalink: argument-for-complexity-rather-than-simplicity.md
 ---
 
 {: .principle}
