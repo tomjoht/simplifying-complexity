@@ -24,6 +24,7 @@
                 </div>
 
                 {{content}}
+                {% unless page.type == 404 %}
                 {% comment %}
                 {% include progress.html %}
                 {% endcomment %}
@@ -42,6 +43,7 @@
 
                 <div style="max-width: 375px">{% include tinyletter.html %}</div>
                 {% include disqus.html %}
+                {% endunless %}
               </div>
             </div>
         </div><!--/.container-->
