@@ -6,3 +6,4 @@ pdf/docnav.pdf
 /mobi/
 *.mobi
 mobi/docnav.mobi
+reindex.sh
