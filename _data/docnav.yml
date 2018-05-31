@@ -28,8 +28,8 @@ folders:
   - title: Reducing complexity by shaping information into familiar schemas, especially story
     jurl: /reducing-complexity-by-shaping-into-schemas-esp-story.html
 
-  # - title: Reconstructing the absent user -- the essential requirement for writing good documentation
-  #   jurl: /reconstructing-the-absent-user.html
+  - title: "Reconstructing the absent user -- the essential requirement for writing good documentation"
+    jurl: /reconstructing-the-absent-user.html
 
   # - title: Guiding users through non-linear systems
   #   jurl: /guidance-through-non-linear-systems.html
