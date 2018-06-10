@@ -9,6 +9,11 @@ In the name of simplicity, many teams will remove key information that users act
 * TOC
 {:toc}
 
+{% comment %} integrate some quotes/research from this article: https://uxmag.com/articles/the-dirtiest-word-in-ux-complexity
+https://www.jnd.org/dn.mss/simplicity_is_highly.html
+https://www.lukew.com/ff/entry.asp?265
+ {% endcomment %}
+
 ## From simplicity to usability
 
 I am rarely impressed by mission statements, but I find the first paragraph of the recent reformulation of STC's mission statement refreshing. It defines the practice of technical communication as "the discipline of transforming complex information into usable content for products, processes, and services" ([President's Midterm Report)](http://notebook.stc.org/presidents-midterm-report/).
