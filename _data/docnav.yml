@@ -31,7 +31,7 @@ folders:
   - title: "Reconstructing the absent user -- the essential requirement for writing good documentation"
     jurl: /reconstructing-the-absent-user.html
 
-  - title: "Hiding complexity on the screen"
+  - title: "Hiding complexity through JavaScript show/hide elements"
     jurl: /hiding-complexity.html
 
   # - title: Guiding users through non-linear systems
