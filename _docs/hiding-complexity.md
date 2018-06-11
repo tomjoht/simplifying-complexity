@@ -1,5 +1,5 @@
 ---
-title: Hiding complexity in documentation
+title: Hiding complexity on the screen
 permalink: hiding-complexity.html
 ---
 
