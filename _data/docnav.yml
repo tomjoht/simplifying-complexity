@@ -10,22 +10,22 @@ folders:
   - title: Introduction
     jurl: /index.html
 
-  - title: Switching between macro and micro
+  - title: "Switching between macro and micro views through embedded maps"
     jurl: /macro-micro.html
 
-  - title: Discoverability through metadata
+  - title: "Discoverability through metadata &mdash; strategies to guide users through complex, non-linear systems"
     jurl: /discoverability-through-metadata.html
 
-  - title: Ensuring information harmony in the larger documentation landscape
+  - title: "Ensuring information harmony in the larger documentation landscape"
     jurl: /ensuring-information-harmony-in-the-larger-documentation-landscape.html
 
-  - title: Reduction, layering, and distillation as a strategy for simplicity
+  - title: "Reduction, layering, and distillation as a strategy for simplicity"
     jurl: /reduction-layering-distillation.html
 
-  - title: An argument for complexity rather than simplicity
+  - title: "An argument for complexity rather than simplicity"
     jurl: /argument-for-complexity-rather-than-simplicity.html
 
-  - title: Reducing complexity by shaping information into familiar schemas, especially story
+  - title: "Reducing complexity by shaping information into familiar schemas, especially story"
     jurl: /reducing-complexity-by-shaping-into-schemas-esp-story.html
 
   - title: "Reconstructing the absent user -- the essential requirement for writing good documentation"
