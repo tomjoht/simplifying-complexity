@@ -4,7 +4,7 @@ permalink: hiding-complexity.html
 ---
 
 {: principle}
-Look for ways to reduce complexity by hiding the lesser-used information on the screen through JavaScript techniques.
+Look for ways to reduce complexity by hiding less-used information on the screen through JavaScript techniques.
 
 * TOC
 {:toc}
@@ -19,7 +19,7 @@ In these scenarios, a common approach in documentation is to hide the languages 
 
 <a class="noCrossRef" href="https://developer.amazon.com/docs/fire-app-builder/set-up-recipes-categories.html"><img src="images/navtabsseparatinglangs.png"/></a>
 
-Previously, I had these sections stacked on top of each other, which lengthened the page and increased the visual clutter. By incorporating navtabs like this, users who care only about JSON or XML can click the corresponding tab and avoid seeing the irrelevant material.
+Previously, I had these sections stacked on top of each other, which lengthened the page and increased the visual clutter. By incorporating navtabs like this, users who care only about JSON or XML can select the corresponding tab and avoid seeing the irrelevant material.
 
 As technical writers, when we try to simplify information, our first assessment should be to consider whether we can delete the information. But in many cases, product teams want the information included, even if it applies to just a minority of users. In these cases, we can rely on interactive JavaScript techniques for hiding this less-used information. Hiding these details can help simplify our docs because users won't have to sort through potentially irrelevant information in order to read the instructions.
 
@@ -61,8 +61,6 @@ In cases where you're showing code for different programming languages, stacking
 
 One consequence of implementing JS techniques to hide complexity is that the information becomes harder to generate to PDF. You pretty much end up with a web-only output. If you have requirements to deliver PDF, you might be limited in the number of JS techniques you can implement, or you'll have to code the content more carefully.
 
-Implementing JS techniques also poses challenges for authors following structured authoring schemas like DITA or Docbook. If you want to implement some show/hide elements with JS, you probably can't, as that code won't validate with the schema. Given that the number of authors who must conform to a given XML schema constitute a large number of tech writers, it's no surprise that JS isn't more commonly used in docs. This is part of the reason tech doc interfaces tend to feel outdated in comparison to modern website UIs.
+Implementing JS techniques also poses challenges for authors following structured authoring schemas like DITA or Docbook. If you want to implement some show/hide elements with JS, you probably can't, as that code won't validate with the schema. Given that the number of authors who must conform to a given XML schema constitute a large number of tech writers, it's no surprise that JS isn't more commonly used in docs. This is part of the reason tech doc interfaces tend to feel outdated in comparison to modern website UIs. If we want to embrace modern web interfaces that give us greater control to simplify the information shown to users, we will probably start ditching PDF and XML.
 
-If we want to embrace modern web interfaces that give us greater control to simplify the information shown to users, we will probably start ditching PDF and XML.
-
-Finally, many tech writers feel that hiding elements on the page reduces the user's ability to quickly find information, such as after landing on a search results page or when pressing Ctrl+F. If users can't quickly locate information because the content is hidden by default, they might quickly lose patience and leave the page. Because of this, you probably want to limit the number of hidden elements on the page so that users don't play guessing games in opening various doors to see where the information might be hidden. Then again, with clearly labeled section headings, locating the information should be fairly intuitive.
+Finally, many tech writers feel that hiding elements on the page reduces the user's ability to quickly find information, such as after landing on a search results page or when pressing Ctrl+F. If users can't quickly locate information because the content is hidden by default, they might quickly lose patience and leave the page. Because of this, you probably want to limit the number of hidden elements on the page so that users don't play guessing games in opening various doors to see where the information might be hidden. On the other hand, with clearly labeled section headings, locating the information should be fairly intuitive. And because of the reduced visual clutter, users might be able to see the section more quickly.
