@@ -4,7 +4,7 @@ permalink: hiding-complexity.html
 ---
 
 {: .principle}
-Look for ways to reduce complexity by hiding less-used information on the screen through JavaScript techniques, such as show/hide elements, expand/collapse toggles, navtabs, tooltips, and more.
+If you can't delete information to reduce complexity, look for ways to hide less-used information on the screen through JavaScript techniques, such as show/hide elements, expand/collapse toggles, navtabs, tooltips, and more.
 
 * TOC
 {:toc}
