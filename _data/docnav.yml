@@ -34,6 +34,9 @@ folders:
   - title: "Hiding complexity through JavaScript show/hide elements"
     jurl: /hiding-complexity.html
 
+  - title: Reducing the complexity of technical language
+    jurl: /reducing-the-complexity-of-technical-language.html
+
   # - title: Guiding users through non-linear systems
   #   jurl: /guidance-through-non-linear-systems.html
 
