@@ -12,11 +12,19 @@ One reason technical documentation is so difficult to follow is because of the u
 
 Unlike most other professional writing disciplines, tech docs are notorious for the amount of specialized terms in their content. Not only do we have unique terms related to our products, industry jargon and company-specific terms make their way into docs, driving up their complexity.
 
-As a technical writer, using the correct terms for your knowledge domain and your product is necessary, and those terms are often appropriate for that particular knowledge domain. To simplify the language, you can't just omit the necessary terminology for the domain or substitute in more friendly names. You have to teach the user the right language so they can participate in the conversation.
+API evangelist Kim Lane recently noted his frustration with an API's language when he encountered an undefined acronym &mdash; "DEG". Lane explains,
+
+> I came across a set of API resources for managing a DEG the other day. You could add, updated, delete and get DEGs. You can also pull analytics, history, and other elements of a DEG. I spent about 10-15 minutes looking around their developer portal, documentation, and even Googling, but never could figure out what a DEG was. Nowhere in their documentation did they ever tell consumers what a DEG was, you just had to be in the know I guess. The API designer (if that occurred) and developer had never stopped to consider that maybe someone would stumble across their very public API and not know what a DEG was. ([Using Plain Language In Your API Paths](https://apievangelist.com/2018/07/09/use-plain-language-in-api-paths/))
+
+In this case, DEG must have been an acronym specific to the developer's API. In these cases, there's really no excuse for not defining your own pet acronyms and unique vocabulary. You can't simply make up an acronym and not define it for users (without frustrating them).
+
+But many times, acronyms and unfamiliar terms are part of a specialized domain. As a technical writer, using the correct terms for your knowledge domain and your product is necessary, and those terms are often appropriate for that particular knowledge domain.
+
+To simplify the language, you can't just omit the necessary terminology for the domain or substitute in more friendly names. You have to teach the user the right language so they can participate in the conversation.
 
 One commonsense approach for teaching users how to speak this language involves defining unfamiliar words for the user. You can define unfamiliar words in at least three ways: (1) include a glossary, (2) include inline tooltips with definitions, and (3) include "Background Knowledge" sections to help new users ramp up on the knowledge domain.
 
-Since technical writers tend to be language connoisseurs, priding themselves on the ability to squeeze clarity out of engineering babble, focusing on language as a means to simplify complexity constitutes a major advantage tech writers can leverage for sipmlifying complexity.
+Since technical writers tend to be language connoisseurs, priding themselves on the ability to squeeze clarity out of engineering babble, focusing on language as a means to simplify complexity constitutes a major advantage tech writers can leverage for simplifying complexity.
 
 ## Previous writing about glossaries
 
@@ -171,7 +179,6 @@ More than anything else, creating a glossary makes you aware of all unique terms
 The next time you're working on docs, stop and take a look at your content. List out all the terms that are either jargon or which might be unfamiliar to users. It can be somewhat surprising at first. Collect these terms into a glossary for the user. It's that simple. More importantly, when we define these terms, and then realize that the definitions are much more fuzzy than we originally thought, it helps expose why our docs get to be so complex in the first place.
 
 ## References
-
 
 ["Defining Glossaries."](http://www.ingentaconnect.com/search/article?option1=tka&value1=defining+glossaries&pageSize=10&index=1) Michelle Kidd Tackebary. *Technical Communication*. Volume 52, Number 4, November 2005.
 
