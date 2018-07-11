@@ -4,21 +4,23 @@ permalink: reducing-the-complexity-of-technical-language.html
 ---
 
 {: .principle}
-Highly technical material often becomes incomprehensible due to the unfamiliar terminology that's simply part of the technical domain. Readers who don't already speak the technical language in fluent ways will struggle to make sense of the material. To make these highly technical texts more accessible to users of all levels, you can create glossaries, embed definitions in tooltips, provide links for background knowledge, and more. As you define your terms, it's helpful to read beyond your company's content and check out how the same terms are used in your competitor's documentation and industry articles. The focus on precision with terminology helps keep you aware of usage discrepancies in your docs.
+Highly technical material often becomes incomprehensible due to the unfamiliar terminology that's simply part of the technical domain. Readers who don't already speak the technical language in fluent ways will struggle to make sense of the material. To make these highly technical texts more accessible to users of all levels, you can create glossaries, embed definitions in tooltips, provide links for background knowledge, and more. As you define your terms, it's helpful to read beyond your company's content and check out how the same terms are used in your competitor's documentation and industry articles. As you become more aware of terms and their definitions, you will be more precise and careful with language in your documentation.
 
 ## Unfamiliar terms &mdash; one reason for incomprehensibility
 
 One reason technical documentation is so difficult to follow is because of the unfamiliar terms and jargon in the content. A while ago I was evaluating whether to use Acrolinx, a language linter for tech docs, and I learned that the bulk of configuration for Acrolinx is in building out your own custom dictionary. Apparently, identifying your custom terms and incorporating them into Acrolinx's checking logic can take a number of weeks or months. The custom terms can account for around half of the terms in your dictionary.
 
-Unlike most other professional writing disciplines, tech docs are notorious for the amount of specialized terms in their content. Not only do we have unique terms related to our products, industry jargon and company-specific terms make their way into docs, driving up their complexity.
+Unlike most other professional writing disciplines, tech docs are notorious for the amount of specialized terms in their content. Specialized product terms, industry jargon, and company lingo all make their way into documentation.
 
-API evangelist Kim Lane recently noted his frustration with an API's language when he encountered an undefined acronym &mdash; "DEG". Lane explains,
+API evangelist Kin Lane recently noted his frustration with an API's language when he encountered the undefined acronym &mdash; "DEG". Lane explains,
 
-> I came across a set of API resources for managing a DEG the other day. You could add, updated, delete and get DEGs. You can also pull analytics, history, and other elements of a DEG. I spent about 10-15 minutes looking around their developer portal, documentation, and even Googling, but never could figure out what a DEG was. Nowhere in their documentation did they ever tell consumers what a DEG was, you just had to be in the know I guess. The API designer (if that occurred) and developer had never stopped to consider that maybe someone would stumble across their very public API and not know what a DEG was. ([Using Plain Language In Your API Paths](https://apievangelist.com/2018/07/09/use-plain-language-in-api-paths/))
+> I came across a set of API resources for managing a DEG the other day. You could add, updated, delete and get DEGs. You can also pull analytics, history, and other elements of a DEG. I spent about 10-15 minutes looking around their developer portal, documentation, and even Googling, but never could figure out what a DEG was. Nowhere in their documentation did they ever tell consumers what a DEG was, you just had to be in the know I guess. The API designer (if that occurred) and developer had never stopped to consider that maybe someone would stumble across their very public API and not know what a DEG was. ([Using Plain Language In Your API Paths](https://apievangelist.com/2018/07/09/use-plain-language-in-api-paths/)
 
-In this case, DEG must have been an acronym specific to the developer's API. In these cases, there's really no excuse for not defining your own pet acronyms and unique vocabulary. You can't simply make up an acronym and not define it for users (without frustrating them).
+DEG must have been an acronym specific to the developer's API. In these cases, there's really no excuse for not defining your own pet acronyms and unique vocabulary. You can't simply make up an acronym and not define it for users (without frustrating them).
 
-But many times, acronyms and unfamiliar terms are part of a specialized domain. As a technical writer, using the correct terms for your knowledge domain and your product is necessary, and those terms are often appropriate for that particular knowledge domain.
+But many times, acronyms and unfamiliar terms are part of a specialized domain. For example, Lane wouldn't even pause if he ran across the terms "OpenAPI," "Swagger Codegen," "REST client," or even "three-legged OAuth" &mdash; these terms, probably unfamiliar to those outside of the REST API world, are part of the discourse of his technology landscape.
+
+As a technical writer, using the correct terms for your knowledge and product domain is necessary, and those terms (however specialized and exclusive) are often appropriate for that particular knowledge domain.
 
 To simplify the language, you can't just omit the necessary terminology for the domain or substitute in more friendly names. You have to teach the user the right language so they can participate in the conversation.
 
@@ -28,9 +30,11 @@ Since technical writers tend to be language connoisseurs, priding themselves on 
 
 ## Previous writing about glossaries
 
-Entire books have been written on plain language principles and writing for clarity. For example, the principles of plain language are explained well in the [Federal Plain Language Guidelines](https://www.plainlanguage.gov/guidelines/). Ginny Redish's [Letting Go of the Words](http://idratherbewriting.com/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/) also provides excellent guidance for clear language.
+Entire books have been written on plain language principles and writing for clarity. My intent isn't to duplicate this research but to briefly note it before going deep with the topic.
 
-In ["Defining Glossaries"](http://www.ingentaconnect.com/search/article?option1=tka&value1=defining+glossaries&pageSize=10&index=1), Michelle Tackebary describes the history of glossaries and approaches for defining terms, such as distinguishing between *contextual definitions* and *stipulative* definitions. Tackebary provides a history and set of best practices rather than a methodological study.
+The principles of plain language are explained well in the [Federal Plain Language Guidelines](https://www.plainlanguage.gov/guidelines/). Ginny Redish's [Letting Go of the Words](http://idratherbewriting.com/2011/04/08/book-review-letting-go-of-the-words-by-ginny-redish/) also provides excellent guidance for clear language.
+
+In ["Defining Glossaries"](http://www.ingentaconnect.com/search/article?option1=tka&value1=defining+glossaries&pageSize=10&index=1), Michelle Tackebary describes the history of glossaries and approaches for defining terms, such as distinguishing between *contextual definitions* and *stipulative definitions*. Tackebary provides a history of glossaries, even going back hundreds of years, with clergyman writing *glosses* in the margins of texts they were studying) and a set of best practices rather than a methodological study.
 
 In ["The ABCs of Writing a Technical Glossary"](http://www.ingentaconnect.com/contentone/stc/tc/1998/00000045/00000001/art00003), Evie Gray and her co-authors outline a number of principles and best practices for creating glossaries. For example, they cover commonsense principles such as to avoid defining terms with the term you're defining, but they also expand on the right tense, format, and scope to be used in glossaries.
 
@@ -89,7 +93,15 @@ The embedded terms I include in "Background Knowledge" are a subset of the total
 
 Providing these mini-dictionaries at the start of a topic makes readers more apt to actually read the glossary definitions, since glancing at 10 definitions is more feasible than reading through hundreds of definitions, many of which would be irrelevant to the reader's current purpose.
 
-Also note that I've added the terms near the beginning of the topic rather than at the end. Engineers (and philosophers and other disciplines) tend to define terms up front that they're using in arguments and other logic to follow. It makes logical sense to arrange glossary terms like this, but we might be hesitant to do so if listing the glossary terms creates a long list that pushes the more important content down. My compromise is to stuff the glossary terms inside an expandable button.
+## Defining your terms at the beginning
+
+Providing definitions of terms is an important foundation for communication, but where do you present these definitions? The most appropriate place is near the beginning of the topic rather than at the end. Engineers (and philosophers and other disciplines) tend to define terms up front that they're using in arguments and other logic to follow. For example, in *The Story of Philosophy*, Will Durant explains:
+
+> "If you wish to converse with me," said Voltaire, "define your terms." How many a debate would have been deflated into a paragraph if the disputants had dared to define their terms! This is the alpha and omega of logic, the heart and soul of it, that every important term in serious discourse shall be subjected to strictest scrutiny and definition. it is difficult and ruthlessly tests the mind, but once done, it is half of any task. (75)
+
+
+
+It makes logical sense to arrange glossary terms like this, but we might be hesitant to do so if listing the glossary terms creates a long list that pushes the more important content down. My compromise is to stuff the glossary terms inside an expandable button.
 
 ## Does your documentation use industry standard terms correctly?
 
@@ -158,7 +170,7 @@ $(function () {
 })
 </script>
 
-I've explored which terms to define, but there are other considerations with glossaries, including technical ones.  First, the glossary definition should be stored in a re-usable source so that the definition can be provided in different parts of your documentation.
+I've explored which terms to define, but there are other considerations with glossaries, including technical ones. First, the glossary definition should be stored in a re-usable source so that the definition can be provided in different parts of your documentation.
 
 For example, you'll probably want the definition to appear on a dedicated glossary page as well as embedded on the page, and maybe embedded in <a style="cursor: pointer !important; color: green; text-decoration: underline; text-decoration-style: double;" data-toggle="popover" title="tooltip" data-placement="top" data-html="true" data-content="A tooltip shows a definition or hint for some UI text or other element. Tooltips hide explanations from users who don't need them while providing a way for others to get more detail.">inline tooltips</a>. (By the way, [Jekyll](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_adding_tooltips.html) is excellent at re-using definitions stored in YAML files.)
 
@@ -178,8 +190,58 @@ More than anything else, creating a glossary makes you aware of all unique terms
 
 The next time you're working on docs, stop and take a look at your content. List out all the terms that are either jargon or which might be unfamiliar to users. It can be somewhat surprising at first. Collect these terms into a glossary for the user. It's that simple. More importantly, when we define these terms, and then realize that the definitions are much more fuzzy than we originally thought, it helps expose why our docs get to be so complex in the first place.
 
+## Why language gets in a bad state in the first place
+
+Before leaving the topic of language, I can't help but explore a deeper idea that I've been wondering about. Why does the language in technical documentation get in such a bad state in the first place?
+
+If you've ever received highly technical documentation written by engineers (or worse, written by super technical engineers for whom English is their second or third language), you've probably had to fight through engineering babble on a level of incomprehensibility you didn't think was possible.
+
+Why can't engineers (whom we champion for their intellect and critical thinking abilities) write more clearly? Why is it that so few engineers seem capable of writing at all? Why is their code so precise and efficient but their grammar so sloppy and incoherent?
+
+Even for those engineers who *can* write, why do they often hate to do it? For example, commenting on the 2018 GitHub Developer Survey, Matt Asay explains,
+
+> 93% of [developer] respondents gnashed their teeth over shoddy documentation but also admitted to doing virtually nothing to improve the situation. … If you think this deeply felt need for documentation would motivate more developers to pitch in and help, you’d be wrong: 60% of developers can’t be bothered to contribute documentation. ([Open source documentation is bad, but proprietary software is worse](https://www.techrepublic.com/article/open-source-documentation-is-bad-but-proprietary-software-is-worse/))
+
+With GitHub projects, most of which are open source, it seems most developers won't bother to write documentation. Why not?
+
+I have a theory: Immersion in computer code messes with their natural language faculties. If you've ever been to another country (where they speak another language) for an extended period of time, and then returned to your home country, you might have observed a similar phenomenon. For example, Mormon missionaries often spend two years abroad, leaving their English-speaking environments to spend each day, from dawn to dusk, speaking Spanish in Guatemala or speaking Russian in St. Petersburg or wherever.
+
+When they return to the United States, they often can't speak. They're at a loss for words and will hesitate or give you blank looks as they search for the right word (it's on the tip of their tongue but locked away in an old rusty cabinet they can't open). It's kind of hilarious to be around recently returned missionaries. They're very quiet for the first few weeks upon returning.
+
+Programming code is just like that immersion in a foreign language. Developers immersed in classes and parameters, fields, objects, constructors, packages, interfaces, inheritance, superclasses, methods, and more start thinking in code. Just as developers define their variables before a list of functions, so too do they often define a list of terms at the top of a technical document. Just like they might define a variable before a function, they abbreviate lengthy statements into acronyms and then string the acronyms together to compress their writing.
+
+Immersion in another language (including programming languages) habituates the mind to the rhythm, structure, and syntax of that language. When it comes time to switch back to natural spoken language, engineers become inhibited and inarticulate. Sure, some programmers are seemingly as fluent in language as they are brilliant with code, just as some people are seamlessly bilingual &mdash; but the majority aren't. The majority of programmers are socially withdrawn; think of the awkward nerd in the basement.
+
+The idea that language shapes thought isn't new. The Sapir-Wharf hypothesis argues that language, to some extent shapes and influences the way we think. A classic example is with the color blue and the Russian language. Apparently, in Russian, the color "blue" doesn't exist &mdash; just "light blue" or "dark blue." So how does that influence Russians when it comes to color discernment? Apparently, Russians tend to discern shades of blue slightly more quickly than other cultures.
+
+Opponents to Whorfianism admit that language has a tiny influence on the shape of our thoughts, but not much. For example, John McWhorter says Whorfianism (aka linguistic relativism) is mostly hogwash and can lead to dangerous generalizations about cultures. For example, one might conclude that advanced philosophy &mdash; so common among European cultures &mdash; is evidence of a superior language and culture (see [No, Your Language Doesn’t Influence How You Experience the World](http://www.slate.com/articles/podcasts/lexicon_valley/2014/07/lexicon_valley_the_language_hoax_by_linguist_john_mcwhorter_takes_on_the.html)).
+
+I'm no expert on Whorfianism, but as far as I know, the topic hasn't been examined with *programming languages** in mind. Could it be that programming language impact that shape of one's thoughts in ways that make programmers less articulate? Is this how tech docs get into such a bad state to begin with?
+
+Without more evidence and research, let's explore the problem from another line of thought &mdash; the curse of knowledge. In [Made to Stick: Why Some Ideas Survive and Others Die](https://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287/sr=8-1/qid=1167495807?ie=UTF8&s=books&tag2=guykawasakico-20), sibling authors Chip and Dan Heath explain how the *curse of knowledge* can cripple communication. In an interview with Guy Kawasaki, they explain,
+
+>  Lots of research in economics and psychology shows that when we know something, it becomes hard for us to imagine not knowing it. As a result, we become lousy communicators. Think of a lawyer who can’t give you a straight, comprehensible answer to a legal question. His vast knowledge and experience renders him unable to fathom how little you know. So when he talks to you, he talks in abstractions that you can’t follow. And we’re all like the lawyer in our own domain of expertise.
+>
+> Here’s the great cruelty of the Curse of Knowledge: The better we get at generating great ideas &mdash; new insights and novel solutions &mdash; in our field of expertise, the more unnatural it becomes for us to communicate those ideas clearly. That’s why knowledge is a curse.
+
+Let's assume that the curse of knowledge is a real phenomenon. This puts engineers and other SMEs in a real bind. You need expert-level knowledge about programming code to build robust, enterprise-grade solutions. Yet that same expertise creates so many obstacles to clear speech. One can hardly imagine not knowing everything he or she already knows. The concepts, the language, the style of speech &mdash; they all blind the engineer in endeavors of natural communication. The programmer's knowledge domain has become so internalized, he or she can hardly step outside of it to speak in human terms. Consequently, the engineer can only speak in code, referring to classes and methods and data types because that is how the subject is properly described.
+
+Chip and Dan don't leave experts stuck with this curse. They instead offer principles for experts to make their ideas "sticky" (or unforgettable). I won't veer into stickiness but want to instead stop and ponder that maybe, if not due to immersion in another language, it's the curse of knowledge that gets at the heart of why language in technical documentation is so opaque.
+
+If so, the very act of developing expertise puts us at a disadvantage to communicate in natural, understandable speech. The more you know, the easier it is to become blind to that knowledge, unable to see the world with a fresh, untainted perspective. And yet, without this knowledge, the opposite happens: you have no ability to describe the complexity at all. It seems that with knowledge, one is damned if you do, damned if you don't.
+
+Good communicators can extricate themselves from these assumptions and autopilot discourse. But it takes effort. The first steps must surely start with a recognition of specialized terms. And then a careful and brief definition of those terms. In other words, a glossary, presented as a gift to the user but really benefitting the author by way an increased awareness of language.
+
 ## References
 
-["Defining Glossaries."](http://www.ingentaconnect.com/search/article?option1=tka&value1=defining+glossaries&pageSize=10&index=1) Michelle Kidd Tackebary. *Technical Communication*. Volume 52, Number 4, November 2005.
+Asay, Matt. [Open source documentation is bad, but proprietary software is worse](https://www.techrepublic.com/article/open-source-documentation-is-bad-but-proprietary-software-is-worse/). *Tech Republic.* 9 June 2017.
 
-["The ABCs of Writing a Technical Glossary."](http://www.ingentaconnect.com/contentone/stc/tc/1998/00000045/00000001/art00003), by Evie Gray, William Ingram, and Dennis Bodson. *Technical Communication*.  First Quarter 1998,
+Durant, Will. [*The Story of Philosophy: The lives and opinions of the world's greatest philosophers from Plato to John Dewey.*](https://www.amazon.com/Story-Philosophy-Opinions-Greatest-Philosophers/dp/0671739166) Simon & Schuster, New York, 1961.
+
+Heath, Chip; Heath, Dan. [*Made to Stick: Why Some Ideas Survive and Others Die*](https://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287/sr=8-1/qid=1167495807?ie=UTF8&s=books&tag2=guykawasakico-20). 2 Jan 2007. Random House, New York.
+
+Gray, Evie; Ingram, William; Bodson, Dennis. ["The ABCs of Writing a Technical Glossary."](http://www.ingentaconnect.com/contentone/stc/tc/1998/00000045/00000001/art00003), by  *Technical Communication*.  First Quarter 1998,
+
+Tackebary, Michelle Kidd. ["Defining Glossaries."](http://www.ingentaconnect.com/search/article?option1=tka&value1=defining+glossaries&pageSize=10&index=1) *Technical Communication*. Volume 52, Number 4, November 2005.
+
+Vuolo, Mike. ["No, Your Language Doesn’t Influence How You Experience the World"](http://www.slate.com/articles/podcasts/lexicon_valley/2014/07/lexicon_valley_the_language_hoax_by_linguist_john_mcwhorter_takes_on_the.html). Lexicon Valley Episode No. 38: Fisherman's Whorf. *Slate*. 15 July 2014.
