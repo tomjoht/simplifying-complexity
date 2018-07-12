@@ -6,6 +6,13 @@ permalink: reducing-the-complexity-of-technical-language.html
 {: .principle}
 Highly technical material often becomes incomprehensible due to the unfamiliar terminology that's simply part of the technical domain. Readers who don't already speak the technical language in fluent ways will struggle to make sense of the material. To make these highly technical texts more accessible to users of all levels, you can create glossaries, embed definitions in tooltips, provide links for background knowledge, and more. As you define your terms, it's helpful to read beyond your company's content and check out how the same terms are used in your competitor's documentation and industry articles. As you become more aware of terms and their definitions, you will be more precise and careful with language in your documentation.
 
+<div class="audioControls">
+<p><b>Listen to this post:</b></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/glossaryreading.mp3" type="audio/mpeg" /></audio></p>
+
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/glossaryreading.mp3" alt="Reducing the complexity of technical language (New article in Simplifying Complexity series)">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+</div>
+
 ## Unfamiliar terms &mdash; one reason for incomprehensibility
 
 One reason technical documentation is so difficult to follow is because of the unfamiliar terms and jargon in the content. A while ago I was evaluating whether to use Acrolinx, a language linter for tech docs, and I learned that the bulk of configuration for Acrolinx is in building out your own custom dictionary. Apparently, identifying your custom terms and incorporating them into Acrolinx's checking logic can take a number of weeks or months. The custom terms can account for around half of the terms in your dictionary.
