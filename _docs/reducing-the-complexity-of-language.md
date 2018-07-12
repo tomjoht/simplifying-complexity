@@ -7,7 +7,7 @@ permalink: reducing-the-complexity-of-technical-language.html
 Highly technical material often becomes incomprehensible due to the unfamiliar terminology that's simply part of the technical domain. Readers who don't already speak the technical language in fluent ways will struggle to make sense of the material. To make these highly technical texts more accessible to users of all levels, you can create glossaries, embed definitions in tooltips, provide links for background knowledge, and more. As you define your terms, it's helpful to read beyond your company's content and check out how the same terms are used in your competitor's documentation and industry articles. As you become more aware of terms and their definitions, you will be more precise and careful with language in your documentation.
 
 <div class="audioControls">
-<p><b>Listen to this post:</b></p>
+<p><b>Listen to this article:</b></p>
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/glossaryreading.mp3" type="audio/mpeg" /></audio></p>
 
 <p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/glossaryreading.mp3" alt="Reducing the complexity of technical language (New article in Simplifying Complexity series)">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
@@ -21,7 +21,7 @@ Unlike most other professional writing disciplines, tech docs are notorious for 
 
 API evangelist Kin Lane recently noted his frustration with an API's language when he encountered the undefined acronym &mdash; "DEG". Lane explains,
 
-> I came across a set of API resources for managing a DEG the other day. You could add, update, delete and get DEGs. You can also pull analytics, history, and other elements of a DEG. I spent about 10-15 minutes looking around their developer portal, documentation, and even Googling, but never could figure out what a DEG was. Nowhere in their documentation did they ever tell consumers what a DEG was, you just had to be in the know I guess. The API designer (if that occurred) and developer had never stopped to consider that maybe someone would stumble across their very public API and not know what a DEG was. ([Using Plain Language In Your API Paths](https://apievangelist.com/2018/07/09/use-plain-language-in-api-paths/)
+> I came across a set of API resources for managing a DEG the other day. You could add, update, delete and get DEGs. You can also pull analytics, history, and other elements of a DEG. I spent about 10-15 minutes looking around their developer portal, documentation, and even Googling, but never could figure out what a DEG was. Nowhere in their documentation did they ever tell consumers what a DEG was, you just had to be in the know I guess. The API designer (if that occurred) and developer had never stopped to consider that maybe someone would stumble across their very public API and not know what a DEG was. ([Using Plain Language In Your API Paths](https://apievangelist.com/2018/07/09/use-plain-language-in-api-paths/))
 
 DEG must have been an acronym specific to the developer's API. In these cases, there's really no excuse for not defining your own pet acronyms and unique vocabulary. You can't simply make up an acronym and not define it for users (without frustrating them).
 
@@ -66,7 +66,7 @@ Some terms that might be unfamiliar to users include the following:
 
 In just two sentences, there are half a dozen specialized terms. Is it any wonder why tech docs can be so dense and inaccessible? How can we simplify the content so that users can understand what we're saying?
 
-{% include course_image.html size="medium" filename="jargon" ext_print="svg" ext_web="png" alt="Without a mutual understanding of terms, the effectiveness of communication plummets" caption="Without a mutual understanding of terms, the effectiveness of communication plummets" %}
+{% include course_image.html size="medium" filename="jargon" ext_print="svg" ext_web="svg" alt="Without a mutual understanding of terms, the effectiveness of communication plummets" caption="Without a mutual understanding of terms, the effectiveness of communication plummets" %}
 
 First, we have to identify terms that might be unfamiliar. A term on its own isn't familiar or unfamiliar &mdash; it can only be familiar/unfamiliar in the context of an audience. So the question is, *for our intended audience*, which terms will be unfamiliar?
 
@@ -222,7 +222,7 @@ I'm no expert on Whorfianism, but as far as I know, the topic hasn't been examin
 
 Without more evidence and research, it's difficult to draw conclusions. I can only speculate on the reasons why so many engineers dislike writing and tend to be poor at it.
 
-Let's explore the question from another line of thought, moving beyond Whorfianism to consider the *curse of knowledge*. In [Made to Stick: Why Some Ideas Survive and Others Die](https://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287/sr=8-1/qid=1167495807?ie=UTF8&s=books&tag2=guykawasakico-20), sibling authors Chip and Dan Heath explain how too much knowledge can cripple communication. In an interview with Guy Kawasaki, they explain:
+Let's explore the question from another line of thought, moving beyond Whorfianism to consider the *curse of knowledge*. In [*Made to Stick: Why Some Ideas Survive and Others Die*](https://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287/sr=8-1/qid=1167495807?ie=UTF8&s=books&tag2=guykawasakico-20), sibling authors Chip and Dan Heath explain how too much knowledge can cripple communication. In an interview with Guy Kawasaki, they explain:
 
 >  Lots of research in economics and psychology shows that when we know something, it becomes hard for us to imagine not knowing it. As a result, we become lousy communicators. Think of a lawyer who can’t give you a straight, comprehensible answer to a legal question. His vast knowledge and experience renders him unable to fathom how little you know. So when he talks to you, he talks in abstractions that you can’t follow. And we’re all like the lawyer in our own domain of expertise.
 >
@@ -244,7 +244,7 @@ Good communicators can extricate themselves from these assumptions and autopilot
 
 To read more about the importance of glossaries in API documentation, check out the [Glossaries](/learnapidoc/docapis_glossary_section.html) topic in my [API documentation course](/learnapidoc/).
 
-See also [Has plain language deepened or ruined our delight in language?](http://idratherbewriting.com/2017/09/20/plain-language-ruined-my-delight-in-language/) for a remorse about the constraints of plain language.
+See also [Has plain language deepened or ruined our delight in language?](http://idratherbewriting.com/2017/09/20/plain-language-ruined-my-delight-in-language/) for a post reflecting on the downsides of using plain language.
 
 ## References
 
