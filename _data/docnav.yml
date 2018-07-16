@@ -2,8 +2,8 @@ sidebartitle: Document REST APIs
 
 folders:
 
-- title: Navigation principles for documentation
-  jurl: /docnav_principles.html
+- title: Simplifying Complexity
+  jurl: /principles-for-simplifying-complexity.html
   class: first
   folderitems:
 
