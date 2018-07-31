@@ -32,7 +32,7 @@ He then draws upon Janice Lauer and Janet Atwill's explanation of *telos* (or en
 >
 > Thus, products of human making are essentially inert until they are placed into use...
 
-Johnson also draws upon John Wild, interpreting Aristotle, to explain that a concern for the effects of craft is what separates the technician from the artist:
+Johnson also draws upon John Wild, interpreting Aristotle, to explain that a concern for the end purpose of craft is what separates the artist from the technician:
 
 > A man may know all the rules of a certain art, but if he does not know when and where to apply them, the 'effects' will be of no real use. He will then be a technician rather than a true artist, for he knows only the conditions of the art, not the art itself. The specific end of the art is its work, and this is always something good or useful for some end.
 
@@ -42,7 +42,7 @@ In the same light, if, as a technical writer, my only goal is to document a widg
 
 Translating this conversation to the tech comm workplace, the current trend is to distinguish between "technical writers" and "content strategists." The *technical writer* merely creates widget documentation; the *content strategist*, on the other hand, brings about the implementation and installation of widgets in user systems. I'm not planning to get into a discussion about job titles here. Like Johnson, I think writing involves strategy. The real work you do in writing is not to make a page or screen with words and sentences but to influence the actions users take around these words. Overall, if you aren't concerned about how your words influence users, then you're a technician. But if you are concerned, you're a true artist.
 
-If we want to include *telos* in our craft, we must assess whether we are successful in our end goals. Presumably, the end of most software documentation is to increase the use and adoption of the software product. We want users to implement a system they've acquired, to set it up, run it, implement it, etc. &mdash; not just to have documentation for doing it.
+If we want to include *telos* in our craft, we must assess whether we are successful in our end goals. Presumably, the end of most software documentation is to increase the use and adoption of the software product. We want users to implement a system they've acquired, to set it up, run it, incorporate it, etc. &mdash; not just to have documentation for doing it.
 
 The question we should be asking is not just "Is my documentation clear and easy to follow?" The larger questions are "Why aren't more people using and following my documentation to adopt the product? Why is it that so few people are crossing that finish line with the product?"
 
