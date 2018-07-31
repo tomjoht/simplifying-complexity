@@ -240,6 +240,12 @@ And yet, without possession of this knowledge, the opposite happens: you have no
 
 Good communicators can extricate themselves from these assumptions and autopilot discourse. But it takes effort. The first steps must surely start with a recognition of specialized terms. And then a careful and brief definition of those terms. In other words, a glossary, presented as a gift to the user but really benefitting the author by way an increased awareness of language.
 
+
+{% comment %}
+integrate this quote:
+
+I’ve worked in too many IT shops where actual spoken communication and other forms of normal human social interaction were almost non-existent, and when interaction did happen it wasn’t pleasant.https://www.quora.com/Why-did-you-stop-being-a-software-developer Ciaran Irvine, former 18 Years as a Web Developer
+ {% endcomment %}
 ## Related reading
 
 To read more about the importance of glossaries in API documentation, check out the [Glossaries](/learnapidoc/docapis_glossary_section.html) topic in my [API documentation course](/learnapidoc/).
