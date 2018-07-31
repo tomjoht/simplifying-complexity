@@ -13,6 +13,9 @@ Highly technical material often becomes incomprehensible due to the unfamiliar t
 <p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/glossaryreading.mp3" alt="Reducing the complexity of technical language (New article in Simplifying Complexity series)">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
+* TOC
+{:toc}
+
 ## Unfamiliar terms &mdash; one reason for incomprehensibility
 
 One reason technical documentation is so difficult to follow is because of the unfamiliar terms and jargon in the content. A while ago I was evaluating whether to use Acrolinx, a language linter for tech docs, and I learned that the bulk of configuration for Acrolinx is in building out your own custom dictionary. Apparently, identifying your custom terms and incorporating them into Acrolinx's checking logic can take a number of weeks or months. The custom terms can account for around half of the terms in your dictionary.

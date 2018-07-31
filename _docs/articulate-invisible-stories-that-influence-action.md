@@ -6,6 +6,13 @@ permalink: articulate-invisible-stories-that-influence-action.html
 {: .principle}
 In any documentation scenario, there are usually at least two competing stories: the company's story about their product, and the user's story. The two stories don't always align. For a product or feature to be successful, the overall story about that product needs to align with the user's story. These stories aren't always apparent, and learning to see them constitutes a complex task, since you have to reduce a sea of action and noise down to its essence. The misalignment of these stories often explains why products fail.
 
+<div class="audioControls">
+<p><b>Listen to this article:</b></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/articulating_stories.mp3" type="audio/mpeg" /></audio></p>
+
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/articulating_stories.mp3" alt="Articulating the invisible stories that influence product adoption or rejection">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+</div>
+
 * TOC
 {:toc}
 
