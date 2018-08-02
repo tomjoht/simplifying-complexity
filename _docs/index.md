@@ -23,14 +23,14 @@ My hope is that by understanding the right techniques and approaches, we can do 
 
 ## My approach
 
-I will approach this topic similar to my [API documentation site](http://idratherbewriting.com/learnapidoc/). That is, I'll add to it continually over a period of months and years, constantly refining it and developing the content based on continued feedback, thoughts, research, and experiments.
+I will approach this topic similar to my [API documentation site](https://idratherbewriting.com/learnapidoc/). That is, I'll add to it continually over a period of months and years, constantly refining it and developing the content based on continued feedback, thoughts, research, and experiments.
 
 To get started, you can read the topics in any order, as they are self-contained and not sequential. One of my favorites is the first topic: [Switching between macro and micro views with embedded maps](macro-micro.html). I welcome your feedback and insights.
 
 ## Who am I?
 
-I'm currently a senior technical writer Amazon in Sunnyvale, California. I'm best known for my blog [http://idratherbewriting.com](http://idratherbewriting.com), where I post regularly on tech comm topics and have one of the largest followings of technical communicators online. Additionally, I've created an extensive [web API documentation course](http:/idratherbewriting.com/learnapidoc/) that has helped hundreds of technical writers transition into API documentation.
+I'm currently a senior technical writer Amazon in Sunnyvale, California. I'm best known for my blog [https://idratherbewriting.com](https://idratherbewriting.com), where I post regularly on tech comm topics and have one of the largest followings of technical communicators online. Additionally, I've created an extensive [web API documentation course](http:/idratherbewriting.com/learnapidoc/) that has helped hundreds of technical writers transition into API documentation.
 
-Lately I've been working on a series of essays around Simplifying Complexity &mdash; published on this site &mdash; because I believe this topic is core to increasing value in our discipline. I have given more than [90 presentations](http://idratherbewriting.com/presentations) over the past decade at various tech comm events. I'm always open to trying new things, and I enjoy exploring and discussing ways to innovate in the tech comm space. Feel free to [contact me](contact.html) with any questions or thoughts.
+Lately I've been working on a series of essays around Simplifying Complexity &mdash; published on this site &mdash; because I believe this topic is core to increasing value in our discipline. I have given more than [90 presentations](https://idratherbewriting.com/presentations) over the past decade at various tech comm events. I'm always open to trying new things, and I enjoy exploring and discussing ways to innovate in the tech comm space. Feel free to [contact me](contact.html) with any questions or thoughts.
 
 Tom Johnson

@@ -11,7 +11,7 @@ Look at the genre conventions for the topics you're writing about, and make your
 
 ## Overview
 
-In previous topics, I analyzed how [integrating new information into the larger landscape](http://idratherbewriting.com/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html) and conversely [distilling information from a larger landscape into smaller units](http://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html) both help to reduce the complexity of information. In this article, I'll dive into another technique for simplifying complexity: making information fit a pattern or schema that is familiar to users, especially story schemas. Our mind constantly filters the events, objects, and information around us by ignoring irrelevant information and fitting the important details into mental schemas. These schemas allow us to operate efficiently in what would otherwise be a complex chaos of incoming sensory information. As such, using these schemas simplifies the user experience.
+In previous topics, I analyzed how [integrating new information into the larger landscape](https://idratherbewriting.com/simplifying-complexity/ensuring-information-harmony-in-the-larger-documentation-landscape.html) and conversely [distilling information from a larger landscape into smaller units](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html) both help to reduce the complexity of information. In this article, I'll dive into another technique for simplifying complexity: making information fit a pattern or schema that is familiar to users, especially story schemas. Our mind constantly filters the events, objects, and information around us by ignoring irrelevant information and fitting the important details into mental schemas. These schemas allow us to operate efficiently in what would otherwise be a complex chaos of incoming sensory information. As such, using these schemas simplifies the user experience.
 
 One approach for fitting information into the user's mental schemas is to look at genre conventions and user expectations, and then follow these same conventions and expectations in the new information. However, this approach does little to exceed expectations in a genre of dissatisfied and frustrated users. A better approach is to fit information into a larger user journey that looks from beginning to end across topics, rather than focusing on one specific topic. This larger, more encompassing journey contains more of a story arc that resonates on a universal level with users.
 
@@ -75,7 +75,7 @@ First, let's unpack what a schema is. Schemas are the patterns the mind uses to 
 
 > A schema is a cognitive framework or concept that helps organize and interpret information. Schemas can be useful because they allow us to take shortcuts in interpreting the vast amount of information that is available in our environment. ([What Is a Schema in Psychology?](https://www.verywellmind.com/what-is-a-schema-2795873))
 
-Let's make schemas clearer through a technical analogy. When you create an RSS feed, like the one [for my blog](http://idratherbewriting.com/feed.xml), the information is arranged in a structure like this:
+Let's make schemas clearer through a technical analogy. When you create an RSS feed, like the one [for my blog](https://idratherbewriting.com/feed.xml), the information is arranged in a structure like this:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -83,8 +83,8 @@ Let's make schemas clearer through a technical analogy. When you create an RSS f
    <channel>
       <title>I'd Rather Be Writing - Tom Johnson</title>
       <description>Technical writing blog focusing on the latest trends, news, and other topics in the field of technical communication.</description>
-      <link>http://idratherbewriting.com/</link>
-      <atom:link href="http://idratherbewriting.com/feed.xml" rel="self" type="application/rss+xml" />
+      <link>https://idratherbewriting.com/</link>
+      <atom:link href="https://idratherbewriting.com/feed.xml" rel="self" type="application/rss+xml" />
       <pubDate>Thu, 05 Apr 2018 06:46:40 -0700</pubDate>
       <lastBuildDate>Thu, 05 Apr 2018 06:46:40 -0700</lastBuildDate>
       <generator>Jekyll v3.7.3</generator>
@@ -92,13 +92,13 @@ Let's make schemas clearer through a technical analogy. When you create an RSS f
          <title>New article on Simplifying Complexity: Reduction, layering, and distillation as a strategy for simplicity</title>
          <description>
             I published a new article on Simplifying Complexity called
-            <a href="http://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html">Reduction, layering, and distillation as a strategy for simplicity</a>
+            <a href="https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html">Reduction, layering, and distillation as a strategy for simplicity</a>
             . It's all about how reduction and distillation of information helps reduce complexity for users.
             <a href="http://bit.ly/reductionforsimplicity">Read more &gt;&gt;</a>
          </description>
          <pubDate>Wed, 28 Mar 2018 00:00:00 -0700</pubDate>
-         <link>http://idratherbewriting.com/2018/03/28/reduction-and-distillation-as-form-of-simplicity/</link>
-         <guid isPermaLink="true">http://idratherbewriting.com/2018/03/28/reduction-and-distillation-as-form-of-simplicity/</guid>
+         <link>https://idratherbewriting.com/2018/03/28/reduction-and-distillation-as-form-of-simplicity/</link>
+         <guid isPermaLink="true">https://idratherbewriting.com/2018/03/28/reduction-and-distillation-as-form-of-simplicity/</guid>
          <category>simplifying-complexity</category>
       </item>
       <item>
@@ -108,8 +108,8 @@ Let's make schemas clearer through a technical analogy. When you create an RSS f
             <a href="http://bit.ly/codestersappmath">Read more &gt;&gt;</a>
          </description>
          <pubDate>Wed, 28 Mar 2018 00:00:00 -0700</pubDate>
-         <link>http://idratherbewriting.com/2018/03/28/math-game-created-by-students/</link>
-         <guid isPermaLink="true">http://idratherbewriting.com/2018/03/28/math-game-created-by-students/</guid>
+         <link>https://idratherbewriting.com/2018/03/28/math-game-created-by-students/</link>
+         <guid isPermaLink="true">https://idratherbewriting.com/2018/03/28/math-game-created-by-students/</guid>
          <category>general</category>
       </item>
    </channel>

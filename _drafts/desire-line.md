@@ -25,7 +25,7 @@ The most common example of a desire line is a shortcut across a lawn.
 
 A desire line is the most common path a user takes through a system. For example, if you were to design a park, rather than starting out with fixed paths, you could instead let paths form naturally based on where people wanted to walk, and then later cement these dirt paths in. (This is how the designers created the walking paths at Central Park.)
 
-In your help system, you probably have a list of popular topics that make up the bulk of search results (following the [80/20 rule](http://idratherbewriting.com/2012/04/17/leveraging-the-wisdom-of-the-8020-rule-focusing-on-content-that-matters/)). Make these topics prominent and easy to click on your entry point, reducing the user's ability to find and view these topics.
+In your help system, you probably have a list of popular topics that make up the bulk of search results (following the [80/20 rule](https://idratherbewriting.com/2012/04/17/leveraging-the-wisdom-of-the-8020-rule-focusing-on-content-that-matters/)). Make these topics prominent and easy to click on your entry point, reducing the user's ability to find and view these topics.
 
 Here's an example from Twitter. By putting the most popular topics right at the top, the authors embrace the desire lines to these topics.
 

@@ -94,7 +94,7 @@ When downloading and configuring Fire App Builder, you follow these steps:
 <a class="noExtIcon" href="https://developer.amazon.com/docs/fire-app-builder/end-to-end-process.html"><img src="images/map-fire-app-builder.png"/></a>
 
 {: .tip}
-I'll jump into more technical detail for creating these maps (such as using CSS versus SVG) in a later tutorial. For the simple CSS approach, see [Examples of linear workflow user maps built with JS and CSS](http://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/).
+I'll jump into more technical detail for creating these maps (such as using CSS versus SVG) in a later tutorial. For the simple CSS approach, see [Examples of linear workflow user maps built with JS and CSS](https://idratherbewriting.com/2016/05/30/building-a-workflow-user-map-with-css-and-js/).
 
 The maps help ground the user with the big picture process. When you're mired in the details of a single task (the micro view), it's easy to lose track of the larger journey (the macro view). The map serves as a constant reminder of where you're currently at and where you're headed. Embedding the map at the top of each page facilitates the toggle between the micro and macro modes.
 
