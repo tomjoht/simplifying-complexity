@@ -394,12 +394,13 @@ h3#id-rather-be-writing-newsletter {
   padding: 20px;
 }
 
-.amazonBook {
+.newsletterSubscriptionBox {
 float: right;
 padding-left: 15px;
 padding-top: 0px;
 padding-bottom: 10px;
 margin-top: 260px;
+max-width: 250px;
 }
 
 .previousButton {
@@ -544,4 +545,80 @@ dl {
   padding: 20px;
   margin-top:20px;
   border-radius: 5px;
+}
+
+#mc_embed_signup.irbw {
+    background: lightsteelblue;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    margin:10px;
+    padding:10px;
+}
+#socialMediaButtons.irbw {
+margin-bottom:15px;
+}
+
+#mc_embed_signup.irbw input.email {
+  min-width: 200px;
+}
+
+.sidebarAds {
+  padding-top: 20px;
+}
+
+.mailingListSubtext {
+  margin-bottom: 8px;
+  font-size: 11px;
+}
+
+
+.sgithub, .sgoogleplus, .situnes, .slinkedin, .srssfeed, .stwitter, .sstitcher, .sfacebook {
+    background: url(/simplifying-complexity/images/sprites.png) no-repeat;
+    float: left;
+    padding: 6px;
+    margin-top:18px;
+    margin-left: 6px;
+}
+
+.srssfeed {
+    background-position: 0 0;
+    width: 26px;
+    height: 27px;
+}
+.stwitter {
+    background-position: -50px 0;
+    width: 26px;
+    height: 27px;
+}
+.sstitcher {
+    background-position: -100px 0;
+    width: 26px;
+    height: 27px;
+}
+.sfacebook {
+    background-position: -150px 0;
+    width: 26px;
+    height: 27px;
+}
+.situnes {
+    background-position: -200px 0;
+    width: 26px;
+    height: 27px;
+}
+.slinkedin {
+    background-position: -250px 0;
+    width: 26px;
+    height: 27px;
+}
+.sgithub {
+    background-position: -300px 0;
+    width: 26px;
+    height: 27px;
+}
+
+
+.socialMediaButtons {
+    padding-bottom:20px;
 }

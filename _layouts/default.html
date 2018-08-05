@@ -6,9 +6,12 @@
             <!-- sidebar -->
             <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
 
+
             {% include sidebar.html %}
+            {% include mailchimp.html %}
+            {% include social_media_icons.html %}
             {% include sidebar_ads.html %}
-            {% include tinyletter.html %}
+
 
             </div>
 
@@ -20,19 +23,9 @@
 
                 {% comment %}{% include next_top.html %}{% endcomment %}
                 <h1>{{page.title}}</h1>
-                <div class="amazonBook">
-                {% include amazon_book.html %}
-                {% include mailchimp.html %}
-                </div>
-
                 {{content}}
                 {% unless page.type == 404 %}
-                {% comment %}
-                {% include progress.html %}
-                {% endcomment %}
-                {% comment %}
-                <p class="note" style="margin-top:30px">If this information was helpful, would you consider adding a <a href="https://idratherbewriting.wufoo.com/forms/sxgxvqb1ahtv6q/">course review comment</a>?</p>
-                {% endcomment %}
+
                 {% include next.html %}
 
                 {% comment %}
@@ -40,10 +33,10 @@
                 {% include donate_button.html %}
                 </div>
                 {% endcomment %}
+                <div style="max-width: 275px">{% include mailchimp.html %}</div>
 
                 {% include single_post_ads.html %}
 
-                <div style="max-width: 375px">{% include tinyletter.html %}</div>
                 {% include disqus.html %}
                 {% endunless %}
               </div>
