@@ -1,7 +1,7 @@
 ---
 title: Hierarchy
 permalink: hierarchy.html
-# published: false
+published: false
 ---
 
 ## Action 1: Group topics in product sidebars

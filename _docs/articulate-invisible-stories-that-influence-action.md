@@ -1,5 +1,5 @@
 ---
-title: Articulating the invisible stories that influence product adoption or rejection
+title: "Principle 8: Align the product story with the user story"
 permalink: articulate-invisible-stories-that-influence-action.html
 ---
 

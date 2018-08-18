@@ -1,5 +1,5 @@
 ---
-title: Reducing the complexity of technical language
+title: Principle 7: Reduce the complexity of technical language
 permalink: reducing-the-complexity-of-technical-language.html
 ---
 

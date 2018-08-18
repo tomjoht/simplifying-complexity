@@ -10,53 +10,35 @@ folders:
   - title: Introduction
     jurl: /index.html
 
-  - title: "Switching between macro and micro views through embedded maps"
+  - title: "Principle 1: Let users switch between macro and micro views"
     jurl: /macro-micro.html
 
-  - title: "Discoverability through metadata &mdash; strategies to guide users through complex, non-linear systems"
+  - title: "Principle 2: Make information discoverable through metadata"
     jurl: /discoverability-through-metadata.html
 
-  - title: "Ensuring information harmony in the larger documentation landscape"
+  - title: "Principle 3: Ensure information harmony in the larger landscape"
     jurl: /ensuring-information-harmony-in-the-larger-documentation-landscape.html
 
-  - title: "Reduction, layering, and distillation as a strategy for simplicity"
+  - title: "Principle 4: Reduce and distill information to its essence"
     jurl: /reduction-layering-distillation.html
 
-  - title: "An argument for complexity rather than simplicity"
-    jurl: /argument-for-complexity-rather-than-simplicity.html
-
-  - title: "Reducing complexity by shaping information into familiar schemas, especially story"
+  - title: "Principle 5: Make information fit the patterns our mind seeks"
     jurl: /reducing-complexity-by-shaping-into-schemas-esp-story.html
 
-  - title: "Reconstructing the absent user -- the essential requirement for writing good documentation"
+  - title: "Principle 6: Reconstruct the absent user"
     jurl: /reconstructing-the-absent-user.html
 
-  - title: "Hiding complexity through JavaScript show/hide elements"
-    jurl: /hiding-complexity.html
-
-  - title: Reducing the complexity of technical language
+  - title: "Principle 7: Reduce the complexity of technical language"
     jurl: /reducing-the-complexity-of-technical-language.html
 
-  - title: Articulating the invisible stories that influence product adoption or rejection
+  - title: "Principle 8: Align the product story with the user story"
     jurl: /articulate-invisible-stories-that-influence-action.html
 
-  # - title: Guiding users through non-linear systems
-  #   jurl: /guidance-through-non-linear-systems.html
+  - title: "Principle 9: Coming soon..."
+    jurl:
 
-  # - title: Context-sensitive help
-  #   jurl: /context-sensitive-help.html
-  #
-  # - title: Immersion
-  #   jurl: /immersion.html
-  #
-  # - title: Progressive disclosure
-  #   jurl: /progressive-disclosure.html
-  #
-  # - title: Modularity
-  #   jurl: /modularity.html
-  #
-  # - title: Desire line
-  #   jurl: /desire-line.html
-  #
-  # - title: Wayfinding
-  #   jurl: /wayfinding.html
+  - title: "Principle 10: Coming soon..."
+    jurl:
+
+  - title: "Concluding thoughts: An argument for complexity rather than simplicity"
+    jurl: /argument-for-complexity-rather-than-simplicity.html

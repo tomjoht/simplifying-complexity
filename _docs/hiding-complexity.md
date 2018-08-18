@@ -1,6 +1,7 @@
 ---
 title: Hiding complexity through JavaScript show/hide elements
 permalink: hiding-complexity.html
+published: false
 ---
 
 {: .principle}

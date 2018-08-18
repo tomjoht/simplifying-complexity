@@ -1,5 +1,5 @@
 ---
-title: Reducing complexity by shaping information into familiar schemas, especially story
+title: "Principle 5: Make information fit the patterns our mind seeks"
 permalink: reducing-complexity-by-shaping-into-schemas-esp-story.html
 ---
 

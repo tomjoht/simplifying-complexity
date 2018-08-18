@@ -1,5 +1,5 @@
 ---
-title: Reconstructing the absent user -- the essential requirement for writing good documentation
+title: "Principle 6: Reconstruct the absent user"
 permalink: reconstructing-the-absent-user.html
 ---
 

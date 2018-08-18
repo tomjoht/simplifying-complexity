@@ -1,5 +1,5 @@
 ---
-title: Ensuring information harmony in the larger documentation landscape
+title: "Principle 3: Ensure information harmony in the larger landscape"
 permalink: ensuring-information-harmony-in-the-larger-documentation-landscape.html
 ---
 

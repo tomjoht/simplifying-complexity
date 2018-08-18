@@ -1,5 +1,5 @@
 ---
-title: Discoverability through metadata &mdash; strategies to guide users through complex, non-linear systems
+title: "Principle 2: Make information discoverable through metadata"
 permalink: discoverability-through-metadata.html
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: An argument for complexity rather than simplicity
+title: "Concluding thoughts: An argument for complexity rather than simplicity"
 permalink: argument-for-complexity-rather-than-simplicity.html
 ---
 
