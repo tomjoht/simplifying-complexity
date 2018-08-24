@@ -1,5 +1,5 @@
 ---
-title: "Principle 5: Make information fit the patterns our mind seeks"
+title: "Principle 5: Conform to the patterns and expectations of the genre"
 permalink: reducing-complexity-by-shaping-into-schemas-esp-story.html
 ---
 
