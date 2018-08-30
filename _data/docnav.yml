@@ -13,7 +13,7 @@ folders:
   - title: "Principle 1: Let users switch between macro and micro views"
     jurl: /macro-micro.html
 
-  - title: "Principle 2: Make information discoverable through metadata"
+  - title: "Principle 2: Make information discoverable as the user needs it"
     jurl: /discoverability-through-metadata.html
 
   - title: "Principle 3: Ensure information harmony in the larger landscape"
@@ -22,7 +22,7 @@ folders:
   - title: "Principle 4: Reduce and distill information to its essence"
     jurl: /reduction-layering-distillation.html
 
-  - title: "Principle 5: Conform to the patterns and expectations of the genre"
+  - title: "Principle 5: Conform to the patterns and expectations of the genre and schemas"
     jurl: /reducing-complexity-by-shaping-into-schemas-esp-story.html
 
   - title: "Principle 6: Reconstruct the absent user"
@@ -37,5 +37,5 @@ folders:
   - title: "Principle 9: Iterate and increment on content following an agile approach"
     jurl: /iterative-and-increment-on-content.html
 
-  - title: "Concluding thoughts: An argument for complexity rather than simplicity"
+  - title: "An argument for complexity rather than simplicity"
     jurl: /argument-for-complexity-rather-than-simplicity.html

@@ -1,5 +1,5 @@
 ---
-title: "Principle 5: Conform to the patterns and expectations of the genre"
+title: "Principle 5: Conform to the patterns and expectations of the genre and schemas"
 permalink: reducing-complexity-by-shaping-into-schemas-esp-story.html
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Principle 2: Make information discoverable through metadata"
+title: "Principle 2: Make information discoverable as the user needs it"
 permalink: discoverability-through-metadata.html
 ---
 
