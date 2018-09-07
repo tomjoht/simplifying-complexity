@@ -37,5 +37,7 @@ folders:
   - title: "Principle 9: Iterate and increment on content following an agile approach"
     jurl: /iterative-and-increment-on-content.html
 
+  - title: "Principle 10: Hide complexity with UX design (such as through JS or CSS)"
+
   - title: "An argument for complexity rather than simplicity"
     jurl: /argument-for-complexity-rather-than-simplicity.html

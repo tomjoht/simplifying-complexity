@@ -1,7 +1,6 @@
 ---
-title: Hiding complexity through JavaScript show/hide elements
+title: "Principle 10: Hide complexity with UX design (such as through JS or CSS)"
 permalink: hiding-complexity.html
-published: false
 ---
 
 {: .principle}
