@@ -40,5 +40,5 @@ folders:
   - title: "Principle 10: Hide complexity with UX design (such as through JS or CSS)"
     jurl: /hiding-complexity.html
 
-  - title: "An argument for complexity rather than simplicity"
-    jurl: /argument-for-complexity-rather-than-simplicity.html
+  # - title: "An argument for complexity rather than simplicity"
+  #   jurl: /argument-for-complexity-rather-than-simplicity.html
