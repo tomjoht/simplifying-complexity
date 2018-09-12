@@ -1,5 +1,5 @@
 ---
-title: "Principle 4: Reduce and distill information to its essence"
+title: "Principle 4: Reduce and distill vast information down to its essence"
 permalink: reduction-layering-distillation.html
 redirect_from:
  - /reduction-as-a-form-of-simplicity.html
@@ -30,9 +30,9 @@ Maeda isn't specifically focusing on documentation in his book, but rather speak
 
 With documentation, the tech writer's first task is usually to translate descriptive information into concise, actionable steps that align with the user's goals. This work usually involves reducing the amount of information, whittling it down to the bare bonds of actionable steps. Mike Hughes captures this perfectly in this short graphic:
 
-<figure><img src="https://idratherbewriting.com/images/actionableinformation.png"/><figcaption>Hughes argues that technical writers don't just fix grammar and format information; they actually create new knowledge assets that become the lifeblood of the company's success. Many times, the knowledge assets reduce information bloat from engineers. See "Moving from Information Transfer to Knowledge Creation: A New Value Proposition for Technical Communicators" (Technical Communication, 2002)</figcaption></figure>
+<figure><img src="https://idratherbewriting.com/images/actionableinformation.png"/><figcaption>Hughes argues that technical writers don't just fix grammar and format information; they actually create new knowledge assets that become the lifeblood of the company's success. Many times, the knowledge assets reduce information bloat from engineers. (See "Moving from Information Transfer to Knowledge Creation" in *Technical Communication*, 2002)</figcaption></figure>
 
-When some engineers write, they have a tendency to over-explain the details of how something works, rather than providing the minimal amount of information the user needs to accomplish their task. For example, an engineer might explain the intricacies of architecture and design even though the user just wants to know which button to press. Reducing the information that falls outside of the user's task needs is usually the first step a tech writer takes to simplify content.
+When some engineers write, they have a tendency to over-explain the details of how something works rather than providing the minimal amount of information the user needs to accomplish their task. For example, an engineer might explain the intricacies of architecture and design even though the user just wants to know which button to press. Reducing the information that falls outside of the user's task needs is usually the first step a tech writer takes to simplify content.
 
 Reducing information bloat is actually a byproduct of minimalism, a concept put forward introduced by John Carroll. Carroll's emphasis on action-oriented instructions usually results in a reduction of secondary, non-task-based content in docs. Hence, the docs end up being briefer due to the task-based focus. In a recent *Intercom* interview, Carroll explains:
 
@@ -52,7 +52,7 @@ Perhaps at the end of a topic, users might see a link for more info that takes t
 
 <figure><img src="images/wordpress_pd.png"/><figcaption>The WordPress UI shows an example of progressive disclosure: The user sees some information in the UI followed by a link for more detail if desired.</figcaption></figure>
 
-Web designers often consider progressive information disclosure in deciding how to layer information on a website. A website might begin with a few large category choices on the homepage. At the second level (which appears after users select a homepage category), more information is presented. At the third-level, additional information is made available, and so on. But you don't overwhelm the user with all information choices up front. The same layering strategy can be used directly in documentation (not just in user interfaces or commercial sites).
+Web designers often consider progressive information disclosure in deciding how to layer information on a website. A website might begin with a few large category choices on the homepage. At the second level (which appears after users select a homepage category), more information is presented. At the third level, additional information is made available, and so on. But you don't overwhelm the user with all information choices up front. The same layering strategy can be used directly in documentation (not just in user interfaces or commercial sites).
 
 (By the way, I'm not a huge fan of the term "progressive information disclosure." I prefer the term "layers" or "progressive information detail," since "disclosure" suggests that you find out unwanted or negative information little by little. Like a doctor who lets you know little by little the details of a debilitating disease, or an insurance agent who slowly explains what is not covered, or a kid who wrecked his or her parent's car and slowly discloses that he not only dented the bumper, but also took out the neighbor's fence, injured a dog, and broke one of the windows ... and lost the keys ... and was slightly intoxicated ... and also failed a math test.)
 
@@ -70,7 +70,7 @@ When the sidebar is consumable at a glance, it helps users understand all the pa
 
 ## Showing section summaries at a glance {#summaries_at_a_glance}
 
-While looking at the titles in the sidebar can help users get a sense of the whole, sometimes the titles aren't very illuminating. Another usability approach is to show users the page titles and descriptions for each section. For example, look at this example from Digital Ocean:
+While looking at the titles in the sidebar can help users get a sense of the whole, sometimes the titles aren't very illuminating. Another usability approach is to show users the page titles and descriptions at a glance for each section. For example, look at this example from Digital Ocean:
 
 {% include course_image.html url="https://www.digitalocean.com/docs/networking/dns/" filename="digitaloceansummaries" ext_print="png" ext_web="png" alt="Showing sections at a glance" caption="Showing sections at a glance" %}
 
@@ -78,12 +78,12 @@ I did the same thing with Fire TV docs as well:
 
 {% include course_image.html url="https://developer.amazon.com/docs/fire-tv/toc-overview.html" border="" filename="firetvdocssummaries" ext_print="png" ext_web="png" alt="Showing sections at a glance" caption="Showing sections at a glance" %}
 
-When you click a folder title, it shows the pages in the section along with a short summary of each topic. This lets users take in the whole in a more detailed way than simply reading the section titles. It allows users to take the next step of moving towards more detail -- first the user expands the section title to see the list of topics, and then the user looks at the section overview details to see which topic might be relevant.
+When you click a folder title, it shows the pages in the section along with a short summary of each topic. This lets users take in the whole in a more detailed way than simply reading the section titles. It allows users to take the next step of moving towards more detail &mdash; first the user expands the section title to see the list of topics, and then the user looks at the section overview details to see which topic might be relevant.
 
 Crafting the summary sentences is somewhat challenging, but these initial two sentences in a topic are potentially the most useful. Ideally, they should give users a quick sense of whether the topic is useful. SEO keywords should probably be targeted, and this same description can be rolled up into the HTML's meta description tag and search index as well.
 
 ## Distillation of information
- 
+
 In the previous section, I noted that the first two sentences of a topic should give users a quick sense of what the topic is about. This moves us into the topic of **information distillation**. Distillation is not necessarily information elimination or re-organization. Distillation involves compressing meaning into a shorter space. When you distill the meaning of a section into a descriptive section heading, you aren't eliminating information but rather distilling the main point into a short phrase and allowing readers to consume the information at a glance.
 
 A good structure in a doc page usually provides a title, summary, headings, mini-TOC, and topic sentences that lets users take in the information at a glance rather than reading the content line by line. These elements are simple, but they are the bread-and-butter of information usability. Let's go into more detail for each element.
