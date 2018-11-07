@@ -1,5 +1,5 @@
 ---
-title: Iterate and increment on content following an agile approach
+title: "Principle 9: Iterate and increment on content following an agile approach"
 permalink: /iterative-and-increment-on-content.html
 ---
 
@@ -148,6 +148,8 @@ Also, keep in mind that documentation projects don't have an iteration cycle tha
 > The first few iterations can probably be expected to result in major gains in usability as the true "usability catastrophes" are found and fixed. Later iterations have progressively smaller potential for improvements as the major usability problems are eliminated, and the design may eventually become so polished that very little potential for further improvement would remain. ([Iterative Design of User Interfaces](https://www.nngroup.com/articles/iterative-design/))
 
 The life of the documentation isn't indefinite. The technology landscape changes fairly rapidly, and before too many birthdays, you'll find that the platform on which the software was coded has evolved to something else. At this point, the engineering team is often re-engaged in a new effort, and a new documentation project for the rewritten application often begins again.
+
+{% include_relative iterative-development-of-content-questions.md %}
 
 ## References
 

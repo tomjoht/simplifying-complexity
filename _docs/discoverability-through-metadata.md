@@ -273,3 +273,5 @@ Although metadata can be useful to inform your own system's discoverability mech
 ## How does tagged, chunked content simplify complexity?
 
 Let's return to our original problem: how do we simplify users' paths in complex systems that defy linear order? A lot of these metadata tags, such as author or content type, won't necessarily simplify complexity. But you can use metadata intelligently to provide a refined, short list of highly relevant content in the right context. I know that I've only scratched the surface here, but hopefully I've pointed the discussion in the right direction.
+
+{% include_relative discoverability-through-metadata-questions.md %}

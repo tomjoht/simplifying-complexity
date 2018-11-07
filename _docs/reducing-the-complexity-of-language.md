@@ -255,6 +255,8 @@ To read more about the importance of glossaries in API documentation, check out 
 
 See also [Has plain language deepened or ruined our delight in language?](https://idratherbewriting.com/2017/09/20/plain-language-ruined-my-delight-in-language/) for a post reflecting on the downsides of using plain language.
 
+{% include_relative reducing-the-complexity-of-language-questions.md %}
+
 ## References
 
 Asay, Matt. [Open source documentation is bad, but proprietary software is worse](https://www.techrepublic.com/article/open-source-documentation-is-bad-but-proprietary-software-is-worse/). *Tech Republic.* 9 June 2017.

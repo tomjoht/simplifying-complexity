@@ -235,6 +235,8 @@ In a more recent article on metrics and measurement, Saul Carliner and others co
 
 As a result, Carliner et al discourage any quantitative ROI and instead suggest focusing on more qualitative, word-of-mouth type information. Information that paints a picture of the absent user's experience with docs will be aligned in the right direction and with the right purpose. Rather than simply reporting numbers for reporting purposes, the qualitative information will carry weight that has its own tangible value.
 
+{% include_relative reconstructing-the-absent-user-questions.md %}
+
 ## References
 
 Carliner, Saul. "What Do We Manage? A Survey of the Management Portfolios of Large Technical Communication Groups." *Technical Communication*, Vol. 51, No. 1, February 2004.

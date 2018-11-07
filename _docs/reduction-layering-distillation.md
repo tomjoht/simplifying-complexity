@@ -155,3 +155,5 @@ Applying the same principle to docs, we could say that docs are hard to write. H
 ## Techniques for hiding less-used information
 
 If you can't delete information to reduce complexity, look for ways to hide less-used information on the screen through JavaScript techniques, such as show/hide elements, expand/collapse toggles, navtabs, tooltips, and more. See [Principle 10: Hide complexity with UX design (such as through JS or CSS)](hiding-complexity.html).
+
+{% include_relative reduction-layering-distillation-questions.md %}

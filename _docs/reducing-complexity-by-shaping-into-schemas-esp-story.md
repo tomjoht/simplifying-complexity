@@ -233,4 +233,6 @@ In mapping out the user journey in my competitive analysis, probably my most imp
 
 I finished the first draft of my competitive analysis last week. Although it was 43 pages long, all the details were neatly in place, in the right organization, because I organized it around the developer's journey. The path through each step in the journey provided a full experience, rooted in story, that connected well with the readers. Now I'm thinking of restructuring our end-user documentation around a similar journey.
 
+{% include_relative reducing-complexity-by-shaping-into-schemas-esp-story-questions.md %}
+
 [procedure-makeup]: https://books.google.com/books?id=8imRAgAAQBAJ&pg=PA129&lpg=PA129&dq=content+and+complexity+what+makes+up+a+procedure&source=bl&ots=ymuENQPIhG&sig=wMPsiRM6bwsbFUyjfUb1BviLHRk&hl=en&sa=X&ved=0ahUKEwic7M-BpcDaAhXriVQKHWTGALsQ6AEILzAB#v=onepage&q=content%20and%20complexity%20what%20makes%20up%20a%20procedure&f=false

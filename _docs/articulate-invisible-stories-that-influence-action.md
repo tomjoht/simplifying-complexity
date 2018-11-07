@@ -196,6 +196,8 @@ As you try to align the product story with the user story, look for these areas 
 
 By articulating product and user stories, we can adjust the product stories to be more in tune with the user's story. Learning to see these underlying stories is difficult. And there might be multiple stories for different users, and multiple stories within the same product. But learning to see these stories and their (lack of) alignment allows us to understand why our documentation achieves or fails its true end.
 
+{% include_relative articulate-invisible-stories-that-influence-action-questions.md %}
+
 ## References
 
 Barker, Randolph T; Gower, Kim. ["Strategic Application of Storytelling in Organizations: Toward Effective Communication in a Diverse World."](http://journals.sagepub.com/doi/abs/10.1177/0021943610369782) *Journal of Business Communication*. Vol. 47, Num. 3. July 2010.

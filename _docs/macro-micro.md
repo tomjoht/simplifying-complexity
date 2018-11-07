@@ -202,3 +202,5 @@ In a 3-minute Ted Talk on [How complexity leads to simplicity](https://www.ted.c
 ## Summary
 
 One principle for simplifying complexity is to facilitate the user's movement between macro and micro views. You can do this by providing a map that lets users toggle between "seeing the forest" versus "seeing the trees." In the upcoming sections, we'll look at ways to approach non-linear systems, where traditional maps break down because there isn't a clear sequence or process within a system.
+
+{% include_relative macro-micro-questions.md %}
