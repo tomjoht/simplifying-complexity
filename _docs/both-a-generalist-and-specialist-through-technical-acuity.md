@@ -4,7 +4,7 @@ permalink: both-a-generalist-and-specialist-through-technical-acuity.html
 ---
 
 {: .principle}
-Looking at trends in job advertisements tells us that subject-matter familiarity is frequently in demand in technical writing roles. To write about complex topics, you usually need some subject-matter familiarity with the topic. Without familiarity, you can't develop content; you can only edit and publish content and work beside others who have that knowledge. Developing specialized knowledge is probably out of reach given the tech writer's diversity of projects and wide-ranging responsibilities. At most, technical writers can develop technical acuity and try to learn what they need to know for each documentation scenario, and also collaborate with engineers to fill in the gaps.
+Looking at trends in job advertisements tells us that subject-matter familiarity is frequently in demand in technical writing roles. To write about complex topics, you usually need some subject-matter familiarity with the topic. Without this familiarity, you can't author content; you can only edit and publish content and work beside others who have that knowledge. Developing specialized knowledge is probably out of reach given the tech writer's diversity of projects and wide-ranging responsibilities. At most, technical writers can develop technical acuity and try to learn what they need to know for each documentation scenario, and also collaborate with engineers to fill in the gaps.
 
 * TOC
 {:toc}
@@ -25,13 +25,11 @@ We pay attention to trends partly out of curiosity but also to stay relevant. We
 
 Understanding whether trends will become the norm requires us to investigate the evidence for the trend. What data supports a trend? When Blockbuster looked at the emergence of streaming online video, or when Kodak looked at digital photo formats, did they dismiss these trends as fads? How do you know whether to align yourself with trends to to ignore them?
 
-Fortunately, we do have access to evidence to make decisions about trends. In the following sections, I'll argue that desired skills in job advertisements can provide a more stable, reliable barometer for evaluating trends.
+Fortunately, we do have access to evidence to make decisions about trends. In the following sections, I'll argue that desired skills in job advertisements can provide a more stable, reliable barometer for evaluating trends. And what is a major constant in job descriptions from year to year? It's the requirement for technical writers to **possess more subject-matter familiarity from the start.** Employers want technical writers to be familiar with X, Y, or Z technologies before they're even hired.
 
-What is a major constant in job descriptions from year to year? It's the requirement for technical writers to **possess more subject-matter familiarity from the start.** Employers want technical writers to be familiar with X, Y, or Z technologies before they're even hired.
+This is because without subject-matter familiarity, it can be nearly impossible to understand, unravel, and articulate a complex subject. Without subject-matter familiarity, you can't author content; you can only edit and publish content and work beside others who have that knowledge.
 
-Why this emphasis? Without subject-matter familiarity, it can be nearly impossible to understand, unravel, and articulate a complex subject. Without subject-matter familiarity, you can't develop content; you can only edit and publish content and work beside others who have that knowledge.
-
-That said, technical writers are responsible for too many aspects of content and technical categories to develop specialized knowledge in a subject domain that competes with an engineers' knowledge. At most, technical writers can develop technical acuity and try to learn what they need to know for each product and documentation scenario, and also collaborate with engineers more skillfully to fill in the gaps.
+That said, technical writers are responsible for too many aspects of content and technical categories to develop specialized knowledge in a subject domain that competes with an engineers' knowledge. (At least this has been my experience.) At most, technical writers can develop technical acuity and try to learn what they need to know for each product and documentation scenario, and also collaborate with engineers more skillfully to fill in the gaps.
 
 ## The impact of UX and the need for documentation
 
@@ -47,17 +45,15 @@ Sensing the irrelevance of technical writing, Grey jumped off the documentation 
 
 Undeniably, User Experience Design has matured as a discipline. Companies like Apple have cemented the idea that users are willing to pay for well-designed products that don't rely on much documentation. But does it mean companies are eliminating tech writers from their organizations?
 
-## Evaluating trends based on tech comm job data
-
 To evaluate whether tech writing jobs are dying off, let's dive into some data from the Bureau of Labor Statistics (BLS). According to the latest [STC Salary Database](https://www.stc.org/salary-database/) (based on BLS data), tech writing jobs have grown by about 3,620 jobs in 4 years:
 
-{% include course_image.html url="https://www.stc.org/salary-database/" size="" border="" filename="techwriterjobsovertime" ext_print="png" ext_web="png" alt="Tech writing jobs have grown slightly since 2012, up by about 3,620 jobs." caption="Tech writing jobs have grown slightly since 2012, up by about 3,620 jobs." %}
+{% include course_image.html url="https://www.stc.org/salary-database/" filename="techwriterjobsovertime" ext_print="png" ext_web="png" alt="Tech writing jobs have grown slightly since 2012, up by about 3,620 jobs." caption="Tech writing jobs have grown slightly since 2012, up by about 3,620 jobs." %}
 
 In 2016, there were about 50,000 technical writing jobs in the United States. The report notes that technical writing is "the only occupation [among professional writing disciplines] which has seen employment growth in each year since 2011, with an average annual employment increase of 1.9%."
 
 Despite the growth, technical writing jobs aren't necessarily keeping pace with software development jobs. The BLS says the [job growth for software developers](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) from 2016 to 2026 is projected at 24%, but for [technical writers](https://www.bls.gov/ooh/media-and-communication/technical-writers.htm), the job growth is projected at just 11%. (Both growth rates are higher than the national average, which is 7%.)
 
-To put these numbers into perspective, supposel that in 2016, 10 technical writers support 1,000 engineers. In 2026, **11** technical writers will support **1,240** engineers. If the rate stays the same for the next decade, in 2036, **12** technical writers will support **1,538** engineers.
+To put these numbers into perspective, suppose that in 2016, 10 technical writers support 1,000 engineers. In 2026, **11** technical writers will support **1,240** engineers. If the rate stays the same for the next decade, in 2036, **12** technical writers will support **1,538** engineers.
 
 So while technical writing jobs might not be diminishing, they are shrinking proportionally. The data doesn't provide more granularity to address other questions, such as whether jobs are growing or shrinking in different specializations (such as API documentation versus UX copywriting). There's also a possibility that TC job titles have diversified and made BLS's scope too narrow. At any rate, the BLS has little to say about reasons for growth except this:
 
@@ -71,25 +67,25 @@ What does Pratt make of Grey's blog post? In the podcast, Pratt looks generally 
 
 But Pratt does make another point. He says that jobs might not be going away, but "the role of the technical author is changing, and the requirements and the skills that they need are changing as well."  
 
-Most readers tend to agree with Pratt that the tech writer's role is evolving. In a [survey I conducted in a previous post](https://www.questionpro.com/t/PESakZc1sh), I asked readers to state their level of agreement about whether the tech comm profession is evolving. Of the 65 respondents, about 53% of readers agree and 39% strongly agree (for a total of 92% agreement).
+Most readers tend to agree with Pratt that the tech writer's role is evolving. In a [survey I conducted in a previous post](https://www.questionpro.com/t/PESakZc1sh), I asked readers to state their level of agreement about whether the tech comm profession is evolving. Of the 65 respondents, about 53% of readers *agree* and 39% *strongly agree* (for a total of 92% agreement).
 
 {% include course_image.html url="https://www.questionpro.com/t/PESakZc1sh" filename="surveyrolesevolving" ext_print="png" ext_web="png" alt="Survey agreement" %}
 
 But exactly *how* is tech comm evolving? Towards *what direction*? Are we changing in positive ways to align with tomorrow's needs? Are we being left behind? And what kind of data supports these changes?
 
-## Looking at job advertisements to extrapolate the evolution of tech comm
-
 To get a better picture of evolution of the tech comm role, let's turn to some research based on an analysis of job advertisements. In "The Evolution of Technical Communication: An Analysis of Industry Job Postings," Eva Brumberger and Claire Lauer look at patterns in job advertisements to determine what skills employers are looking for. They say that that genre of job advertisements "can serve as a barometer of industry trends when studied over years and even decades."
 
 After analyzing about 1,000 job postings in late 2013, Brumberger and Lauer found that the job landscape painted a picture far more diverse than the BLS's simplistic description of the technical writer occupation. The authors noted the incredible variety of roles and deliverables that tech comm professionals are engaged in.
 
-Part of this diversity is a result of Brumberger and Lauer's broad focus on job technical communication titles and categories. Some of the job titles included "Social Media Manager," "Front End Developer," "Web Content Analyst," "UI Designer," "Grant writer," "Medical writer," and more. Given this wide tech comm net they cast, it comes as little surprise that they would find tech comm professionals engaged in such a variety of work.
+Part of this diversity is a result of Brumberger and Lauer's broad focus on job technical communication titles and categories. Some of the job titles include "Social Media Manager," "Front End Developer," "Web Content Analyst," "UI Designer," "Grant writer," "Medical writer," and more. Given this wide tech comm net they cast, it comes as little surprise that they would find tech comm professionals engaged in such a variety of work.
 
-Fortunately, they divided the job postings into five main categories: Content Developer/Manager, Grant/Proposal Writer, Medical Writer, Social Media Writer, and Technical Writer/Editor. Although this wide scope is probably appropriate for a tech comm program, my interests relate mostly to technical writing, so I'll narrow my focus on this "technical writer/editor" category in Brumberger and Lauer's study (which make up 52% of the total job ads).
+Fortunately, they divide the job postings into five main categories: Content Developer/Manager, Grant/Proposal Writer, Medical Writer, Social Media Writer, and Technical Writer/Editor. Although this wide scope is probably appropriate for a tech comm program, my interests relate mostly to technical writing, so I'll narrow my focus on this "technical writer/editor" category in Brumberger and Lauer's study (this category makes up 52% of the total job ads).
 
 According to Brumberger and Lauer, the most sought-after professional competencies for technical writers/editors include written communication (75%), Editing (51%), Project planning/mgmt (49%), Visual communication (49%), Subject-matter familiarity (45%), Working with SMEs (41%), and Style guides/standards (40%).
 
-Commenting on overall trends across the job categories, the researchers observe the need to push content across multiple channels while adhering to brand, and the need to build relationships with customers through content. The authors also deliberate about whether to specialize with more subject-matter familiarity. They say this emphasis on subject-matter familiarity is particularly relevant in technical writer/editor job categories. Given the broad range of skills, roles, and deliverables within the umbrella of technical communication, the authors argue that remaining a jack-of-all-trades generalist would give you a lot of mobility and versatility within the field, empowering you with capabilities in a lot of different roles and functions (perhaps switching from technical writer to medical writer to social media manager).
+Commenting on overall trends across the job categories, the researchers observe the need to push content across multiple channels while adhering to brand, and the need to build relationships with customers through content. The authors also deliberate about whether to specialize with more subject-matter familiarity. They say this emphasis on subject-matter familiarity is particularly relevant in technical writer/editor job categories.
+
+Given the broad range of skills, roles, and deliverables within the umbrella of technical communication, the authors argue that remaining a jack-of-all-trades generalist would give you a lot of mobility and versatility within the field, empowering you with capabilities in a lot of different roles and functions (perhaps switching from technical writer to medical writer to social media manager).
 
 However, Brumberger and Lauer acknowledge that others see specialized knowledge as being more valuable. The authors reference another study by Craig Baehr who interviewed a small handful of experts from STC's Advisory Council. Baehr's goal was to identify the core skillsets that define what it means to be a technical communicator.
 
@@ -99,15 +95,15 @@ Baehr argues that "breadth of specializations" define the core identity of techn
 
 Aligning with Baehr, Brumberger and Lauer also find middle ground in the dilemma between being a generalist or specialist. They say,
 
-> Our data suggest that there are several points of overlap in products and competencies, which could allow some degree of movement among job categories &mdash; or multiple specializations &mdash; if one maintains a broad skillset and flexible outlook."
+> Our data suggest that there are several points of overlap in products and competencies, which could allow some degree of movement among job categories &mdash; or multiple specializations &mdash; if one maintains a broad skillset and flexible outlook.
 
-In other words, they choose multiple specializations and a broad, flexible skillset as the best approach, especially where the specializations might strategically overlap into multiple roles. By arguing for multiple specializations, it's not as if they're arguing that one should be a *doctor* and and *lawyer* and an *engineer* (then you'd really have the market cornered!), but rather that you should look for categories with some overlap. For example, one should specialize in *information design* and *SEO* and *information architecture*. Or *API documentation* and *programming languages* and *docs-as-code* tools. Or *UX copywriting* and *content strategy* and *web analytics*.
+In other words, they choose multiple specializations and a broad, flexible skillset as the best approach, especially where the specializations might strategically overlap into multiple roles. By arguing for multiple specializations where "there are several points of overlap", the multiple specializations shouldn't be interpreted to be roles diverse as *project manager* and *engineer* and *UX designer* (then you'd really have the market cornered!), but rather combined specializations such as *information design* and *SEO* and *information architecture*. Or *API documentation* and *programming languages* and *docs-as-code* tools. Or *UX copywriting* and *content strategy* and *web analytics*.
 
-Other academics have also analyzed job advertisements to infer trends. In "Analysis of the Skills Called for by Technical Communication Employers in Recruitment Postings," Clinton Lanier analyzed 327 job postings in 2006, limiting the scope to jobs with "technical writer" in the title and requiring just two years of experience or less (which would thus be most suitable for graduating students to apply for). Regarding subject matter familiarity, Lanier found the following:
+Other academics have also analyzed job advertisements to infer trends. In "Analysis of the Skills Called for by Technical Communication Employers in Recruitment Postings," Clinton Lanier analyzed 327 job postings in 2006. He limited the scope to jobs with "technical writer" in the title that required just two years of experience or less (which would thus be most suitable for graduating students to apply for). Regarding subject matter familiarity, Lanier found the following:
 
 > ... 112 of the postings (34%) required or desired the potential writer to have experience writing about the specific subject matter that the current job involves. [For example], if the candidate was applying for a software documentation job in which they were going to be writing application programming interfaces (APIs) or online help, many of the positions required or desired that they have written such types of documents for the related types of subject matter.
 
-In other words, employers have been seeking subject matter familiarity among job applicants in a consistent way at least since 2006. Even for job postings requiring *just two years of experience* or less (almost entry-level positions), 34% of employers want the candidate to have subject matter familiarity. Lanier explains:
+In other words, employers have been seeking subject-matter familiarity among job applicants in a consistent way at least since 2006. Even for job postings requiring *just two years of experience* or less (almost entry-level positions), 34% of employers want the candidate to have subject matter familiarity. Lanier explains:
 
 > This reflects the trend that technical communication is moving away from a “Jack of all trades” model, where technical writing is a very generalized concept, and toward a model that is more specialized and contextually defined.
 
@@ -115,9 +111,9 @@ Given that Lanier restricts his data set to jobs requiring two years or less of 
 
 ## Career experience as a factor
 
-Whether to specialize or not seems to draw mixed reactions and emotions. So far I've argued for some middle ground, but let's dive a bit deeper to note other factors that might determine whether you become a specialist or generalist.
+Whether to specialize or not seems to draw mixed reactions and emotions. So far I've argued for some middle ground, but let's dive a bit deeper to note other factors that might determine whether one becomes a specialist or generalist.
 
-In a *Content Strategy* podcast, IA professional Abby Covert says that junior IA positions are more generalist while senior IA positions are more specialized. A junior IA starts out doing generalist UX tasks for about 5 years, and his or her job title might not even include "IA." After the person becomes more senior, he or she might start doing more IA specific tasks and have IA in the job title. Covert explains:
+In a *Content Strategy* podcast, IA professional Abby Covert says that junior IA positions are more generalist while senior IA positions are more specialized. A junior IA starts out doing generalist UX tasks for about 5 years, and his or her job title might not even include "information architecture." After the person becomes more senior, he or she might start doing more IA specific tasks and have IA in the job title. Covert explains:
 
 > So I'm really seeing a misbalance of information architecture as a specialty being only those that are in the mid or senior levels of their career. Which I think is challenging because it's kind of like "Hey kid, I know you really want to be in IA, wait 5-7 years as a generalist and maybe you can be."
 
@@ -143,7 +139,7 @@ Other tech writers in the API doc space push back on the need to develop deep en
 
 > I speculate that the need for writers to have deep technical knowledge diminishes as Tech Comm teams grow in size and as other skills become more important than they are for smaller Tech Comm teams. I’m not claiming that deep technical knowledge is useless. I’m suggesting that (to frame it negatively) neglecting deep technical knowledge has less severe consequences than neglecting content curation, doc tool set, or workflow considerations.
 
-In other words, if you spend excessive amounts of time learning to code, at the expense of tending to other documentation-related tasks (like fixing your stylesheets and looking at analytics), your doc’s technical content might improve a bit, but the overall doc experience will go downhill.
+In other words, if you spend excessive amounts of time learning to code, at the expense of tending to other documentation-related tasks (like fixing your stylesheets and looking at analytics and improving your navigation), your doc’s technical content might improve a bit, but the overall doc experience will go downhill.
 
 I like the middle ground approach that Parson, a tech comm consultancy, describes:
 
@@ -155,27 +151,25 @@ In other words, Parson sees programming skills as helpful but not essential, as 
 
 ##  Company size as a factor
 
-Company size might also be a factor in deciding whether to be a generalist or specialist. In startups, employees wear more hats and need to traverse more technologies. In these environments, for engineers it's often better to be a "full-stack developer." According to Codeup:
+Company size might also be a factor in deciding whether to be a generalist or specialist. In startups, employees wear more hats and need to traverse more technologies. In these startup environments, engineers often need to be more multi-faceted as well. An engineer who knows both front-end, backend, server, and other technologies is called a "full-stack developer." According to Codeup:
 
 > ... a full-stack developer is simply someone who is familiar with all layers in computer software development. These developers aren’t experts at everything; they simply have a functional knowledge and ability to take a concept and turn it into a finished product. Such gurus make building software much easier as they understand how everything works from top to bottom and can anticipate problems accordingly.... Often times, this class of developers stems from start-up environments, where a vast knowledge of all facets of web development is essential for a business’ survival.
 
-When you work for startups, you handle more responsibilities than you would in a larger organization with a well-established tech pubs group. In startups the generalist, or rather the "full-stack" technical writer, might not just be responsible for creating the documentation, but also responsible for the doc toolchain and publishing system, for support systems and forums, for e-learning and video creation, for blog posts and marketing content, information architecture and search indexes, and more.
+When you work for startups, you handle more responsibilities than you would in a larger organization with a well-established tech pubs group. In startups, the generalist, or rather the "full-stack" technical writer, might not just be responsible for creating the documentation, but also responsible for the doc toolchain and publishing system, for support systems and forums, for e-learning and video creation, for blog posts and marketing content, information architecture and search indexes, and more.
 
 Overall, the degree to which generalist skills are needed depends on the size of your company, and whether these other functions are covered by other specialists already.
 
 ## Informal survey
 
-Overall, what do we make of this debate about whether to be a specialist or generalist? It seems that there's quite a lot of debate on both sides. I surveyed readers to provide agreement/disagreement to this question:
+Overall, what do we make of this debate about whether to be a specialist or generalist? It seems that there's quite a lot of debate on both sides. I surveyed readers to provide agreement/disagreement about whether they think subject-matter familiarity is a key requirement employers are looking for. From about 55 responses, 50% agreed, 25% strongly agreed, and 15% were undecided.
 
-> Subject matter familiarity is a key requirement in a lot of the tech comm jobs I've looked at. It seems employers often want me to know X, Y, and Z technologies already from the start.
-
-From about 55 responses, 50% agreed, 25% strongly agreed, and 15% were undecided. I think it's safe to say that employers are looking for tech writers who have all the skills they need &mdash; specialized knowledge *and* writing skills that span across categories and rhetorical situations, and more. In other words, employers want both someone to be both a specialist and generalist.
+I think it's safe to say that employers are looking for tech writers who have all the skills they need &mdash; specialized knowledge *and* writing skills that span across categories and rhetorical situations, and more. In other words, employers want both someone to be both a specialist and generalist.
 
 ## Technical knowledge valued more than writing skills
 
 So far in this discussion about whether to be a specialist or generalist, I've made it seem like being a generalist is easy. It's the specialized knowledge that's hard to accrue. Presumably, a generalist is synonymous with a less-technical person whose strength lies with language and communication. Why do generalists seem to get less respect?
 
-Imagine for a moment that you're a hiring manager. You have two candidates for a tech writing position: a former engineer who has a strong technical background but little writing experience, and an experienced writer who has a veteran track record and extensive portfolio but is new to the technology domain for the project. Who do you hire?
+Imagine for a moment that you're a hiring manager. You have two candidates for a tech writing position: a former engineer who has a strong technical background but little writing experience, and an experienced writer who has a veteran track record and extensive portfolio but doesn't have strong tech skills. Who do you hire?
 
 When I've been in situations like this, I've seen hiring managers (especially those from engineering backgrounds) choose the one with stronger technical skills and weaker writing skills. As long as the writing isn't red-flag poor, hiring managers are willing to overlook more advanced writing skills.
 
@@ -183,19 +177,13 @@ In a recent post in the technical writing forum on Reddit, a user commented:
 
 > I work in engineering documentation, so I would always choose a candidate that has solid domain expertise even if they only have adequate writing skills. It's easier to train the writing skills than teach the domain expertise. ("How much weight does a certificate in technical writing carry?")
 
-This sentiment is fairly common, especially among engineers. In Lanier's research, he found that only 17% of job ads explicitly asked for writing skills; more common were job ads asking for specialized skills.
+This sentiment is fairly common, especially among engineers. In Lanier's research, he found that only 17% of job ads explicitly asked for writing skills; more commonly, job ads asked for specialized skills. Ellis Pratt says this might be due to the difficulty of quantifying and measuring writing skills. For example, it's easy to check boxes if a candidate knows X, Y, and Z technologies but much harder to assess a candidate's higher-level writing skills &mdash; his or her ability to create, synthesize, integrate, or distill large amount of complex information. You can ask for writing samples, but samples are hard to evaluate unless you know the product, context, and history of the documentation. So writing skills tend to be neglected in metrics for job ads, even though presumably this is the most salient skill that you're hiring for, Ellis says.
 
-Ellis Pratt says this might be due to the difficulty of quantifying and measuring writing skills. For example, it's easy to check boxes if a candidate knows X, Y, and Z technologies but much harder to assess a candidate's higher-level writing skills &mdash; his or her ability to create, synthesize, integrate, or distill large amount of complex information. You can ask for writing samples, but samples are hard to evaluate unless you know the product, context, and history of the documentation. So writing tends to be neglected in metrics for job ads, even though presumably this is the most salient skill that you're hiring for, Ellis says.
+At any rate, having "writing skills" doesn't seem to resonate as much anymore because, presumably, everyone can write &mdash; or at least write well enough to get the job passably done. What's important, it seems, is technical acumen and subject-matter familiarity, not stylistic flair. So you hire the candidate with an engineering background and address any style issues with an editorial pass &mdash; because it's easier to teach writing than technical skills, some say.
 
-### Language SMEs not as valued as technical SMEs
+In a recent issue of *Communication Design Quarterly*, Jennifer Mallette and Megan Gehrke argue that, in the workplace, subject-matter expertise with tech comm doesn't seem to resonate as much as subject-matter expertise in technical skills. Mallette and Gehrke say that students graduate from tech comm programs with the naive belief that their expertise in tech comm will be valued in the workplace in the same way that engineers are valued for their expertise. They assume that in the workplace, exchanges between tech writers and engineers will be made from a position of equality, where the tech writer's input will be valued and acted upon in the same way as engineers' input. They're led to believe that technical writers are specialists too, just specialists with language and communication. Different types of SMEs, that's all.
 
-At any rate, having "writing skills" doesn't seem to resonate as much anymore because, presumably, everyone can write &mdash; or at least write well enough to get the job passably done. What's important, it seems, is technical acumen and subject matter familiarity, not stylistic flair. So you hire the candidate with an engineering background and address any style issues with an editorial pass &mdash; because it's easier to teach writing than technical skills, some say.
-
-In a recent issue of *Communication Design Quarterly*, Jennifer Mallette and Megan Gehrke argue that, in the workplace, subject-matter expertise with tech comm doesn't seem to resonate as much as subject-matter expertise in technical skills. Mallette and Gehrke argue that students graduate from tech comm programs with the naive belief that their expertise in tech comm will be valued in the workplace in the same way that engineers are valued for their expertise. They assume that in the workplace, exchanges between tech writers and engineers will be made from a position of equality, where the tech writer's input will be valued and acted upon in the same way as engineers' input. They're led to believe that technical writers *are* specialists too, just specialists with language and communication.
-
-Unfortunately, they found that subject-matter expertise was a status not available for tech writers, who were treated with less respect than other SMEs. Anyone could challenge or dismiss the technical writer's decisions about content, as the product owner or engineer ultimately owned the content and carried the authority. Instead, they had to argue the rationale behind decisions, often resorting to presenting similar approaches in competitor's documentation. This "power hierarchy," where "where communicators are viewed as support or secondary," is somewhat pervasive in the profession. It seems that very few engineers and product managers are willing to grant the holy status of SME to the technical writer.
-
-### Hybridizing technical writer job titles to make them sexier
+Unfortunately, they found that subject-matter expertise was a status not available for tech writers, who were treated with less respect than other SMEs. Anyone could challenge or dismiss the technical writer's decisions about content, as the product owner or engineer ultimately owned the content and carried the authority. Instead, they had to argue the rationale behind decisions, often resorting to making arguments by showing similar approaches in competitor's documentation. This "power hierarchy," where "where communicators are viewed as support or secondary," is somewhat pervasive in the profession. It seems that very few engineers and product managers are willing to grant the holy status of SME to the technical writer.
 
 In my recent blog post, ["If writing is no longer a marketable skill, what is?"](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/), I noted (after comparing web metrics) that writing skills don't seem to sell in the job market, so you have to supplement writing skills with some kind of hybridization to make yourself seem more valuable. I took a poll on my site to see which hybrid job titles were most common, and out of 277 respondents, the top roles were as follows:
 
@@ -216,15 +204,13 @@ In my recent blog post, ["If writing is no longer a marketable skill, what is?"]
 
 Of course, these dual roles are self-defined only. In the HR books, one is usually still classified as a "technical writer," but that's not how we promote ourselves. Just being a "technical writer" isn't nearly sexy enough to sell yourself in the technology marketplace. Technical writing has come to be viewed as wordsmithing only.
 
-In the question about whether to be a generalist or specialist, it seems the generalist position is much less valued in the workplace.
+In the question about whether to be a generalist or specialist, it seems the generalist position (as it concerns writing) is much less valued in the workplace.
 
 ## More complexity in technology is driving the valuation of technical knowledge
 
 What exactly is driving the emphasis on technical knowledge over writing skills? If you consider an analogy from economics, technical knowledge is becoming more prized because it is becoming a scarce commodity. And it is becoming a scarce commodity because technology is getting more complex and specialized. It is the law of supply and demand at work in the enterprise, applied to knowledge. When very few people have knowledge of X, your possession of X knowledge can make you highly valued (assuming people care about X).
 
-Because the technology landscape itself is becoming more complex and specialized, it is driving up the value of technical knowledge.
-
-How do we know if technology is getting more complex? In [Implications of Tech Stack Complexity for Executives](https://www.thoughtworks.com/insights/blog/implications-tech-stack-complexity-executives), the authors explain that one reason the technology landscape has shifted towards greater complexity is due to a transition away from single vendor systems. The authors explain:
+Because the technology landscape itself is becoming more complex and specialized, it is driving up the value of technical knowledge. How do we know if technology is getting more complex? In [Implications of Tech Stack Complexity for Executives](https://www.thoughtworks.com/insights/blog/implications-tech-stack-complexity-executives), the authors explain that one reason the technology landscape has shifted towards greater complexity is due to a transition away from single vendor systems. The authors explain:
 
 > Not too many years ago ... technology stacks (the different layers of technology required to implement an application) were simpler and often vendor-specific. A good example is the Microsoft stack: .NET languages for programming, IIS as a web and application server, and the SQL Server database.
 >
@@ -236,27 +222,13 @@ They depict the change from single-vendor stacks to multi-vendor stacks as follo
 
 For companies to develop world-class software, finding the IT talent to develop these sophisticated solutions can be a real challenge, the authors explain. The authors say that "not only has the breadth of skills increased, but the depth of skill required (advanced versus basic) has increased also." And given how quickly technologies are changing, you also need people who aren't just locked in the present but who will "quickly acquire" tomorrow's technologies as well.
 
-In [*Overcomplicated: Technology at the Limits of Comprehension*](https://www.amazon.com/Overcomplicated-Technology-at-Limits-Comprehension/dp/0143131303), Samuel Arbesman also expands on the trend away from single solution systems to multiple system solutions. Arbesman talks about how we’ve built systems that very few people fully understand, and these systems are interacting with other systems (often through APIs) in ways no one can fully predict. Sometimes when these complex systems have bugs (such as with Toyota’s acceleration problem), we end up scrambling through millions of lines of code across many different systems, trying in vain to find the problem.
+In [*Overcomplicated: Technology at the Limits of Comprehension*](https://www.amazon.com/Overcomplicated-Technology-at-Limits-Comprehension/dp/0143131303), Samuel Arbesman also expands on the trend away from single-solution systems to multiple-system solutions. Arbesman talks about how we’ve built systems that very few people fully understand, and these systems are interacting with other systems (often through APIs) in ways no one can fully predict. Sometimes when these complex systems have bugs (such as with Toyota’s acceleration problem), we end up scrambling through millions of lines of code across many different systems, trying in vain to find the problem.
 
 Again, what's the end result of this increased complexity? In software development contexts, technical knowledge is increasing in its value while generalist skills like writing are decreasing in value.
 
-In a comical article called ["How it feels to learn JavaScript in 2016"](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f), Jose Aguinaga contrasts what it's like to learn JavaScript today versus a number of years ago. His format is an imagined conversation between a newbie and advanced frontend developer. Here's a quick excerpt:
+In a comical article called ["How it feels to learn JavaScript in 2016"](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f), Jose Aguinaga contrasts what it's like to learn JavaScript today versus a number of years ago. His format is an imagined conversation between a newbie and advanced frontend developer. Aguinaga explains about 30 different confusing JavaScript frameworks and technologies that frontend developers need to sort through when coding. Aguinaga's article illustrates how, for the past few decades (at least behind the scenes in the realm of JavaScript development), technology has been getting more and more complex and specialized &mdash; more extensive, varied, complicated, and diverse. The engineer who implements the frontend of a site has a very different skill set from the one working on the backend.
 
-> I need to create a page that displays the latest activity from the users, so I just need to get the data from the REST endpoint and display it in some sort of filterable table, and update it if anything changes in the server. I was thinking maybe using jQuery to fetch and display the data?
->
-> -Oh my god no, no one uses jQuery anymore. You should try learning React, it’s 2016.
->
-> Oh, OK. What’s React?
->
-> -It’s a super cool library made by some guys at Facebook, it really brings control and performance to your application, by allowing you to handle any view changes very easily.
->
-> That sounds neat. Can I use React to display data from the server?
->
-> -Yeah, but first you need to add React and React DOM as a library in your webpage....
-
-Aguinaga goes on to explain about 30 different JavaScript frameworks and technologies that frontend developers need to sort through when coding. Aguinaga's article illustrates how, for the past few decades (at least behind the scenes in the realm of development), technology has been getting more and more complex and specialized &mdash; more extensive, varied, complicated, and diverse. The engineer who implements the frontend of a site has a very different skill set from the one working on the backend.
-
-For contrast, think back to a time when we had "webmasters." The idea of a "webmaster" &mdash; a person who handles all aspects of a website &mdash; is an especially dated idea, like a mechanic who can work on any model of cars. Specialization has permeated all aspects of technology organizations. Today, you’re not just a "software developer." You’re a JavaScript developer for web apps, you’re an Oracle database specialist, you’re a release management configuration engineer, and so on.
+For contrast, think back to a time when we had "webmasters." The idea of a "webmaster" &mdash; a person who handles all aspects of a website &mdash; is an especially dated idea, like a mechanic who can work on any model of car. Specialization has permeated all aspects of technology organizations. Today, you’re not just a "software developer." You’re a JavaScript developer for web apps, you’re an Oracle database specialist, you’re a release management configuration engineer, and so on.
 
 We have these specialists because complexity has increased. An article in the _Harvard Business Review_ noted that we’ve even moved past specialization into "Hyperspecialization." The authors explain:
 
@@ -282,20 +254,19 @@ Technology is like an iceberg &mdash; seemingly simple on the surface for end-us
 
 ## Trying in vain to keep up with the pace of technology
 
-Looking at diagrams like those in the previous section strikes a bit of terror inside me because I realize how challenging it is to stay current in the evolving, deepening technology landscape. So often at work I find myself presented with some new topic to document (or even just edit) that I have very little knowledge of. It takes me by surprise, and I realize how endless the technology landscape is and how unaware I am of so many tools and languages, from code to concepts. Granted, Android app development for Fire TV (my main focus) is an extensive topic, but more often than not I'm constantly playing a catch-up game with what I need to know. It doesn't help that the number of engineering teams I support seems to be growing every year.
+Looking at diagrams like those in the previous section strikes a bit of terror inside me because I realize how challenging it is to stay current in the evolving, deepening technology landscape. So often at work I find myself presented with some new topic to document (or even just edit) that I have very little knowledge of. It takes me by surprise, and I realize how endless the technology landscape is and how unaware I am of so many tools and languages, both code to concepts. Granted, Android app development for Fire TV (my main focus) is an extensive topic, but more often than not I'm constantly playing a catch-up game with what I need to know. It doesn't help that the number of engineering teams I support seems to be growing every year.
 
-If there's one question that vexes me as a technical writer, it's this: In this era of increasing technological complexity and specialization, is there any room for generalists like me? Do we technical writers, who are typically only *familiar* with the subjects we write about, need to become engineer-like specialists, focusing in on a couple of domains in depth, so that we can write, edit, and publish more adeptly in those domains? Is specialization the only way to handle complexity? Will I need to become a specialist to survive as a technical writer in the future?
+If there's one question that vexes me as a technical writer, it's this: In this era of increasing technological complexity and specialization, is there any room for generalists like me? Do technical writers, who are typically only *familiar* with the subjects we write about, need to become engineer-like specialists, focusing in on a couple of domains in depth, so that we can write, edit, and publish more knowledgeably in these domains? Is specialization the only way to handle complexity? Will I need to become a specialist to survive as a technical writer in the future?
 
-I'm not alone in this feeling. In surveys I've done in the past, keeping up with the latest technology is one of the primary challenges for technical writers. About a decade ago (in 2007), I had a [virtual chat with a group of tech writers](https://idratherbewriting.com/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) to find out what their most pressing challenges were. Their answers included the following:
+I'm not alone in this feeling of drowning in technology. In surveys I've done in the past, keeping up with the latest technology is one of the primary challenges for technical writers. About a decade ago (in 2007), I had a [virtual chat with a group of tech writers](https://idratherbewriting.com/2007/03/01/number-one-issue-for-technical-writers-today-keeping-pace-with-rapidly-evolving-technology/) to find out what their most pressing challenges were. Their most pressing challenges included the following:
 
 > *   "For me, it's keeping up with the right technology and fighting to increase productivity without making our jobs horrid."
 > *   "I have trouble keeping up with the rapid pace of innovation in the IT world and the many ways to deliver content."
 > *   "Part of the problem about keeping pace with technology is that we often work under tight deadlines. ... at the end of the day, to learn new tools and technology, it's often on your own time."
 > *   "I agree and I'm willing to learn about new tools and technology. The question is, where to start, what's the right thing to get into? What do I recommend that the company invest in?"
 > *   "Another problem with keeping pace with technology is the sheer variety of languages, systems, tools, concepts, etc. There is so much to know. One can't know it all. But I think we have to be savvy enough to learn what we need to know at the moment we need it."
-> *   "The most significant challenges and changes have been the budgets have been slashed for projects/training/user communication in general. No time/budget/interest in keeping me trained in my field. That is my biggest challenge right now. Years ago, I was regularly sent by FPC to conferences/seminars. Now it's a rare event."
 
-Despite the need to accrue this more specialized knowledge, I'm still responsible for many different aspects of content, from the publishing toolchain and output to web analytics, information architecture, metadata, content strategy, and more across so many different categories of technical products. As such, specialization seems nearly impossible. At most, I can hope to possess a degree of technical acuity or aptitude that makes me mildly competent to collaborate with engineers and other specialists on the content.
+Despite the need to accrue this more specialized knowledge, I'm still responsible for many different aspects of content, from the publishing toolchain and output to web analytics, information architecture, metadata, content strategy, and more across so many different categories of technical products. As such, specialization seems nearly impossible. At most, I can hope to possess a degree of technical acuity or aptitude that makes me mildly competent to collaborate with engineers and other specialists on the content. I have to say that being mildly competent doesn't instill me with a great deal of confidence.
 
 ## Finding the time to accrue specialized knowledge
 
@@ -303,9 +274,9 @@ How do you keep up with the need for specialized knowledge while also fulfilling
 
 But I also asked how much time they *actually devote* to learning technology each day. 27% said 0 minutes, 30% said 20 minutes, 19% said 30 minutes, and only 13% said 1 hour (see [Strategies for learning technology -- podcast recommendation and a poll](https://idratherbewriting.com/2018/08/10/how-much-time-devoted-to-learning-tech-is-needed/)).
 
-Given how much technical knowledge you need to be functionally able to write documentation in today's landscape, how can one possibly ramp up the right level of knowledge by just spending 30 minutes or less each day? I felt I would need 2 hours a day to feel comfortable writing in some of these domains.
+Given how much technical knowledge you need to be functionally able to write documentation in today's landscape, how can one possibly ramp up to the right level of knowledge by just spending 30 minutes or less each day? I felt I would need 2 hours a day to feel comfortable writing in some of these domains.
 
-Even if you find the time, it's not always clear where to start (as one writer noted). There is such diversity in what we document, it can be like moving from one long line to another long line in an amusement park &mdash; spending hours of learning just to be able to write one sentence that lasts 30 seconds.
+Even if you find the time, it's not always clear where to start, as one writer noted. There is such diversity in what we document, it can be like moving from one long line to another long line in an amusement park &mdash; spending hours of learning just to be able to write one sentence that is read in 30 seconds.
 
 In the end, who has 2 hours a day to carve out time for this learning, either at work or home? It's nearly impossible unless you incorporate it into your job itself. But when I tried that, I found that my productivity plummeted.
 
@@ -313,19 +284,29 @@ In the end, who has 2 hours a day to carve out time for this learning, either at
 
 Despite the difficulty in learning and keeping up with technology, technical knowledge is essential if you want to write documentation for engineers or other specialists. Without a comfortable understanding of the technical knowledge, your ability to write becomes crippled.
 
-One approach to ramping up on this complexity might be to reduce your scope a bit and focus in on 1-2 projects in more immersive, in-depth ways than you could with 5-6 projects. However, it's not always possible to reduce your scope.
+One approach to ramping up on this complexity might be to reduce your scope a bit and focus in on 1-2 projects in more immersive, in-depth ways than you could with 5-6 projects. However, it's not always possible to reduce your scope. In one company, when we escalated concerns about needing more resources so that we could immerse and engage more fully with teams, executives responded by explaining that the company couldn't afford to hire armies of tech writers, and that we had to "lean-in" on product teams to produce more of the documentation. In other words, we would act more like editors and publishers, while the engineers would do more content development.
 
-In one company, when we escalated concerns about needing more resources so that we could immerse and engage more fully with teams, executives responded by explaining that the company couldn't afford to hire armies of tech writers, but that we had to "lean-in" on product teams to produce the documentation themselves. In other words, we would act more like editors and publishers, while the engineers did more of the content development.
-
-Having engineers write introduces all kinds of problems (which I won't go into here). However much I dislike the model where engineers develop content and technical writers add information usability, this just might be the norm in years to come. If the content is so specialized that only engineers can fully articulate it at the required level, then technical writers will play more supporting editorial roles, guiding engineers with content creation and making the information more readable/usable. In this light, technical writers will continue to play more generalist roles.
+Having engineers write introduces all kinds of problems (which I won't go into here). However much I dislike the model where engineers develop content and technical writers add information usability, this just might be more common in years to come. If the content is so specialized that only engineers can fully articulate it at the required level, then technical writers will play more supporting editorial roles, guiding engineers with content creation and making the information more readable/usable. In this light, technical writers will continue to play more generalist roles.
 
 {% include course_image.html filename="generalist_specialist_developers_writing" ext_print="svg" ext_web="svg" alt="More developers are assisting with documentation because the content is so technical, they're often the only ones who understand it at the level necessary" caption="More developers are assisting with documentation because the content is so technical, they're often the only ones who understand it at the level necessary" %}
 
-Perhaps the most practical strategy is to develop technical acuity, and then to learn what you need to know with each project at the moment you need it. Someone with technical acuity not only possesses a technical mindset, he or she can self-learn the needed technical knowledge to the extent required for the documentation.
+Perhaps the most practical strategy is to develop technical acuity, and then to try to learn what you need to know with each project at the moment you need it. Someone with technical acuity not only possesses a technical mindset, he or she can self-learn the needed technical knowledge to the extent required for the documentation.
 
-## Conclusion
+The problem with trying to learn what you need to know for each project is that it belittles the whole idea of specialization. For complex topics, the information builds concept upon concept over many layers. For example, consider a topic such as Advanced Calculus. Unless you've taken Algebra and beginner Calculus classes, you can't just dive into a chapter in Advanced Calculus and totally understand something like "Lagrange multipliers" in 30 minutes. You have to work your way up from the earlier chapters and courses, climbing up through the layers until you have all the foundational concepts in place to make sense of Lagrange multipliers.
 
-So, summing it up. What trends are we seeing? One underlying trend is that technology seems to be getting more specialized and complex. This trend toward specialization is driving up the value of technical knowledge, making it more prized than writing skills. To handle the complexity, technical writers may find that they will need to accrue more subject-matter familiarity and specialize some of their skills. Additionally, technical writers will likely continue to play generalist roles, especially as they support a growing number of engineering teams that are also contributing the specialized knowledge. 
+The same is true with Android programming, which is based on Java, which uses many common concepts from object-oriented programming. If you're documenting, say, steps on how to incorporate the TV Input Framework into your app, you can't just learn this in a morning without building the necessary foundation through many weeks or years in the more introductory layers.
+
+If you possess technical acuity, the assumption is that you might take your knowledge and learning in one category and apply it skillfully in another. For example, keeping with the math analogy, suppose you have a deep understanding of anatomy, such that you can draw, from scratch, all 206 bones in the human body and provide their latin names. Does that help you learn Lagrange Multipliers faster?
+
+Your mind might be attuned to looking at system inputs and outputs, at algorithms that drive application logic, or more. Maybe you have a systematic patience for troubleshooting by comparing working code against broken code in a line-by-line fashion, or other troubleshooting insights. Do these skills allow you to jump categories and quickly absorb knowledge of, say, microchip design? Or of database querying? Would deep knowledge of Android allow you to, say, ramp up more quickly on changing the head gasket on your car? Or on understanding Heidegger?
+
+I think in many ways, developing specialized knowledge gives you respect about expertise, which in turn helps you recognize your limits. My brother-in-law develops virtual reality games, but he won't try to fix his car. He knows that he lacks expertise in that area, so he defers to the experts. And so do technical writers. The more knowledge you accrue, the more you become aware about how truly complex a subject might be, and so you're more apt to defer judgment to experts. This brings us back to this essential collaboration between technical writers and engineers, between language and technology. In a comment on my post on technical acuity, Mark Baker explains,
+
+> That is where the heart of technical communication lies, in the intersection of rhetorical acuity and technical acuity. The great debate in technical communication is whether that intersection can be achieved by a writer and an engineer working together, each bringing half of the equation, or whether it has to be by one person possessing both acuities. I tend to be in the latter camp. ("Preferring technical acuity over specialized knowledge")
+
+It's an interesting observation -- that the essence of our profession in tech comm is whether one can create content by having an engineer contribute the tech and a writer contribute the language, or whether one person has to manage both. Certainly, the reality is that this is done in varying degrees in different situations based on how much skill each party possesses in the other realm.
+
+Possessing both acuities is surely the best route, but in my experience it isn't practical. Learning how to skillfully interact with experts to gather, develop, and articulate their knowledge might be more essential than I initially thought. At any rate, this balance between specialized knowledge and generalist knowledge surely remains at the heart of the tech comm profession.
 
 ## References
 
