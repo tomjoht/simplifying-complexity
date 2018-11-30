@@ -6,12 +6,20 @@ permalink: both-a-generalist-and-specialist-through-technical-acuity.html
 {: .principle}
 Looking at trends in job advertisements tells us that subject-matter familiarity is frequently in demand in technical writing roles. To write about complex topics, you usually need some subject-matter familiarity with the topic. Without this familiarity, you can't author content; you can only edit and publish content and work beside others who have that knowledge. Developing specialized knowledge is probably out of reach given the tech writer's diversity of projects and wide-ranging responsibilities. At most, technical writers can develop technical acuity and try to learn what they need to know for each documentation scenario, and also collaborate with engineers to fill in the gaps.
 
+
+<div class="audioControls">
+<p><b>Listen to this article:</b></p>
+<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/specgentrends.mp3" type="audio/mpeg" /></audio></p>
+
+<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/specgentrends.mp3" alt="Articulating the invisible stories that influence product adoption or rejection">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+</div>
+
 * TOC
 {:toc}
 
 ## Bloggers and trends
 
-As a blogger, I'm conscious of my web analytics (whether metrics from clicks on newsletter articles or visits to pages), since I'm keen to know what topics resonate with readers. Each year I look deeply at analytics and try to gauge what topics I should focus on &mdash; partly to drive more traffic, and partly because I'm curious to know what readers click on most. Without a doubt, one topic that gets the most clicks, year and year out, is trends.
+As a blogger, I'm conscious of my web analytics (whether metrics from clicks on newsletter articles or visits to pages), since I'm keen to know what topics resonate with readers. Each year I look deeply at analytics and try to gauge what topics I should focus on &mdash; partly to drive more traffic, and partly out of simple curiosity to know what readers click on most. Without a doubt, one topic that gets the most clicks, year and year out, is trends.
 
 Exactly why the topic of trends is so popular, and whether bloggers have any special insight about trends, remains a bit of mystery to me. I've never considered myself an expert on trends, though after I posted my [2018 trends](https://idratherbewriting.com/2018/01/02/technical-writing-trends-2018-and-2017-review/), I literally had three separate groups invite me to speak on the topic. I've noticed that in general, people frequently associate bloggers with the topic of trends, as if trends were intertwined with the blogging brand.
 
