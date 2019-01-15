@@ -330,6 +330,12 @@ It's an interesting observation -- that the essence of our profession in tech co
 
 Possessing both acuities is surely the best route, but in my experience it isn't practical. Learning how to skillfully interact with experts to gather, develop, and articulate their knowledge might be more essential than sometimes assumed. Being able to pull information out of engineer's heads, knowing the right questions to ask based on the user experience, understanding how to iterate on content based on ongoing feedback, etc., might trump more one-dimensional technical knowledge. At any rate, this balance between specialized knowledge and generalist knowledge surely remains at the heart of the tech comm profession. It is an issue I continue to struggle with.
 
+## Your reactions and input
+
+If you'd like to take a survey to help me understand how much you agree or disagree with the assertions I made in this post, you can [take the survey here](http://bit.ly/tomtrends).
+
+You can see the [results (so far) here](https://www.questionpro.com/t/PEUzEZc5vF).
+
 ## References
 
 [*2016-2017 STC Salary Database (based on 2016 data).*](https://www.stc.org/salary-database/) *Society for Technical Communication.* Retrieved Oct 2018.
