@@ -1,6 +1,8 @@
 ---
 title: "Principle 11: Be both a generalist and specialist at the same time"
-permalink: both-a-generalist-and-specialist-through-technical-acuity.html
+permalink: both-a-generalist-and-specialist-at-same-time.html
+redirect_from:
+- /both-a-generalist-and-specialist-through-technical-acuity.html
 ---
 
 {: .principle}

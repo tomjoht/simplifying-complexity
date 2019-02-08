@@ -3,7 +3,6 @@ title: "Principle 4: Reduce and distill vast information down to its essence"
 permalink: reduction-layering-distillation.html
 redirect_from:
  - /reduction-as-a-form-of-simplicity.html
- - /hiding-complexity.html
 ---
 
 {: .principle}
