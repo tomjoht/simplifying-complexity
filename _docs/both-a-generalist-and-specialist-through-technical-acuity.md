@@ -1,5 +1,5 @@
 ---
-title: "Principle 11: Be both a generalist and specialist through your technical acuity"
+title: "Principle 11: Be both a generalist and specialist at the same time"
 permalink: both-a-generalist-and-specialist-through-technical-acuity.html
 ---
 
