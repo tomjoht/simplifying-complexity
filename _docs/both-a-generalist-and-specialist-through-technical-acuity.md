@@ -332,6 +332,16 @@ It's an interesting observation -- that the essence of our profession in tech co
 
 Possessing both acuities is surely the best route, but in my experience it isn't practical. Learning how to skillfully interact with experts to gather, develop, and articulate their knowledge might be more essential than sometimes assumed. Being able to pull information out of engineer's heads, knowing the right questions to ask based on the user experience, understanding how to iterate on content based on ongoing feedback, etc., might trump more one-dimensional technical knowledge. At any rate, this balance between specialized knowledge and generalist knowledge surely remains at the heart of the tech comm profession. It is an issue I continue to struggle with.
 
+
+{% comment %}
+maybe don't promote the idea that tech is getting more complex. maybe it's more that tech writers are supporting more and more engineers. take this growth of 50,000 engineers versus the number of tech writers. now take the fact that you have 10 projects and so you're spread really thin. things might look more complex to you, even if they're not.
+
+also, your solution in becoming both a specialist and generalist. present the calculus legrangier's multipliers problem. but your solution is to do 3 tech pmodorors firs tthing in the morning before you work on anything else. this puts me in the learning mindset. makes my brain more likely to learn. focus soluely on what i'm struggling to understand in the doc. this narrows the scope. only drawback is that this slows down my productivity, but it's a double edged sword because the dumber you are, the less productive you are even if you feel like you're working hard.
+
+maybe cite your survey that the #1 thing users do to be more 10X in the workplace is to increwase their technical acumen. thius is how yo uincrease your productivity. don't just leave people hanging. leave people with a solution. yes, cite your survey responses to this one. but then pair them up with the one about how much time people spend.
+
+{% endcomment %}
+
 ## Your reactions and input
 
 If you'd like to take a survey to help me understand how much you agree or disagree with the assertions I made in this post, you can [take the survey here](http://bit.ly/tomtrends).
@@ -364,7 +374,7 @@ Highsmith, Jim; Mason, Mike; Ford, Neal. ["Implications of Tech Stack Complexity
 
 Johnson, Robert R. ["Craft Knowledge: Of Disciplinarity in Writing Studies."](https://www.jstor.org/stable/27917868) *College Composition and Communication, Vol. 61, No. 4.* June 2010.
 
-Johnson, Tom. ["Generalist versus specialist: What should you focus on with knowledge building in your tech writing role?"] *Idratherbewriting.com*. 20 Dec 2016.
+Johnson, Tom. ["Generalist versus specialist: What should you focus on with knowledge building in your tech writing role?"](https://idratherbewriting.com/2016/12/20/changing-roles-of-technical-writers) *Idratherbewriting.com*. 20 Dec 2016.
 
 Johnson, Tom. ["If writing is no longer a marketable skill, what is?"](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/) *Idratherbewriting.* 9 Aug 2018.
 
