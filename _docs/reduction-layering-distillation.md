@@ -7,6 +7,7 @@ redirect_from:
 
 {: .principle}
 Layering information on your site (reducing it in places and expanding it in others) can help simplify complex topics. Also, distilling large amounts of information into concisely worded titles, summaries, headings, mini-TOCs, and topic sentences can facilitate information consumption and comprehension. Quick reference guides can also help users internalize vast information quickly. When you can't reduce information, you can hide it.
+{% comment %} small test {% endcomment %}
 
 * TOC
 {:toc}
