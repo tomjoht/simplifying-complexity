@@ -181,13 +181,13 @@ With actual trail maps, the switch between macro and micro modes is common and c
 
 Another type of high-level map is a quick reference guide. Whereas the workflow maps I've been describing explain how to navigate among the various tasks for a specific goal, the quick reference guide provides a summary of the entire system at a glance. Here's a sample layout for a quick reference guide:
 
-<img src="images/quickreferenceguidelayout1.png"/>
+<a href="https://idratherassets.com/wp-content/uploads/2009/04/watershed1.png"><img src="images/quickreferenceguidelayout1.png"/></a>
 
 This guide usually describes, in a brief, summarizing way, the core tasks in the system. It lets users know in just a minute or two what the system can do, how you do it, and the general scope of the system.
 
 Here's another design for a quick reference guide:
 
-<img src="images/quickreferenceguidelayout2.png"/>
+<a href="https://idratherassets.com/wp-content/uploads/2009/04/whataremyoptions.png"><img src="images/quickreferenceguidelayout2.png"/></a>
 
 Whereas workflow maps provide a depiction of the steps in a process, quick-reference guides provide a macro view of the system &mdash; its capabilities, core tasks and features, and supported goals. In short, it's just another way to zoom out and give the user a macro view of the system, usually in 1-2 pages.
 
