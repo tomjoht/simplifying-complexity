@@ -266,6 +266,7 @@ DEPENDENCIES
   jekyll
   jekyll-algolia
   jekyll-redirect-from
+  jekyll-sitemap
 
 BUNDLED WITH
    1.17.1

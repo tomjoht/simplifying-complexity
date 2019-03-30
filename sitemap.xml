@@ -1,11 +1,13 @@
 ---
-layout: null
+layout: none
 ---
-
-<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <sitemap>
-        <loc>docs/sitemap_en.xml</loc>
-        <lastmod>{{site.time | date: '%Y-%B-%d' }}</lastmod>
-    </sitemap>
-</sitemapindex>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  {% for doc in site.docs %}
+  <url>
+    <loc>
+      {{doc.url | prepend: "https://idratherbewriting.com/simplifying-complexity"}}
+    </loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </url>
+  {% endfor %}
+</urlset>
