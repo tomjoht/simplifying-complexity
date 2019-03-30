@@ -1,6 +1,6 @@
 ---
 title: "Principle 1: Let users switch between macro and micro views"
-permalink: macro-micro-old.html
+permalink: macro-micro.html
 ---
 
 {: .principle}
