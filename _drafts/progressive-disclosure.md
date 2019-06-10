@@ -10,13 +10,13 @@ After I right-sized the product sidebar at my company, I had a handful of differ
 
 Additionally, there were some other doc sets that would be relevant to users, which were owned by other writers. I put a "Related Resources" section at the bottom of the sidebar that would allow users to easily navigate to other sidebars.
 
-<img src="images/navamongdocsets.png"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/navamongdocsets.png"/>
 
 We also created a [doc index page](https://developer.amazon.com/documentation) that listed all the different documentation across the site.
 
 ### Design principle: Progressive disclosure
 
-<img src="images/wtd_doc_navigation_entrypoint.svg" class="vectorStyle" />
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_entrypoint.svg" class="vectorStyle" />
 
 Progressive disclosure is almost redundant from the previous section but is worth calling out here since it acts as a primary tool in your usability toolbox.
 
@@ -50,13 +50,13 @@ It depends on the size and scope of your products and documentation, but general
 
 Here's an example with Microsoft's Azure documentation.
 
-<a href="https://docs.microsoft.com/en-us/"><img src="images/azurehomepage.png"/></a>
+<a href="https://docs.microsoft.com/en-us/"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/azurehomepage.png"/></a>
 
 The doc portal homepage should list out the documentation in a way that makes sense, such as by product and version, or by user role or goal. The grouping should be helpful for users to see what's available, to orient themselves in the right direction, and to get started.
 
 I like to think of the doc portal homepage as a train station. It should clearly direct users on where to go.
 
-<figure><a href="https://www.flickr.com/photos/nathancongleton/14806700660/"><img src="images/trainstation.jpg"/></a><figcaption><small>From Flickr by Nathan Congleton</small></figcaption></figure>
+<figure><a href="https://www.flickr.com/photos/nathancongleton/14806700660/"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/trainstation.jpg"/></a><figcaption><small>From Flickr by Nathan Congleton</small></figcaption></figure>
 
 The homepage isn't a destination page in itself with explanatory information. Instead, it directs users to the correct "terminals" for their documentation routes.
 

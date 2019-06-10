@@ -8,12 +8,17 @@ redirect_from:
 {: .principle}
 Looking at trends in job advertisements tells us that subject-matter familiarity is frequently in demand in technical writing roles. To write about complex topics, you usually need some subject-matter familiarity with the topic. Without this familiarity, you can't author content; you can only edit and publish content and work beside others who have that knowledge. Developing specialized knowledge is probably out of reach given the tech writer's diversity of projects and wide-ranging responsibilities. At most, technical writers can develop technical acuity and try to learn what they need to know for each documentation scenario, and also collaborate with engineers to fill in the gaps.
 
+## Related video and audio
+
+Here's a video of a presentation I gave on this topic:
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/1bzf6Iytza4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div class="audioControls">
 <p><b>Listen to this article:</b></p>
-<p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/specgentrends.mp3" type="audio/mpeg" /></audio></p>
+<p><audio controls="controls"><source src="https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/pugetsoundtrends.mp3" type="audio/mpeg" /></audio></p>
 
-<p>You can <a href="http://www.podtrac.com/pts/redirect.mp3/idratherassets.com/podcasts/specgentrends.mp3" alt="Articulating the invisible stories that influence product adoption or rejection">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
+<p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/pugetsoundtrends.mp3" alt="Articulating the invisible stories that influence product adoption or rejection">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
 
 * TOC
@@ -224,7 +229,7 @@ In my recent blog post, ["If writing is no longer a marketable skill, what is?"]
 * Technical writer/video producer (3%)
 * Technical writer/DITA specialist (3%)
 
-<img src="images/hybridtechcommrole.png" />
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/hybridtechcommrole.png" />
 
 Of course, these dual roles are self-defined only. In the HR books, one is usually still classified as a "technical writer," but that's not how we promote ourselves. Just being a "technical writer" isn't nearly sexy enough to sell yourself in the technology marketplace. Technical writing has come to be viewed as wordsmithing only.
 

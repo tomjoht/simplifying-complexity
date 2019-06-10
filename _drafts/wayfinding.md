@@ -6,11 +6,11 @@ published: false
 
 ## Action 6: Hang signposts along the way
 
-<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-categories"><img src="images/amazonsignposts.png"/></a>
+<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-categories"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/amazonsignposts.png"/></a>
 
 ### Wayfinding
 
-<img src="images/wtd_doc_navigation_wayfinding.svg" class="vectorStyle"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_wayfinding.svg" class="vectorStyle"/>
 
 In the previous section, I explored modularity and noted that it usually results in longer topics. As much as you may strive for standalone articles, it's often necessary to break content for the same general procedure or larger task into multiple pages. If so, you can implement wayfinding techniques to help users successfully navigate across the content.
 
@@ -24,7 +24,7 @@ At the start of a topic, if you expect the user to have some context or backgrou
 
 If the topic is one among multiple in a larger procedure, you can embed a workflow map at the top of the page to let the user know where he or she is in a larger process.
 
-<a href="http://docs.aws.amazon.com/AmazonS3/latest/gsg/PuttingAnObjectInABucket.html"><img src="images/aws.png" style="vectorImage" /></a>
+<a href="http://docs.aws.amazon.com/AmazonS3/latest/gsg/PuttingAnObjectInABucket.html"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/aws.png" style="vectorImage" /></a>
 
 ### On-page-TOC
 
@@ -32,7 +32,7 @@ As the user navigates the content, the on-page TOC lets a user see the content a
 
 Here's an example of an on-page TOC from Amazon's documentation:
 
-<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview"><img src="images/fabtoc.png" style="vectorImage" /></a>
+<a href="https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/fabtoc.png" style="vectorImage" /></a>
 
 When you create the on-page TOC, make sure it's scannable. Avoid including too many levels, as this detail might detract from the user's ability to take in the content at a glance.
 
@@ -44,7 +44,7 @@ Users don't usually need all the information up front but can instead view more 
 
 At the end of the topic, provide a "Next Steps" section that guides users to the logical next steps.
 
-<a href="https://www.firebase.com/docs/web/guide/saving-data.html"><img src="images/firebase.png" /></a>
+<a href="https://www.firebase.com/docs/web/guide/saving-data.html"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/firebase.png" /></a>
 
 Even if you're not outlining a larger process or sequence, suggest a next move for the user. What else can/should users do at this point?
 
@@ -52,6 +52,6 @@ Even if you're not outlining a larger process or sequence, suggest a next move f
 
 Finally, you can add breadcrumbs so that users have a sense of where they are in a larger system. The breadcrumb can be especially helpful when users land on a page in the middle of a help system.
 
-<a href="https://developers.facebook.com/docs/accountkit/countrycodes"><img src="images/facebookbreadcrumbs.png"/></a>
+<a href="https://developers.facebook.com/docs/accountkit/countrycodes"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/facebookbreadcrumbs.png"/></a>
 
 The breadcrumb helps users orient their location on a map.

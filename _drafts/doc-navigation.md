@@ -23,7 +23,7 @@ If you've ever had the opportunity to watch someone use your documentation in a 
 
 Usability labs are set up similar to interrogation rooms, with one-way mirrored glass separating two rooms. On one side, the participant uses a computer, often following prompts from a usability tester. In the other room, behind the mirrored glass, the designers, engineers, program managers, and other stakeholders eagerly watch the participants fumble and act like "idiots."
 
-<img src="images/usability_lab.jpg"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/usability_lab.jpg"/>
 
 When I heard about these tests, I persuaded our usability tester to push users into my documentation so we could evaluate their effectiveness. The tester would ask users to do a difficult task, a task they wouldn't be able to figure out from the interface on their own. Eventually the user either clicked the help or, more commonly, the usability tester suggested they look in the help for the answer.
 
@@ -62,7 +62,7 @@ From 125 separate design principles, there are a handful of design principles th
 * Modularity
 * Wayfinding
 
-<a href="https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079"><img src="images/univprinciplesdesignbook.png" style="max-width: 350px;"/></a>
+<a href="https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/univprinciplesdesignbook.png" style="max-width: 350px;"/></a>
 
 Applying these principles in the way we design our docs can create a better experience for users, both in their ability to find and navigate information.
 
