@@ -10,7 +10,7 @@ Looking at trends in job advertisements tells us that subject-matter familiarity
 
 ## Related video and audio
 
-Here's a video of a presentation I gave on this topic:
+Here's a video of a presentation I gave on this topic in May 2019:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1bzf6Iytza4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -20,6 +20,8 @@ Here's a video of a presentation I gave on this topic:
 
 <p>You can <a href="https://www.podtrac.com/pts/redirect.mp3/https://idratherbewritingmedia.com/podcasts/pugetsoundtrends.mp3" alt="Articulating the invisible stories that influence product adoption or rejection">download the MP3 file</a>, <a href="https://itunes.apple.com/us/podcast/id-rather-be-writing-podcast/id277365275">subscribe in iTunes</a>, or <a href="http://www.stitcher.com/podcast/id-rather-be-writing-technical-writing-podcast"> listen with Stitcher</a>.</p>
 </div>
+
+For details about the presentation, see [this post](https://idratherbewriting.com/blog/tech-comm-trends-stc-puget-sound/).
 
 * TOC
 {:toc}
