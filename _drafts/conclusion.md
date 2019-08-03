@@ -25,7 +25,7 @@ In conclusion, I want to caution away from non-standard design (except as an exp
 
 The following is an intersection near my house that has a bike crossing lane that runs kitty-corner, while the pedestrian crossing lanes bisect the street.
 
-<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/intersection.jpg"/>
+<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/intersection.jpg"/>
 
 At least a quart of the time when I try to cross this intersection, drivers get confused. Sometimes they drive half way through the intersection and then stop. I often see surprise on the drivers' faces as they realize, mid-way through, that they've just screwed up. This design violates what users have come to expect. While the design may have seemed like a neat idea, it doesn't work in practice because drivers are used to other patterns.
 
