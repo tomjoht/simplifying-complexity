@@ -8,7 +8,7 @@ published: false
 
 The design principle behind consolidating information into longer, more complete topics is modularity.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_modularity.svg"  class="vectorStyle"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_modularity.svg"  class="vectorStyle"/>
 
 <div class="bs-callout bs-callout-primary"><b>Modularity:</b> "A method of managing system complexity that involves dividing large systems into multiple, smaller self-contained systems." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
 
@@ -28,7 +28,7 @@ Because users skip around and are impatient to act, we have to design our help m
 
 Usually when you create standalone, modular topics, the topics end up being somewhat long. Don't be afraid of long topics. Some Wikipedia articles are so long they could be printed as ebooks.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_topiclength.svg"  class="vectorStyle"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_topiclength.svg"  class="vectorStyle"/>
 
 Most of us agree with this modularity in theory, but it's hard to implement in practice, in part due to the information structures we may be following.
 
@@ -38,7 +38,7 @@ You may be writing in a documentation structure that separates content into task
 
 However, remember that these information chunks are *building blocks only*. Like legos, you can arrange the blocks into more lengthy creations.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/usercentered_buildingblocks.svg"  style="border: 1px solid #dedede;"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/usercentered_buildingblocks.svg"  style="border: 1px solid #dedede;"/>
 
 You aren't required to have a two-sentence topic that stands as its own page because it's a concept. You don't need a topic that is just 3 steps and nothing more because it's a "task." Users don't think in terms of topic types but rather goals and problems.
 
@@ -48,7 +48,7 @@ Continuing with more analogies, consider each chunk of content as a rock. You ca
 
 On trails in the wilderness, these stacks of rocks are called "cairns" and serve as guide posts to users on trails that often lack clear boundaries or pathways.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/cairns.png" style="vectorImage"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/cairns.png" style="vectorImage"/>
 
 Not all help information can stand <i>entirely</i> on its own. Frequently one concept or task builds on another topic, or requires knowledge of another topic. But there's usually a logical boundary line between topics. You can decide how large to draw the boundaries.
 

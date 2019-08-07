@@ -10,7 +10,7 @@ In addition to using inline links, I also wanted to surface the most popular top
 
 I moved this topic up more prominently in the help by listing it immediately after the overview, linking to it on the overview page, and featuring it on the doc portal homepage.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/amazonpopulartopics.png" />
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/amazonpopulartopics.png" />
 
 ### Design principle: Desire line
 
@@ -20,7 +20,7 @@ The design principle here is one called "Desire line." Desire lines are the natu
 
 The most common example of a desire line is a shortcut across a lawn.
 
-<figure><a href="https://www.flickr.com/photos/funfilledgeorgie/14709533824/in/photolist-opQcW9-o1XSDT-6D4itK-6D8tCS-6D4jo8-5kDxUt-iu5rPh-kdTzzp-jNUCQc-ohcVHy-mPnZCz-fwEic8-tigiDu-7227az-oeFabs-7VPJYX-aPGpmt-4zw9ZE-4zwbpf-6ejpUr-d1YnEN-Ey23v-6eozMN-6eozDm-mjAXX-6ejq32-JhS4qN-gSrNtX-m7EepN-9PwMKV-eDuJJq-dugc8b-7HAmf6-exExFL-GgexGw-oWEA5t-6eoxmh-tdND6-6ejqc6-mjB55-juKde-6ejqNv-CSDxUZ-6eoA8d-eaim25-bNYZ2P-jMGAzG-83BhYG-KUmgD-kRUJN/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/desirepath.jpg"/></a>
+<figure><a href="https://www.flickr.com/photos/funfilledgeorgie/14709533824/in/photolist-opQcW9-o1XSDT-6D4itK-6D8tCS-6D4jo8-5kDxUt-iu5rPh-kdTzzp-jNUCQc-ohcVHy-mPnZCz-fwEic8-tigiDu-7227az-oeFabs-7VPJYX-aPGpmt-4zw9ZE-4zwbpf-6ejpUr-d1YnEN-Ey23v-6eozMN-6eozDm-mjAXX-6ejq32-JhS4qN-gSrNtX-m7EepN-9PwMKV-eDuJJq-dugc8b-7HAmf6-exExFL-GgexGw-oWEA5t-6eoxmh-tdND6-6ejqc6-mjB55-juKde-6ejqNv-CSDxUZ-6eoA8d-eaim25-bNYZ2P-jMGAzG-83BhYG-KUmgD-kRUJN/"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/desirepath.jpg"/></a>
  <figcaption><small>From Flickr by George Redgrave</small></figcaption></figure>
 
 A desire line is the most common path a user takes through a system. For example, if you were to design a park, rather than starting out with fixed paths, you could instead let paths form naturally based on where people wanted to walk, and then later cement these dirt paths in. (This is how the designers created the walking paths at Central Park.)
@@ -29,7 +29,7 @@ In your help system, you probably have a list of popular topics that make up the
 
 Here's an example from Twitter. By putting the most popular topics right at the top, the authors embrace the desire lines to these topics.
 
-<a href="https://support.twitter.com/"><img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/twitter_sidebar2.png"/>
+<a href="https://support.twitter.com/"><img src="https://idratherbewritingmedia.com/images/simplifying-complexity/twitter_sidebar2.png"/>
 </a>
 
 On the [Amazon Developer Documentation homepage](https://developer.amazon.com/documentation), we looked at the top 10 most viewed topics in our help and made this content visually prominent in a carousel at the top.
@@ -44,6 +44,6 @@ Another action I took to help tackle findability issues was to consolidate infor
 
 For example, the following is a screenshot of a topic on customizing the appearance of your app. There were various ways to customize the app, and I could have broken each element into its own topic (for example, change the logo, change the background color, change the layout, etc.). Instead, I decided to put all the content on the same page, making it navigable through an on-page table of contents (TOC).
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/longertopicsamazon.png"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/longertopicsamazon.png"/>
 
 The longer pages you have, the more imperative the on-page TOC becomes for enabling users to navigate the information on that page.

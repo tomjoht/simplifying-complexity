@@ -8,13 +8,13 @@ published: false
 
 Although the sidebar is important for seeing the whole, it's also important to build navigation inline within the sentences of your content itself. Users tend to navigate by clicking links inline rather than via the sidebar. I added links where appropriate in my content.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/amazoninlinelinks.png"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/amazoninlinelinks.png"/>
 
 ### Design principle: Immersion
 
 The design principle at work here with inline links might be considered immersion.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_dontleavesystem.svg"  class="vectorStyle"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_dontleavesystem.svg"  class="vectorStyle"/>
 
 <div class="bs-callout bs-callout-primary"><b>Immersion:</b> "A state of mental focus so intense that awareness of the "real" world is lost, generally resulting a feeling of joy and satisfaction." &mdash; [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079)</div>
 
@@ -26,7 +26,7 @@ Of course this assumes there's a user interface for you to push the help. With d
 
 But even when a user goes to your help system, the principle of immersion still applies. Users consuming content prefer to stay within that content of the page rather than move back and forth with a sidebar nav, which exists somewhat "outside" of page content.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_usersclickinlinelinks.svg"  style="border: 1px solid #dedede;"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wtd_doc_navigation_usersclickinlinelinks.svg"  style="border: 1px solid #dedede;"/>
 
 Immersed in a topic, users are more apt to click and navigate using the links within the topic itself. As such, you should also provide navigational controls within the content rather than assuming all doc navigation will take place through the sidebar nav.
 
@@ -46,7 +46,7 @@ Although Mark describes bottom-up navigation in more articulate, abstract ways i
 
 These principles may seem like commonsense. In general, we link to topics as it makes sense to do so. But bottom-up navigation takes inline linking to a another level. Consider amplifying the number of links by two or three times the amount so that your pages begin to resemble the inline links in a Wikipedia article.
 
-<img src="https://s3-us-west-1.amazonaws.com/idratherbewritingmedia.com/images/simplifying-complexity/wikipedia.png"/>
+<img src="https://idratherbewritingmedia.com/images/simplifying-complexity/wikipedia.png"/>
 
 Admittedly, I haven't amplified the number of links that Mark suggests. I would need to increase these links by about 5 times the amount I currently have.
 
