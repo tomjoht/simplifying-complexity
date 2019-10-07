@@ -6,6 +6,8 @@ navbar_singleitems:
 - items:
   - title: Blog
     url: https://idratherbewriting.com
+  - title: API Documentation course
+    url: https://idratherbewriting.com/learnapidoc
   - title: Contact
     url: contact.html
 
