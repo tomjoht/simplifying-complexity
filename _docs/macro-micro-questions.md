@@ -6,5 +6,5 @@
 * Would it be appropriate to provide a quick reference guide of the process, as a high-level map of the information terrain?
 * Does each chunk connect to the next with a "Next Steps" section?
 * What larger process does this task fit into?
-* How to facilitate zooming in and out of the process?
+* What mechanisms facilitate zooming in and out of the process?
 * If you were to draw out the process, what would the workflow map look like?
